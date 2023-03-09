@@ -5,6 +5,89 @@
      <link rel="icon" type="image/x-icon" href="funismathlogo.png">
       <title>Fun is Math</title>
    <style>
+               .members-count,
+         .members-list,
+         .messages {
+            background-color: #1A1C25;
+         font-size: 150%;
+         border-radius: 15px;
+         color: #171717;
+         border: 1px solid #e4e4e4;
+         padding: 15px;
+         margin-bottom: 15px;
+         color: #EDF2F4;
+         }
+         .messages {
+            background-color: #1A1C25;
+         margin-bottom: 50px;
+         border-radius: 15px;
+         color: #171717;
+         flex-shrink: 1;
+         overflow: auto;
+         color: #EDF2F4;
+         }
+         .message {
+            background-color: #1A1C25;
+         border-radius: 15px;
+         color: #171717;
+         color: #171717;
+         padding: 5px 0;
+         color: #EDF2F4;
+         }
+         .message .member {
+            background-color: #1A1C25;
+         border-radius: 15px;
+         color: #171717;
+         color: #171717;
+         display: inline-block;
+         }
+         .chat{
+         overflow-y:auto
+         }
+         .member {
+            background-color: #1A1C25;
+         border-radius: 15px;
+         color: #171717;
+         color: #171717;
+         padding-right: 10px;
+         position: relative;
+         color: #EDF2F4;
+         }
+         .message-form {
+            background-color: #1A1C25;
+         border-radius: 15px;
+         color: #171717;
+         display: flex;
+         flex-shrink: 0;
+         }
+         .message-form__input {
+         border: 1px solid #e4e4e4;
+         border-radius: 15px;
+         flex-grow: 1;
+         background-color: #1A1C25;
+         color: #EDF2F4;
+         padding: 10px 15px;
+         font-size: 150%;
+         position: fixed;
+         width: 85%;
+         bottom: 10px;
+         }
+         .message-form__button {
+
+         color: #171717;
+         margin: 10px;
+         padding-left: 10px;
+         padding-right: 10px;
+         padding-top: 5px;
+         padding-bottom: 5px;
+         border-width: 2px;
+         border-radius: 15px;
+         position: fixed;
+         float:right;
+         width: 5%;
+         bottom: 10px;
+         right: 10px;
+         }
       body{
          background-color: green;
 
@@ -92,14 +175,22 @@
           </div>
          <div class="text">
 
-      <h1>Home</h1>
-      <p>Welcome! This is FunIsMath.com! We have Educational lectures, lessons, math games, and much much more! Here we like to focus on providing education experiences, while actually being fun! Many other math websites don't take into account how boring their games our, but we aim to fix this.</p>
-      <h1>Fun Links!</h1>
-      <p><a href="https://www.mathplayground.com">Math Playground</a></p>
-      <p><a href="https://coolmath.com">Cool Math</a></p>
-      <p><a href="https://math.com">Math.com</a></p>
+      <h1>Help</h1>
+      <p>Do you need help on your math homework? Well chat with people around the world who could possibly help. There is also professionals moderating the chat to make sure advice is non explicit and helpful.</p>
+ <div id="Chat" class="tabcontent">
+         <div class="members-count">-</div>
+         <div class="members-list">-</div>
+         <div class="messages"></div>
+         <form class="message-form" onsubmit="return false;">
+            <input class="message-form__input" placeholder="Type something.." type="text"/>
+            <!-- <input class="message-form__button" value="Send" type="submit"/> -->
+         </form>
+      </div>
+   
 
    </div>
    </div>
+   
+     <script src="./spookychatscript.js"></script>
    </body>
 </html>

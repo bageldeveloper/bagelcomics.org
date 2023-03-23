@@ -518,7 +518,7 @@ function addMessageToListDOM(text, member) {
 
 
 
-
+startScroll();
 
  const el = DOM.messages;
 

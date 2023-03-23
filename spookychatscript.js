@@ -376,8 +376,10 @@ const value = DOM.input.value;
 
 
  }
-
-
+if(value.match(/(黑鬼|ass|cum|retard|bitch|shit|cunt|cock|dick|fuck|shit|nigger|nigga|pussy|nazilut|whore|faggot|handjob|penis|cock|pussy|sex|porn)/gi)){
+      alert('cmon man why you saying that kinda stuff?');
+  return;
+  }
  DOM.input.value = '';
 
 
@@ -470,10 +472,7 @@ function createMessageElement(text, member) {
 
 // let gamer = text.replace(/[^A-Za-z0-9\s!?]/g,”);
 // testing to see if this is the problem
-if(text.match(/(黑鬼|ass|cum|retard|bitch|shit|cunt|cock|dick|fuck|shit|nigger|nigga|pussy|nazilut|whore|faggot|handjob|penis|cock|pussy|sex|porn)/gi)){
-      alert('cmon man why you saying that kinda stuff?');
-  return;
-  }
+
 
 
  

@@ -1,5 +1,5 @@
 let scrollID;
-
+let gotit = false;
 
 
   const coolDown = 1500 // 5s cooldown
@@ -28,13 +28,25 @@ const CLIENT_ID = '5Qcspn6KZFL4fZ97';
 
 
 
-const drone = new ScaleDrone(CLIENT_ID, {
+
+
+
+ console.log('Successfully connected to Scaledrone');
+
+
+document.getElementById("chat").onclick = function() {join()};
+
+
+
+function join(){
+  if(!gotit){
+    const drone = new ScaleDrone(CLIENT_ID, {
 
 
  data: { // Will be sent out as clientData via events
 
 
-   name: getRandomName(),
+   name: prompt(),
 
 
    color: getRandomColor(),
@@ -69,16 +81,7 @@ drone.on('open', error => {
 
 
  }
-
-
- console.log('Successfully connected to Scaledrone');
-
-
-
-
-
-
-
+    gotit = true;
  const room = drone.subscribe('observable-room');
 
 
@@ -100,8 +103,8 @@ drone.on('open', error => {
  });
 
 
-
-
+  }
+}
 
 
 
@@ -155,7 +158,15 @@ drone.on('open', error => {
 
 
 
+function prompt(){
 
+  let person = prompt("Please enter your name:");
+  if (person == null || person == "") {
+    return "guest";
+  } else {
+    return person;
+  }
+}
 
 
 

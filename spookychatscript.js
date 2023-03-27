@@ -380,8 +380,9 @@ if(value.match(/(黑鬼|ass|cum|retard|bitch|shit|cunt|cock|dick|fuck|shit|nigge
       alert('cmon man why you saying that kinda stuff?');
   return;
   }
+      
         if(text.length > 100){
-          alert('ayo dude that message is too big just like your mom gottem');
+          alert('my guy, that message is too big.. just like your mom gottem')
       return; 
   }
  DOM.input.value = '';
@@ -522,7 +523,19 @@ function addMessageToListDOM(text, member) {
 
 
 
+ const el = DOM.messages;
+
+
+ const wasTop = el.scrollTop === el.scrollHeight - el.clientHeight;
+
+
  el.appendChild(createMessageElement(text, member));
+
+
+ if (wasTop) {
+
+
+   el.scrollTop = el.scrollHeight - el.clientHeight;
 
 
   

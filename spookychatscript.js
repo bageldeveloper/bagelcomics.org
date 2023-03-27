@@ -355,7 +355,7 @@ return ID;
     alert('ayo dude stop spamming');
     }
     // using an alert it will block javascript loops
-    return !notOver
+    return !notOver;
   }
 
 
@@ -366,6 +366,7 @@ function sendMessage() {
   
     if (checkCoolDown()) {
       startCoolDown()
+    
 const value = DOM.input.value;
 
 
@@ -376,12 +377,12 @@ const value = DOM.input.value;
 
 
  }
-if(value.match(/(黑鬼|ass|cum|retard|bitch|shit|cunt|cock|dick|fuck|shit|nigger|nigga|pussy|nazilut|whore|faggot|handjob|penis|cock|pussy|sex|porn)/gi)){
+if(value.match(/(黑鬼|ass|cum|retard|bitch|shit|cunt|cock|dick|fuck|shit|nigger|nigga|pussy|nazi|whore|faggot|handjob|penis|cock|pussy|sex|porn|hitler)/gi)){
       alert('cmon man why you saying that kinda stuff?');
   return;
   }
       
-        if(text.length > 100){
+        if(value.length > 100){
           alert('my guy, that message is too big.. just like your mom gottem')
       return; 
   }

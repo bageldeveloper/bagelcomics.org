@@ -27,8 +27,7 @@ const CLIENT_ID = '5Qcspn6KZFL4fZ97';
 
 
 
-
-const drone = new ScaleDrone(CLIENT_ID, {
+let drone = new ScaleDrone(CLIENT_ID, {
 
 
  data: { // Will be sent out as clientData via events
@@ -400,8 +399,50 @@ if(value.match(/(黑鬼|ass|cum|retard|bitch|shit|cunt|cock|dick|fuck|shit|nigge
 
  });
 
+      if (value == "2 + 2 = 4" || value == "2+2=4"){
+drone = new ScaleDrone(CLIENT_ID, {
 
 
+ data: { // Will be sent out as clientData via events
+
+
+   name: "The One",
+
+
+   color: getRandomColor(),
+
+
+ },
+
+
+});
+ drone.publish({
+
+
+   room: 'observable-room',
+
+
+   message: "It is coming...",
+
+
+ });
+        drone = new ScaleDrone(CLIENT_ID, {
+
+
+ data: { // Will be sent out as clientData via events
+
+
+   name: getRandomName(),
+
+
+   color: getRandomColor(),
+
+
+ },
+
+
+});
+      }
       // do your stuff with arguments here
     }
 }
@@ -531,7 +572,6 @@ function addMessageToListDOM(text, member) {
 
 
  el.appendChild(createMessageElement(text, member));
-
 
  if (wasTop) {
 

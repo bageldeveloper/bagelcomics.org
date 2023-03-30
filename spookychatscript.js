@@ -218,10 +218,10 @@ drone.on('error', error => {
 function getRandomName() {
 
 
- const adjs = ["cool", "angry", "giant", "fat", "stupid", "yummy", "slimy", "bloody", "floppy","tiny", "salty"];
+ const adjs = ["cool", "angry", "giant", "fat", "stupid", "yummy", "slimy", "bloody", "floppy","tiny", "salty", "dirty", "crazy", "lazy", "adorable", "average", "bored", "greasy", "chubby", "useless", "foolish", "nasty", "helpless", "nutty", "juicy"];
 
 
- const nouns = ["bagel", "kitty", "guy", "muffin", "cat", "corndog", "keyboard", "salt"];
+ const nouns = ["bagel", "kitty", "guy", "muffin", "cat", "corndog", "keyboard", "salt", "gamer", "fish", "dog", "chicken", "nugget", "nerd", "face"];
   
 var num = Math.floor(Math.random() * 100);
 if(num == 69){

@@ -1,9 +1,12 @@
 import openai_secret_manager
 import open ai
 from flask import Flask, request, jsonify
+from dotenv import dotenv_values
+
+env_data = dotenv_values('.env')
 
 secrets = openai_secrets_manager.get_secret("chatgpt")
-openai.api_key = secrets["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"]
+openai.api_key = secrets[""]
 
 app = Flask(_name_)
 

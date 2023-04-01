@@ -7,9 +7,9 @@ openai.api_key = secrets["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"]
 
 app = Flask(_name_)
 
-model = "text-davinci-002"
-temperature = 0.5
-max_tokens = 50
+model = "text-davinci-003"
+temperature = 0.7
+max_tokens = 3500
 
 def chat():
   user_message = request.json['message']

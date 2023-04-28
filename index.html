@@ -14,7 +14,8 @@
          margin: 0 auto;
          
          background-image: url('IndexPageBG.jpg');
-
+         background-repeat: no-repeat;
+  background-attachment: fixed;
          cursor: url('cursor.png'), pointer;
 
          font-family: "Comic Sans MS", "Comic Sans", cursive;
@@ -119,14 +120,15 @@
 
       <div class="everything">
          <div class="topnav">
-            <a style="outline:3px solid rgb(0, 0, 147); background-color: blue;"class="active" href="index.html">Home</a>
-            <a style="outline:3px solid rgb(0, 83, 0);   background-color: green;"href="help.html">Help</a>
-            <a style="outline:3px solid rgb(124, 0, 0);background-color: red;"href="lectures.html">Lectures</a>
-            <a style="outline:3px solid rgb(101, 101, 0); background-color: rgb(173, 173, 0);"href="mathgames.html">Math Games</a>
-            <a style="outline:3px solid rgb(121, 79, 0); background-color: orange;"href="about.html">About</a>
+            <button style="outline:3px solid rgb(0, 0, 147); background-color: blue;"class="active" onclick="openCity(event, 'Home')">Home</button>
+            <button style = "outline:3px solid rgb(0, 83, 0); background-color: green;" onclick="openCity(event, 'Help')">Help</button>
+            <button style="outline:3px solid rgb(124, 0, 0);background-color: red;" href="lectures.html" onclick="openCity(event, 'Help')">Lectures</button>
+            <button style="outline:3px solid rgb(101, 101, 0); background-color: rgb(173, 173, 0);"href="mathgames.html">Math Games</button>
+            <button style="outline:3px solid rgb(121, 79, 0); background-color: orange;"href="about.html">About</button>
 
           
           </div>
+          <div id="Home" class="tabcontent">
          <div class="text">
 
       <h1 class="BigBird">Home</h1>
@@ -138,6 +140,20 @@
             <h1 class="anountext">We've added announcements in hopes of making our website better. If you have any problems or you want to give a suggestion for the website, please contact us at funismathhelp@gmail.com. We will always fix issues that are brought to our attention!</h1>
                </div>
    </div>
+</div>
+<div id="Help" class="tabcontent">
+   <div class="text">
+
+<h1 class="BigBird">Home</h1>
+      <p class="parade">Welcome to funismath! This website is dedicated to providing fun and educational experiences! We are still growing, so stick around and become a part of our community.</p>
+</div>
+<h1>Announcements:</h1>
+      <div class="announcement">
+      <h1 class="anountext">April 28th, 2023</h1>
+      <h1 class="anountext">We've added announcements in hopes of making our website better. If you have any problems or you want to give a suggestion for the website, please contact us at funismathhelp@gmail.com. We will always fix issues that are brought to our attention!</h1>
+         </div>
+</div>
+</div>
    <script>
       function toggleText() {
           
@@ -185,20 +201,47 @@
               buttonText.innerHTML = "Show Less";
           }
       }
-      var coll = document.getElementsByClassName("collapsible");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-coll[i].addEventListener("click", function() {
-  this.classList.toggle("active");
-  var content = this.nextElementSibling;
-  if (content.style.maxHeight){
-    content.style.maxHeight = null;
-  } else {
-    content.style.maxHeight = content.scrollHeight + "px";
-  } 
-});
-}
+      for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.maxHeight){
+              content.style.maxHeight = null;
+            } else {
+              content.style.maxHeight = content.scrollHeight + "px";
+            } 
+          });
+         }
+                function openCity(evt, cityName) {
+                  if(cityName == "Help"){
+                     document.body.style.background = "('HelpPageBG')";
+                  }
+                  if(cityName == "Lectures"){
+                     document.body.style.background = "('LecturesPageBG')";
+                  }
+                  if(cityName == "Games"){
+                     document.body.style.background = "('GamessPageBG')";
+                  }
+                  if(cityName == "About"){
+                     document.body.style.background = "('AboutPageBG')";
+                  }
+          var i, tabcontent, tablinks;
+          tabcontent = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablinks");
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+          }
+          document.getElementById(cityName).style.display = "block";
+          evt.currentTarget.className += " active";
+         }
+         
+         // Get the element with id="defaultOpen" and click on it
+         document.getElementById("defaultOpen").click();
+         
+     
    </script>
    </body>
 </html>

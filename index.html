@@ -42,6 +42,18 @@
          z-index: 10;
          background-color: #faf7f2;
       }
+      .announcement {
+         border-radius: 15px;
+         width: 80%;
+         padding: 20px;
+         background-color: #c5c5c5;
+         margin-top: 20px;
+         margin-bottom: 20px
+         }
+         .anountext{
+         font-size: 100%;
+         color: #35383a;
+         }
       
 .topnav {
    display: inline-block;
@@ -117,6 +129,73 @@
       <h1 class="BigBird">Home</h1>
             <p class="parade">Welcome to funismath! This website is dedicated to providing fun and educational experiences! We are still growing, so stick around and become a part of our community.</p>
    </div>
+   <h1>Announcements:</h1>
+            <div class="announcement">
+            <h1 class="anountext">April 28th, 2023</h1>
+            <h1 class="anountext">We've added announcements in hopes of making our website better. If you have any problems or you want to give a suggestion for the website, please contact us at funismathhelp@gmail.com. We will always fix issues that are brought to our attention!</h1>
+               </div>
    </div>
+   <script>
+      function toggleText() {
+          
+          // Get all the elements from the page
+          var points = 
+              document.getElementById("points");
+
+          var showMoreText =
+              document.getElementById("moreText");
+
+          var buttonText =
+              document.getElementById("textButton");
+
+          // If the display property of the dots 
+          // to be displayed is already set to 
+          // 'none' (that is hidden) then this 
+          // section of code triggers
+          if (points.style.display === "none") {
+
+              // Hide the text between the span
+              // elements
+              showMoreText.style.display = "none";
+
+              // Show the dots after the text
+              points.style.display = "inline";
+
+              // Change the text on button to 
+              // 'Show More'
+              buttonText.innerHTML = "Show More";
+          }
+
+          // If the hidden portion is revealed,
+          // we will change it back to be hidden
+          else {
+
+              // Show the text between the
+              // span elements
+              showMoreText.style.display = "inline";
+
+              // Hide the dots after the text
+              points.style.display = "none";
+
+              // Change the text on button
+              // to 'Show Less'
+              buttonText.innerHTML = "Show Less";
+          }
+      }
+      var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+coll[i].addEventListener("click", function() {
+  this.classList.toggle("active");
+  var content = this.nextElementSibling;
+  if (content.style.maxHeight){
+    content.style.maxHeight = null;
+  } else {
+    content.style.maxHeight = content.scrollHeight + "px";
+  } 
+});
+}
+   </script>
    </body>
 </html>

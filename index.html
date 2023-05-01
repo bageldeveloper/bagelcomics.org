@@ -228,11 +228,11 @@
 
       <div class="everything">
          <div class="topnav">
-            <button style="outline:3px solid rgb(0, 0, 147); background-color: blue; border:none;"class="active" onclick="openCity(event, 'Home')">Home</button>
-            <button style = "outline:3px solid rgb(0, 83, 0); background-color: green; border:none;" onclick="openCity(event, 'Help')">Help</button>
-            <button style="outline:3px solid rgb(124, 0, 0);background-color: red; border:none;" href="lectures.html" onclick="openCity(event, 'Help')">Lectures</button>
-            <button style="outline:3px solid rgb(101, 101, 0); background-color: rgb(173, 173, 0); border:none;" href="mathgames.html">Math Games</button>
-            <button style="outline:3px solid rgb(121, 79, 0); background-color: orange; border:none;"href="about.html">About</button>
+            <button class="tablinks" style="outline:3px solid rgb(0, 0, 147); background-color: blue; border:none;"class="active" onclick="openCity(event, 'Home')">Home</button>
+            <button class="tablinks" style = "outline:3px solid rgb(0, 83, 0); background-color: green; border:none;" onclick="openCity(event, 'Help')">Help</button>
+            <button class="tablinks" style="outline:3px solid rgb(124, 0, 0);background-color: red; border:none;" href="lectures.html" onclick="openCity(event, 'Lectures')">Lectures</button>
+            <button class="tablinks" style="outline:3px solid rgb(101, 101, 0); background-color: rgb(173, 173, 0); border:none;" href="mathgames.html" onclick="openCity(event, 'Games')">Math Games</button>
+            <button class="tablinks" style="outline:3px solid rgb(121, 79, 0); background-color: orange; border:none;"href="about.html" onclick="openCity(event, 'About')">About</button>
 
           
           </div>
@@ -475,16 +475,16 @@
          }
                 function openCity(evt, cityName) {
                   if(cityName == "Help"){
-                     document.body.style.background = "('HelpPageBG.png')";
+                     document.body.style.backgroundImage = "url('HelpPageBG.jpg')";
                   }
                   if(cityName == "Lectures"){
-                     document.body.style.background = "('LecturesPageBG.png')";
+                     document.body.style.backgroundImage = "url('LecturesPageBG.jpg')";
                   }
                   if(cityName == "Games"){
-                     document.body.style.background = "('GamesPageBG.png')";
+                     document.body.style.backgroundImage = "url('GamesPageBG.jpg')";
                   }
                   if(cityName == "About"){
-                     document.body.style.background = "('AboutPageBG.png')";
+                     document.body.style.backgroundImage = "url('AboutPageBG.jpg')";
                   }
           var i, tabcontent, tablinks;
           tabcontent = document.getElementsByClassName("tabcontent");

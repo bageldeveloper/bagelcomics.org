@@ -8,6 +8,89 @@
      <meta name=”description” content=”We are dedicated to providing fun and educational experiences as we are growing! Please stick around and become a part of our community!”>
       <title>Fun is Math</title>
    <style>
+      .members-count,
+         .members-list,
+         .messages {
+            background-color: #1A1C25;
+         font-size: 150%;
+         border-radius: 15px;
+         color: #171717;
+         border: 1px solid #e4e4e4;
+         padding: 15px;
+         margin-bottom: 15px;
+         color: #EDF2F4;
+         }
+         .messages {
+            background-color: #1A1C25;
+         margin-bottom: 50px;
+         border-radius: 15px;
+         color: #171717;
+         flex-shrink: 1;
+         overflow: auto;
+         color: #EDF2F4;
+         }
+         .message {
+            background-color: #1A1C25;
+         border-radius: 15px;
+         color: #171717;
+         color: #171717;
+         padding: 5px 0;
+         color: #EDF2F4;
+         }
+         .message .member {
+            background-color: #1A1C25;
+         border-radius: 15px;
+         color: #171717;
+         color: #171717;
+         display: inline-block;
+         }
+         .chat{
+         overflow-y:auto
+         }
+         .member {
+            background-color: #1A1C25;
+         border-radius: 15px;
+         color: #171717;
+         color: #171717;
+         padding-right: 10px;
+         position: relative;
+         color: #EDF2F4;
+         }
+         .message-form {
+            background-color: #1A1C25;
+         border-radius: 15px;
+         color: #171717;
+         display: flex;
+         flex-shrink: 0;
+         }
+         .message-form__input {
+         border: 1px solid #e4e4e4;
+         border-radius: 15px;
+         flex-grow: 1;
+         background-color: #1A1C25;
+         color: #EDF2F4;
+         padding: 10px 15px;
+         font-size: 150%;
+         position: fixed;
+         width: 85%;
+         bottom: 10px;
+         }
+         .message-form__button {
+
+         color: #171717;
+         margin: 10px;
+         padding-left: 10px;
+         padding-right: 10px;
+         padding-top: 5px;
+         padding-bottom: 5px;
+         border-width: 2px;
+         border-radius: 15px;
+         position: fixed;
+         float:right;
+         width: 5%;
+         bottom: 10px;
+         right: 10px;
+         }
       html::-webkit-scrollbar{
    display: none; 
    }
@@ -38,6 +121,11 @@
          height:200px;
 
       }
+      .Clown{
+   text-indent: 30px;
+   font-size: 1.5em;
+   color: black;
+}
       .text{
 
          width: 100%;
@@ -71,6 +159,18 @@
    color: red;
    text-indent: 30px;
 }
+.LinkBird{
+   text-indent: 30px;
+   font-size: 1.85em;
+   color: orange;
+   text-decoration: none;
+}
+.GameBird{
+   text-indent: 30px;
+   font-size: 1.75em;
+   color: yellow;
+   text-decoration: none;
+}
 
 .parade{
    font-size: 1.85em;
@@ -103,6 +203,13 @@
   background-color: rgb(0, 0, 196);
   color: white;
 }
+.GradeLogos{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+         
+   height:350px;
+}
    </style>
    </head>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-G4303T88PB"></script>
@@ -134,19 +241,180 @@
 
       <h1 class="BigBird">Home</h1>
             <p class="parade">Welcome to funismath! This website is dedicated to providing fun and educational experiences! We are still growing, so stick around and become a part of our community.</p>
-   </div>
    <h1>Announcements:</h1>
+            <div class="announcement">
+            <h1 class="anountext">May 1st, 2023</h1>
+            <h1 class="anountext">Our front page is currently broken. If you want entertainment, just click here <a href="mathgames.html" style="text-decoration: none; color: #07f7a0;"> CLICK HERe </a> for math games</h1>
+               </div>
             <div class="announcement">
             <h1 class="anountext">April 28th, 2023</h1>
             <h1 class="anountext">We've added announcements in hopes of making our website better. If you have any problems or you want to give a suggestion for the website, please contact us at funismathhelp@gmail.com. We will always fix issues that are brought to our attention!</h1>
                </div>
-             <div class="announcement">
-            <h1 class="anountext">May 1st, 2023</h1>
-            <h1 class="anountext">Our front page is currently broken. If you want entertainment, just click here <a href="Mathgames.html" style="text-decoration: none; color: #07f7a0;"> CLICK HERe </a> for math games</h1>
-               </div>
                <br><br><br><br>
+            </div>
    </div>
+   <div id="Help" class="tabcontent">
+      <div class="text">
+
+         <h1 class="BigBird">Help</h1>
+         <p class="parade">Do you need help on your math homework? Well chat with people around the world who could possibly help. There is also professionals moderating the chat to make sure advice is non explicit and helpful.</p>
+    <div id="Chat" class="tabcontent">
+            <div class="members-count">-</div>
+            <div class="members-list">-</div>
+            <div class="messages"></div>
+            <form class="message-form" onsubmit="return false;">
+               <input class="message-form__input" placeholder="Type something.." type="text"/>
+               <!-- <input class="message-form__button" value="Send" type="submit"/> -->
+            </form>
+         </div>
 </div>
+</div>
+<div id="Lectures" class="tabcontent">
+   <div class="text">
+
+      <h1 class="BigBird">Lectures</h1>
+
+      <a class="active" href="lectures/1stLectures.html">
+      <img class="GradeLogos" src="lectures/1stGrade.png"></img>
+      </a>
+      <br><br><br>
+      <a class="active" href="lectures/2ndLectures.html">
+      <img class="GradeLogos" src="lectures/2ndGrade.png"></img>
+      </a>
+      <br><br><br>
+      <a class="active" href="lectures/3rdLectures.html">
+      <img class="GradeLogos" src="lectures/3rdGrade.png"></img>
+      </a>
+      <br><br><br>
+      <a class="active" href="lectures/4thLectures.html">
+      <img class="GradeLogos" src="lectures/4thGrade.png"></img>
+      </a>
+      <br><br><br>
+      <a class="active" href="lectures/5thLectures.html">
+      <img class="GradeLogos" src="lectures/5thGrade.png"></img>
+      </a>
+      <br><br><br>
+      <a class="active" href="lectures/6thLectures.html">
+      <img class="GradeLogos" src="lectures/6thGrade.png"></img>
+      </a>
+      <br><br><br>
+      <a class="active" href="lectures/7thLectures.html">
+      <img class="GradeLogos" src="lectures/7thGrade.png"></img>
+      </a>
+      <br><br><br>
+      <a class="active" href="lectures/8thLectures.html">
+      <img class="GradeLogos" src="lectures/8thGrade.png"></img>
+      </a>
+      <br><br><br>
+      <a class="active" href="lectures/9thLectures.html">
+      <img class="GradeLogos" src="lectures/9thGrade.png"></img>
+      </a>
+      <br><br><br>
+      <a class="active" href="lectures/10thLectures.html">
+      <img class="GradeLogos" src="lectures/10thGrade.png"></img>
+      </a>
+      <br><br><br>
+      <a class="active" href="lectures/11thLectures.html">
+      <img class="GradeLogos" src="lectures/11thGrade.png"></img>
+      </a>
+      <br><br><br>
+      <a class="active" href="lectures/12thLectures.html">
+      <img class="GradeLogos" src="lectures/12thGrade.png"></img>
+      </a>
+      <br>
+</div>
+</div>
+<div id="Games" class="tabcontent">
+   <div class="text">
+
+      <h1 class="BigBird">Math Games</h1>
+      <p class="parade">Play some Exciting and fun games while understanding and mastering conecpts and skills! More games coming soon!</p>
+      <h1><a class="GameBird" href="https://www.mathplayground.com/ASB_GrandPrixMultiplication.html">Grand Prix</a></h1>
+      <p class="parade">These racing cars run on math power. How fast can you go?
+        Practice multiplication facts and win the Grand Prix.</p>
+        <h1><a class="GameBird" href="https://www.mathplayground.com/puzzle_pics_multiplication.html">Puzzle Pics Multiplication</a></h1>
+        <p class="parade">Choose one or more factors to practice.
+            Place the puzzle piece on the missing number in the grid.
+            Watch as the mystery picture appears.</p>
+            <h1><a class="GameBird" href="https://www.mathplayground.com/multiplication_blocks.html">Multiplication Blocks</a></h1>
+            <p class="parade">Select factor blocks that multiply to the target product.
+                Practice multiplication, factors and multiples!</p>
+                <h1><a class="GameBird" href="bagelcomics.html">Number Trails</a></h1>
+                <p class="parade">
+                    Make a trail of factors that multiply to the given product.
+                    Double click the final factor to end the trail.</p>
+                    <h1><a class="GameBird" href="https://www.mathplayground.com/math_monster_multiplication.html">Math Monster Multiplication</a></h1>
+                    <p class="parade">Choose one or more multiplication facts to practice.
+                        Can you make all 12 monster friends appear? And stay?</p>
+                     <h1><a class="GameBird" href="https://www.mathplayground.com/ASB_SkateboardPups.html">Skateboard Pups</a></h1>
+                      <p class="parade">Can you add and subtract three numbers? Practice this important skill and win the skateboard race!</p>
+                     <h1><a class="GameBird" href="https://www.mathplayground.com/ASB_JetSkiAddition.html">Jet Ski Addition</a></h1>
+                      <p class="parade">Do you know addition facts through 12? Can you add numbers in your head?</p>
+                     <h1><a class="GameBird" href="https://www.mathplayground.com/ASB_TandemTurtles.html">Tandem Turtles</a></h1>
+                      <p class="parade">Can you round numbers to the nearest ten?</p>
+                     <h1><a class="GameBird" href="https://www.mathplayground.com/ASB_KittenMatch.html">Kitten Match</a></h1>
+                      <p class="parade">If the target is 9, which two numbers will you combine?</p>
+                     <h1><a class="GameBird" href="https://www.mathplayground.com/ASB_Sailboat_Subtraction.html">Sailboat Subtraction</a></h1>
+                      <p class="parade">Do you know subtraction facts through 12? Can you subtract numbers in your head?</p>
+                     <h1><a class="GameBird" href="https://www.mathplayground.com/ASB_Canoe_Puppies.html">Canoe Puppies</a></h1>
+                      <p class="parade">Can you mentally add numbers that are built with tens and ones?</p>
+                     <h1><a class="GameBird" href="https://www.mathplayground.com/galaxypalsto20.html">Galaxy Pals 20</a></h1>
+                      <p class="parade">Help the Galaxy Pals refuel their spaceships. The total number of fuel rods is shown on the storage facility (bottom left). Each spaceship shows its own number of fuel rods. Aim the fuel blaster toward the spaceship that will make the given total.</p>
+                     <h1><a class="GameBird" href="https://www.mathplayground.com/ASB_PenguinJumpMultiplication.html">Penguin Jump</a></h1>
+                      <p class="parade">The penguins are glacier hopping again. How fast can they go? Practice multiplication facts and power up your penguin pal.</p>
+                     <h1><a class="GameBird" href="https://www.mathplayground.com/ASB_Division_Derby.html">Division Derby</a></h1>
+                      <p class="parade">The ponies are lined up and ready to start the race.Practice division facts and your pony will win first place.</p>
+                     <br><br><br>
+</div>
+</div>
+<div id="Home" class="tabcontent">
+   <div class="text">
+
+      <h1 class="BigBird">About</h1>
+           <p class="Clown"> Welcome to the exciting world of FunIsMath.com! Our website offers a wealth of educational resources, including engaging lectures, interactive lessons, stimulating math games, and much more! Our mission is to make math fun and accessible for all students, regardless of their skill level or background.<br><br>At FunIsMath.com, we believe that learning should be an enjoyable experience. Unlike other math websites that offer boring and repetitive games, our platform offers a unique and interactive learning experience that is both fun and effective. Our games and lessons are designed to help students build a strong foundation in math while also improving their critical thinking skills.<br><br>We understand that many students struggle with math and may find it intimidating. That is why our team of experienced educators and developers has created a platform that is accessible and easy to navigate. We offer a range of resources to help students of all ages and skill levels, from basic addition and subtraction to complex algebraic equations.<br><br>In addition to our educational resources, we also aim to provide tools for teachers and parents to help support their students learning in the future. Our website will aim to include lesson plans, instructional videos, and other helpful resources to assist educators in creating an engaging and effective learning environment by the year 2024 in April. Because of this, we are not focusing on other lectures and lessons, as we have all of our staff working around the clock to make this possible, besides our chat moderators. We are working hard on these videos and ask that you have patience and refrain from emailing us about this matter.<br><br>Our innovative approach to math education has received high praise from educators and parents alike. We are proud to say that our platform has helped countless students across the globe improve their math skills and gain confidence in their abilities.<br><br>Join us today and experience the joy of learning math in a fun and engaging way! With FunIsMath.com, math has never been more exciting!</p>
+      <h1 class="BigBird">Fun Math Links!</h1>
+            <p class="Clown">For Administrators/Parents:<br><br>These websites are secured and are safe to use for your students! if you have any problems, please contact us at funismathhelp@gmail.com<br><br></p>
+            <p><a class="LinkBird" href="https://www.mathplayground.com">Math Playground</a></p>
+            <p><a class="LinkBird" href="https://coolmath.com">CoolMath</a></p>
+            <p><a class="LinkBird" href="https://math.com">Math.com</a></p>
+            <p><a class="LinkBird" href="https://www.khanacademy.org">Khan Academy</a></p>
+            <p><a class="LinkBird" href="https://www.mathway.com/Algebra">Mathway</a></p>
+            <p><a class="LinkBird" href="https://www.wolframalpha.com/">Wolfram Alpha</a></p>
+            <p><a class="LinkBird" href="https://www.ixl.com/math?partner=google&campaign=71585968&adGroup=127340415978&gclid=Cj0KCQjwn9CgBhDjARIsAD15h0Bw2aj4eBl1wzMp-XmZkqIpnGtOh-dQwMdG8lewJWTMVkgQTZ3GZ3QaAshZEALw_wcB">IXL Math</a></p>
+            <p><a class="LinkBird" href="https://www.math-drills.com/">Math-Drills</a></p>
+            <p><a class="LinkBird" href="https://www.mathgoodies.com/">Math Goodies</a></p>
+            <p><a class="LinkBird" href="https://www.aaamath.com/">AAA Math</a></p>
+            <p><a class="LinkBird" href="https://www.math-aids.com/">Math-Aids/a></p>
+            <p><a class="LinkBird" href="https://www.mathblaster.com/">Math Blaster</a></p>
+            <p><a class="LinkBird" href="https://www.hoodamath.com/">Hooda Math</a></p>
+            <p><a class="LinkBird" href="https://www.prodigygame.com/">Prodigy Math</a></p>
+            <p><a class="LinkBird" href="https://www.splashlearn.com/">SplashLearn</a></p>
+            <p><a class="LinkBird" href="https://www.dreambox.com/">DreamBox Learning</a></p>
+            <p><a class="LinkBird" href="https://www.mathletics.com/">Mathletics</a></p>
+            <p><a class="LinkBird" href="https://www.mathscore.com/">Mathscore</a></p>
+            <p><a class="LinkBird" href="https://www.mathsisfun.com/">Math is Fun</a></p>
+            <p><a class="LinkBird" href="https://www.mathplanet.com/">Math Planet</a></p>
+            <p><a class="LinkBird" href="https://www.purplemath.com/">Purplemath</a></p>
+            <p><a class="LinkBird" href="https://www.studypug.com/">StudyPug</a></p>
+            <p><a class="LinkBird" href="https://www.virtualnerd.com/">Virtual Nerd</a></p>
+            <p><a class="LinkBird" href="https://www.mathwarehouse.com/">Math Warehouse</a></p>
+            <p><a class="LinkBird" href="https://www.aplusmath.com/">Aplusmath</a></p>
+            <p><a class="LinkBird" href="https://mathforum.org/">MathForum</a></p>
+            <p><a class="LinkBird" href="https://www.mathpapa.com/">MathPapa</a></p>
+            <p><a class="LinkBird" href="https://www.algebra.com/">Algebra.com</a></p>
+            <p><a class="LinkBird" href="https://quickmath.com/">Quick Math</a></p>
+            <p><a class="LinkBird" href="https://themathworksheetsite.com/">The Math Worksheet Site</a></p>
+            <p><a class="LinkBird" href="https://www.mathworksheetsland.com/">Math Worksheets Land</a></p>
+            <p><a class="LinkBird" href="https://www.mathnook.com/">Mathnook</a></p>
+            <p><a class="LinkBird" href="https://mathmysteries.com/">Math Maven's Mysteries</a></p>
+            <p><a class="LinkBird" href="https://www.mangahigh.com/">Mangahigh</a></p>
+            <p><a class="LinkBird" href="https://www.brainpop.com/math/">BrainPOP Math</a></p>
+            <br><br><br><br>
+
+      </div>
+</div>
+</div>
+<script src="./spookychatscript.js"></script>
    <script>
       function toggleText() {
           
@@ -207,16 +475,16 @@
          }
                 function openCity(evt, cityName) {
                   if(cityName == "Help"){
-                     document.body.style.background = "('HelpPageBG')";
+                     document.body.style.background = "('HelpPageBG.png')";
                   }
                   if(cityName == "Lectures"){
-                     document.body.style.background = "('LecturesPageBG')";
+                     document.body.style.background = "('LecturesPageBG.png')";
                   }
                   if(cityName == "Games"){
-                     document.body.style.background = "('GamessPageBG')";
+                     document.body.style.background = "('GamesPageBG.png')";
                   }
                   if(cityName == "About"){
-                     document.body.style.background = "('AboutPageBG')";
+                     document.body.style.background = "('AboutPageBG.png')";
                   }
           var i, tabcontent, tablinks;
           tabcontent = document.getElementsByClassName("tabcontent");

@@ -99,7 +99,8 @@
          max-width: 100%;
          margin: 0 auto;
          
-         background-image: url('IndexPageBG.jpg');;
+         background-image: url('IndexPageBG.jpg');
+         background-attachment: fixed;
          cursor: url('cursor.png'), pointer;
 
          font-family: "Comic Sans MS", "Comic Sans", cursive;
@@ -114,24 +115,20 @@
          margin: auto;
       }
       .header{
+   
            display: block;
          margin-left: auto;
          margin-right: auto;
          
          height:200px;
-
+         position:sticky;
       }
       .Clown{
    text-indent: 30px;
    font-size: 1.5em;
    color: black;
 }
-      .text{
 
-         width: 100%;
-         z-index: 10;
-         background-color: #faf7f2;
-      }
       .announcement {
          border-radius: 15px;
          width: 80%;
@@ -152,6 +149,7 @@
    width:100%;
    height: 50px;
   background-color: #ffffff;
+  position: sticky;
 }
 
 .BigBird{
@@ -210,6 +208,7 @@
          
    height:350px;
 }
+
    </style>
    </head>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-G4303T88PB"></script>
@@ -222,39 +221,30 @@
 </script>
 
    <body>
-      <a class="active" href="index.html">
+      <a class="active" href="#">
       <img class="header" src="funismathheader.png"></img>
       </a>
 
       <div class="everything">
          <div class="topnav">
-            <button class="tablinks" style="outline:3px solid rgb(0, 0, 147); background-color: blue; border:none;"class="active" onclick="openCity(event, 'Home')">Home</button>
+            <button class="tablinks" style="outline:3px solid rgb(0, 0, 147); background-color: blue; border:none;" id="defaultOpen" onclick="openCity(event, 'Home')">Home</button>
             <button class="tablinks" style = "outline:3px solid rgb(0, 83, 0); background-color: green; border:none;" onclick="openCity(event, 'Help')">Help</button>
-            <button class="tablinks" style="outline:3px solid rgb(124, 0, 0);background-color: red; border:none;" href="lectures.html" onclick="openCity(event, 'Lectures')">Lectures</button>
-            <button class="tablinks" style="outline:3px solid rgb(101, 101, 0); background-color: rgb(173, 173, 0); border:none;" href="mathgames.html" onclick="openCity(event, 'Games')">Math Games</button>
-            <button class="tablinks" style="outline:3px solid rgb(121, 79, 0); background-color: orange; border:none;"href="about.html" onclick="openCity(event, 'About')">About</button>
+            <button class="tablinks" style="outline:3px solid rgb(124, 0, 0);background-color: red; border:none;" onclick="openCity(event, 'Lectures')">Lectures</button>
+            <button class="tablinks" style="outline:3px solid rgb(101, 101, 0); background-color: rgb(173, 173, 0); border:none;" onclick="openCity(event, 'Games')">Math Games</button>
+            <button class="tablinks" style="outline:3px solid rgb(121, 79, 0); background-color: orange; border:none;"onclick="openCity(event, 'About')">About</button>
 
           
           </div>
           <div id="Home" class="tabcontent">
-         <div class="text">
+ 
 
       <h1 class="BigBird">Home</h1>
             <p class="parade">Welcome to funismath! This website is dedicated to providing fun and educational experiences! We are still growing, so stick around and become a part of our community.</p>
-   <h1>Announcements:</h1>
-            <div class="announcement">
-            <h1 class="anountext">May 1st, 2023</h1>
-            <h1 class="anountext">Our front page is currently broken. If you want entertainment, just click here <a href="mathgames.html" style="text-decoration: none; color: #07f7a0;"> CLICK HERE </a> for math games! thanks for understanding</h1>
-               </div>
-            <div class="announcement">
-            <h1 class="anountext">April 28th, 2023</h1>
-            <h1 class="anountext">We've added announcements in hopes of making our website better. If you have any problems or you want to give a suggestion for the website, please contact us at funismathhelp@gmail.com. We will always fix issues that are brought to our attention!</h1>
-               </div>
+  
                <br><br><br><br>
-            </div>
+           
    </div>
    <div id="Help" class="tabcontent">
-      <div class="text">
 
          <h1 class="BigBird">Help</h1>
          <p class="parade">Do you need help on your math homework? Well chat with people around the world who could possibly help. There is also professionals moderating the chat to make sure advice is non explicit and helpful.</p>
@@ -266,11 +256,11 @@
                <input class="message-form__input" placeholder="Type something.." type="text"/>
                <!-- <input class="message-form__button" value="Send" type="submit"/> -->
             </form>
-         </div>
+ 
 </div>
 </div>
 <div id="Lectures" class="tabcontent">
-   <div class="text">
+
 
       <h1 class="BigBird">Lectures</h1>
 
@@ -322,10 +312,10 @@
       <img class="GradeLogos" src="lectures/12thGrade.png"></img>
       </a>
       <br>
-</div>
+
 </div>
 <div id="Games" class="tabcontent">
-   <div class="text">
+
 
       <h1 class="BigBird">Math Games</h1>
       <p class="parade">Play some Exciting and fun games while understanding and mastering conecpts and skills! More games coming soon!</p>
@@ -365,10 +355,10 @@
                      <h1><a class="GameBird" href="https://www.mathplayground.com/ASB_Division_Derby.html">Division Derby</a></h1>
                       <p class="parade">The ponies are lined up and ready to start the race.Practice division facts and your pony will win first place.</p>
                      <br><br><br>
-</div>
+
 </div>
 <div id="About" class="tabcontent">
-   <div class="text">
+
       <h1 class="BigBird">About</h1>
            <p class="Clown"> Welcome to the exciting world of FunIsMath.com! Our website offers a wealth of educational resources, including engaging lectures, interactive lessons, stimulating math games, and much more! Our mission is to make math fun and accessible for all students, regardless of their skill level or background.<br><br>At FunIsMath.com, we believe that learning should be an enjoyable experience. Unlike other math websites that offer boring and repetitive games, our platform offers a unique and interactive learning experience that is both fun and effective. Our games and lessons are designed to help students build a strong foundation in math while also improving their critical thinking skills.<br><br>We understand that many students struggle with math and may find it intimidating. That is why our team of experienced educators and developers has created a platform that is accessible and easy to navigate. We offer a range of resources to help students of all ages and skill levels, from basic addition and subtraction to complex algebraic equations.<br><br>In addition to our educational resources, we also aim to provide tools for teachers and parents to help support their students learning in the future. Our website will aim to include lesson plans, instructional videos, and other helpful resources to assist educators in creating an engaging and effective learning environment by the year 2024 in April. Because of this, we are not focusing on other lectures and lessons, as we have all of our staff working around the clock to make this possible, besides our chat moderators. We are working hard on these videos and ask that you have patience and refrain from emailing us about this matter.<br><br>Our innovative approach to math education has received high praise from educators and parents alike. We are proud to say that our platform has helped countless students across the globe improve their math skills and gain confidence in their abilities.<br><br>Join us today and experience the joy of learning math in a fun and engaging way! With FunIsMath.com, math has never been more exciting!</p>
       <h1 class="BigBird">Fun Math Links!</h1>
@@ -410,7 +400,6 @@
             <p><a class="LinkBird" href="https://www.brainpop.com/math/">BrainPOP Math</a></p>
             <br><br><br><br>
 
-      </div>
 </div>
 </div>
 <script src="./spookychatscript.js"></script>
@@ -461,17 +450,9 @@
               buttonText.innerHTML = "Show Less";
           }
       }
-      for (i = 0; i < coll.length; i++) {
-          coll[i].addEventListener("click", function() {
-            this.classList.toggle("active");
-            var content = this.nextElementSibling;
-            if (content.style.maxHeight){
-              content.style.maxHeight = null;
-            } else {
-              content.style.maxHeight = content.scrollHeight + "px";
-            } 
-          });
-         }
+
+
+
                 function openCity(evt, cityName) {
                   if(cityName == "Home"){
                      document.body.style.backgroundImage = "url('IndexPageBG.jpg')";
@@ -488,7 +469,7 @@
                   if(cityName == "About"){
                      document.body.style.backgroundImage = "url('AboutPageBG.jpg')";
                   }
-          var i, tabcontent, tablinks;
+                  var i, tabcontent, tablinks;
           tabcontent = document.getElementsByClassName("tabcontent");
           for (i = 0; i < tabcontent.length; i++) {
             tabcontent[i].style.display = "none";
@@ -502,7 +483,7 @@
          }
          
          // Get the element with id="defaultOpen" and click on it
-         document.getElementById("defaultOpen").click();
+         openCity(event, 'Home');
          
      
    </script>

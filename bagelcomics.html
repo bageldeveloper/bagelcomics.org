@@ -12,11 +12,11 @@
       <style>
          * {box-sizing: border-box}
          body {
-            /* background: url(bagelcomicsbgwinter.png) no-repeat center center fixed; 
+            background: none no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; */
+  background-size: cover;
          padding-top: 50px;
          background-color: #1A1C25;
            /* background-color: #eb34b7; */
@@ -68,7 +68,7 @@
             margin-top: 0px;
             height: 108%;
             padding-bottom: 12px;
-            background: linear-gradient(#07070A, #07070A) padding-box,
+            background: linear-gradient(#161618,#1A1C25) padding-box,
          linear-gradient(to right, #f1b04d, #f09204) border-box;
          border-top-left-radius: 15px;
 border-top-right-radius: 15px;
@@ -309,7 +309,8 @@ border-top-right-radius: 15px;
             <button class="tablinks" onclick="openCity(event, 'Home')" id="defaultOpen">Home</button>
             <button class="tablinks" onclick="openCity(event, 'Chat')" id="chat">Chat</button>
             <button class="tablinks" onclick="openCity(event, 'Games')">Games</button>
-            <button style="background-color:#000000;"> <img src="https://media.tenor.com/PEDzvMlrdi0AAAAC/fire.gif" style="width:50px;height:20px;"></img> </button>
+            <button class="tablinks" onclick="openCity(event, 'Math')">Math</button>
+
             <button class="tablinks" onclick="openCity(event, 'About')">About</button>
          </div>
       </div> 
@@ -985,6 +986,9 @@ border-top-right-radius: 15px;
          <a href="https://www.youtube.com/channel/UCRE0hq5gT69syu2ybmpuYWA">Apollo and Friends</a>
          <p class="bageltext">Check in often for new stuff!</p>
       </div>
+      <div id="Math" class="tabcontent">
+
+      </div>
       <div id="About" class="tabcontent">
          <h1>About</h1>
          <h2>Yo ok this website has been a project of mine for a couple <a style="text-decoration: none; color: inherit;" href="oldindex.html">years </a>now. It's not the best website out there, but I have learned a ton from making it. Thanks for checking it out :)</h2>
@@ -1074,6 +1078,12 @@ border-top-right-radius: 15px;
           });
          }
                 function openCity(evt, cityName) {
+                  if(cityName == "Math"){
+                     document.body.style.backgroundImage = "url('mathbg.png')";
+                     document.body.style.backgroundImage = "url('mathbg.png')";
+                  } else{
+                     document.body.style.backgroundImage = "none";
+                  }
           var i, tabcontent, tablinks;
           tabcontent = document.getElementsByClassName("tabcontent");
           for (i = 0; i < tabcontent.length; i++) {

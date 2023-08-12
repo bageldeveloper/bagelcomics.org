@@ -3,7 +3,7 @@
       <script type='text/javascript' src='https://cdn.scaledrone.com/scaledrone.min.js'></script>
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <script> src="./gamesinfo.js"</script>
+      <script src="./gamesinfo.js"></script>
       <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
       <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
       <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7079018879176395"
@@ -977,7 +977,7 @@ border-top-right-radius: 15px;
       <script src="./spookychatscript.js"></script>
       <script>
          $(()=>{
-            console.log(gamesliststage)
+            console.log(gamersgaming)
             const sections = [
             'new',
             'favorite',
@@ -996,7 +996,7 @@ border-top-right-radius: 15px;
                      <div class="content"></div>
                   </div>
                `)
-               Object.values(gamesliststage).filter(a=>a.tags.includes(section)).forEach(game=>{
+               Object.values(gamersgaming).filter(a=>a.tags.includes(section)).forEach(game=>{
                   $(`#${section} > .content`).append(`
                      <a class="gamelink" href="${game.url}">${game.name}</a>
                   `)
@@ -1006,14 +1006,14 @@ border-top-right-radius: 15px;
                $('#search-results').html('')
                const search = $('#game-search').val().toLowerCase()
                if(search.trim()){
-                  let results = Object.values(gamesliststage).filter(a=>a.name.toLowerCase().includes(search))
+                  let results = Object.values(gamersgaming).filter(a=>a.name.toLowerCase().includes(search))
                   results.forEach(game=>{
                      $('#search-results').append(`
                         <a class="gamelink" href="${game.url}">${game.name}</a>
                      `)
                   })
                   $('#search-results').append('<hr style="margin:0; border-color:black">')
-                  results = Object.values(gamesliststage).filter(a=>a.tags.some(tag=>tag.toLowerCase().startWith(search)))
+                  results = Object.values(gamersgaming).filter(a=>a.tags.some(tag=>tag.toLowerCase().startWith(search)))
                   results.forEach(game=>{
                      $('#search-results').append(`
                         <a class="gamelink" href="${game.url}">${game.name}</a>

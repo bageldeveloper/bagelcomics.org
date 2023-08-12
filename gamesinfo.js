@@ -1,4 +1,4 @@
-const gamesliststage = {
+const gamersgaming = {
     "2048": {
         "name": "2048",
         "url": "https://funismath.com/2048.html",

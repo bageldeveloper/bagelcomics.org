@@ -7,7 +7,7 @@ const gamersgaming = {
     "LineRider": {
         "name": "Line Rider",
         "url": "https://funismath.com/games/linerider.html",
-        tags:['strategy','platform','puzzle','simulation','sports','indie']
+        tags:['strategy','platformer','puzzle','simulation','sports','indie']
     },
     "Checkers": {
         "name": "Checkers",
@@ -57,158 +57,197 @@ const gamersgaming = {
     "WorldsHardest Game 2": {
         "name": "Worlds Hardest Game 2",
         "url": "https://funismath.com/games/hardestgame2.html",
+        tags:['simulation', 'strategy','indie']
     },
     "MiniPutt": {
         "name": "Mini Putt",
         "url": "https://funismath.com/games/miniputt.html",
+        tags:['simulation','sports', 'strategy']
     },
     "Portal2D": {
         "name": "Portal 2D",
         "url": "https://funismath.com/games/portal2d.html",
+        tags:['simulation','platformer','puzzle','strategy','indie']
     },
     "PortalFlash Version": {
         "name": "Portal Flash Version",
         "url": "https://funismath.com/games/portal.html",
+        tags:['simulation','platformer','puzzle','strategy','indie']
     },
     "Bloxorz": {
         "name": "Bloxorz",
         "url": "https://funismath.com/games/bloxorz.html",
+        tags:['puzzle','strategy','indie']
     },
     "Plantsvs Zombies": {
         "name": "Plants vs Zombies",
         "url": "https://funismath.com/games/pvz.html",
+        tags:['simulation','tower-defense','strategy','indie']
     },
     "Plantsvs Zombies 2": {
         "name": "Plants vs Zombies 2",
         "url": "https://funismath.com/games/pvz2.html",
+        tags:['simulation','tower-defense','strategy','indie']
     },
     "CanyonDefense": {
         "name": "Canyon Defense",
         "url": "https://funismath.com/games/canyondefense.html",
+        tags:['simulation','tower-defense','strategy','indie']
     },
     "BloonsTower Defense": {
         "name": "Bloons Tower Defense",
         "url": "https://funismath.com/games/bloons.html",
+        tags:['simulation','tower-defense','strategy','indie']
     },
     "BloonsTower Defense 2": {
         "name": "Bloons Tower Defense 2",
         "url": "https://funismath.com/games/bloonstd2.html",
+        tags:['simulation','tower-defense','strategy','indie']
     },
     "BloonsTower Defense 3": {
         "name": "Bloons Tower Defense 3",
         "url": "https://funismath.com/games/bloonstd3.html",
+        tags:['simulation','tower-defense','strategy','indie']
     },
     "BloonsTower Defense 4": {
         "name": "Bloons Tower Defense 4",
         "url": "https://funismath.com/games/bloonstd4.html",
+        tags:['simulation','tower-defense','strategy','indie']
     },
     "Orbitron": {
         "name": "Orbitron",
         "url": "https://funismath.com/orbitron.html",
+        tags:['simulation','tower-defense','strategy','indie']
     },
     "TheImpossible Quiz": {
         "name": "The Impossible Quiz",
         "url": "https://funismath.com/games/quiz.html",
+        tags:['puzzle','strategy','indie']
     },
     "RiddleSchool": {
         "name": "Riddle School",
         "url": "https://funismath.com/games/riddleschool.html",
+        tags:['adventure','puzzle','strategy','indie']
     },
     "RiddleSchool 2": {
         "name": "Riddle School 2",
         "url": "https://funismath.com/games/riddleschool2.html",
+        tags:['adventure','puzzle','strategy','indie']
     },
     "RiddleSchool 3": {
         "name": "Riddle School 3",
         "url": "https://funismath.com/games/rs3.html",
+        tags:['adventure','puzzle','strategy','indie']
     },
     "RiddleSchool 4": {
         "name": "Riddle School 4",
         "url": "https://funismath.com/games/riddleschool4.html",
+        tags:['adventure','puzzle','strategy','indie']
     },
     "RiddleSchool 5": {
         "name": "Riddle School 5",
         "url": "https://funismath.com/games/riddleschool5.html",
+        tags:['adventure','puzzle','strategy','indie']
     },
     "RiddleSchool Transfer": {
         "name": "Riddle School Transfer",
         "url": "https://funismath.com/games/riddleschooltransfer.html",
+        tags:['adventure','puzzle','strategy','indie']
     },
     "RiddleSchool Transfer 2": {
         "name": "Riddle School Transfer 2",
         "url": "https://funismath.com/games/riddleschooltransfer2.html",
+        tags:['adventure','puzzle','strategy','indie']
     },
     "TurkeyFlap": {
         "name": "Turkey Flap",
         "url": "https://funismath.com/turkeyflap/index.html",
+        tags:['platformer','strategy','indie']
     },
     "1on1Soccer": {
         "name": "1on1 Soccer",
         "url": "https://funismath.com/games/1on1soccer.html",
+        tags:['sports','strategy','indie']
     },
     "DigTo China": {
         "name": "Dig To China",
         "url": "https://funismath.com/games/digtochina.html",
+        tags:['adventure','simulation','strategy','indie']
     },
     "Swordsand Sandals 2": {
         "name": "Swords and Sandals 2",
         "url": "https://funismath.com/games/sas2.html",
+        tags:['adventure','puzzle','strategy','indie','action']
     },
     "Swordsand Sandals": {
         "name": "Swords and Sandals",
         "url": "https://funismath.com/games/sas.html",
+        tags:['adventure','puzzle','strategy','indie','action']
     },
     "Artof War": {
         "name": "Art of War",
         "url": "https://funismath.com/games/artofwar.html",
+        tags:['adventure','action','simulation','strategy','indie']
     },
     "AgeOf War": {
         "name": "Age Of War",
         "url": "https://funismath.com/games/ageofwar.html",
+        tags:['adventure','action','simulation','strategy','indie']
     },
     "ColorCombat": {
         "name": "Color Combat",
         "url": "https://funismath.com/games/colorcombat.html",
+        tags:['action','strategy','indie']
     },
     "MiamiShark": {
         "name": "Miami Shark",
         "url": "https://funismath.com/games/miamishark.html",
+        tags:['adventure','simulation','strategy','indie']
     },
     "NewYork Shark": {
         "name": "New York Shark",
         "url": "https://funismath.com/games/NYshark.html",
+        tags:['adventure','simulation','strategy','indie']
     },
     "ElectricMan2": {
         "name": "ElectricMan 2",
         "url": "https://funismath.com/games/eman2.html",
+        tags:['adventure','strategy','indie']
     },
     "Fancypants": {
         "name": "Fancypants",
         "url": "https://funismath.com/games/fancypants.html",
+        tags:['adventure','strategy','indie']
     },
     "StickManRPG": {
         "name": "StickMan RPG",
         "url": "https://funismath.com/games/stickrpg.html",
+        tags:['adventure','simulation','strategy','indie']
     },
     "Hobo": {
         "name": "Hobo",
         "url": "https://funismath.com/games/hobo.html",
+        tags:['action','simulation','strategy','indie']
     },
     "Hobo2": {
         "name": "Hobo 2",
         "url": "https://funismath.com/games/hobo2.html",
+        tags:['action','simulation','strategy','indie']
     },
     "Dadn' Me": {
         "name": "Dad n' Me",
         "url": "https://funismath.com/games/dadnme.html",
-    },
+        tags:['action','simulation','strategy','indie']
+        },
     "EscapingThe Prison": {
         "name": "Escaping The Prison",
         "url": "https://funismath.com/games/bank.html",
+        tags:['action','puzzle','adventure','simulation','strategy']
     },
     "StealingThe Diamond": {
         "name": "Stealing The Diamond",
         "url": "https://funismath.com/games/stealing.html",
+        tags:['action','puzzle','adventure','simulation','strategy']
     },
     "Abobo'sBig Adventure": {
         "name": "Abobo's Big Adventure",

@@ -252,362 +252,452 @@ const gamersgaming = {
     "Abobo'sBig Adventure": {
         "name": "Abobo's Big Adventure",
         "url": "https://funismath.com/games/bigadventure.html",
+        tags:['action','adventure',]
     },
     "Run2": {
         "name": "Run 2",
         "url": "https://funismath.com/games/run2.html",
+        tags:['action','adventure','simulation','platformer','strategy','indie']
     },
     "Run": {
         "name": "Run",
         "url": "https://funismath.com/games/run.html",
+        tags:['action','adventure','platformer','simulation','strategy','indie']
     },
     "ChibiKnight": {
         "name": "Chibi Knight",
         "url": "https://funismath.com/games/chibiknight.html",
+        tags:['action','adventure','indie']
     },
     "Vex3": {
         "name": "Vex 3",
         "url": "https://funismath.com/vex3/index.html",
+        tags:['action','puzzle','platformer','adventure','indie']
     },
     "Vex4": {
         "name": "Vex 4",
         "url": "https://funismath.com/vex4/index.html",
+        tags:['action','puzzle','platformer','adventure','indie']
     },
     "Vex6": {
         "name": "Vex 6",
         "url": "https://funismath.com/games/vex6/index.html",
+        tags:['action','puzzle','platformer','adventure','indie']
     },
     "JumpGame": {
         "name": "Jump Game",
         "url": "https://funismath.com/jumpgame.html",
+        tags:['platformer','indie']
     },
     "JumpGame 2": {
         "name": "Jump Game 2",
         "url": "https://funismath.com/jumpgame2.html",
+        tags:['platformer','indie']
     },
     "MeatBoy": {
         "name": "Meat Boy",
         "url": "https://funismath.com/games/meatboy.html",
+        tags:['action','adventure','platformer','indie']
     },
     "newton": {
         "name": "newton",
         "url": "https://funismath.com/newton.html",
+        tags:['action','indie']
     },
     "Thisis the Only Level": {
         "name": "This is the Only Level",
         "url": "https://funismath.com/games/only.html",
+        tags:['adventure','puzzle','platformer','indie']
     },
     "DuckLife": {
         "name": "Duck Life",
         "url": "https://funismath.com/games/ducklife.html",
+        tags:['action','adventure','sports']
     },
     "DuckLife 2": {
         "name": "Duck Life 2",
         "url": "https://funismath.com/games/ducklife2.html",
+        tags:['action','adventure','sports']
     },
     "DuckLife 3": {
         "name": "Duck Life 3",
         "url": "https://funismath.com/games/ducklife3.html",
+        tags:['action','adventure','sports']
     },
     "DuckLife 4": {
         "name": "Duck Life 4",
         "url": "https://funismath.com/games/ducklife4.html",
+        tags:['action','adventure','sports']
     },
     "DriftHunters": {
         "name": "Drift Hunters",
         "url": "https://funismath.com/games/drift-hunters/index.html",
+        tags:['action','adventure','racing']
     },
     "MotoX3m": {
         "name": "MotoX3m",
         "url": "https://funismath.com/games/motox3m/index.html",
+        tags:['action','adventure','racing','sports']
     },
     "MotoX3m2": {
         "name": "MotoX3m 2",
         "url": "https://funismath.com/games/motox3m2/index.html",
+        tags:['action','adventure','racing','sports']
     },
     "Slope": {
         "name": "Slope",
         "url": "https://funismath.com/Slope-Game-main/index.html",
+        tags:['racing','platformer','indie']
     },
     "Hexgl": {
         "name": "Hexgl",
         "url": "https://funismath.com/hexgl.html",
+        tags:['racing','indie']
     },
     "Cube": {
         "name": "Cube",
         "url": "https://funismath.com/games/cube.html",
+        tags:['adventure','platformer','indie']
     },
     "BubbleShooter": {
         "name": "Bubble Shooter",
         "url": "https://funismath.com/games/bubble.html",
+        tags:['shooter','indie']
     },
     "Commando": {
         "name": "Commando",
         "url": "https://funismath.com/games/commando.html",
+        tags:['action','shooter','strategy','indie']
     },
     "Bloxstrike": {
         "name": "Bloxstrike",
         "url": "https://funismath.com/games/shooter.html",
+        tags:['action','shooter','strategy','indie']
     },
     "Zombies": {
         "name": "Zombies",
         "url": "https://funismath.com/games/zombie.html",
+        tags:['action','shooter','strategy','indie']
     },
     "RaftWars": {
         "name": "Raft Wars",
         "url": "https://funismath.com/games/raftwars.html",
+        tags:['action','shooter','strategy','indie']
     },
     "GetawayShootout": {
         "name": "Getaway Shootout",
         "url": "https://funismath.com/games/getaway-shootout/index.html",
+        tags:['action','shooter','strategy','indie']
     },
     "AwesomeTanks 2": {
         "name": "Awesome Tanks 2",
         "url": "https://funismath.com/games/awesometanks2.html",
+        tags:['action','shooter','strategy','indie']
     },
     "Siftheads": {
         "name": "Siftheads",
         "url": "https://funismath.com/games/siftheads.html",
+        tags:['action','shooter','strategy','indie']
     },
     "BagelWith a Gun": {
         "name": "Bagel With a Gun",
         "url": "https://funismath.com/bwag/index.html",
+        tags:['adventure','platformer','puzzle','action','shooter','strategy','indie']
     },
     "BagelWith a Gun Demo": {
         "name": "Bagel With a Gun Demo",
         "url": "https://funismath.com/bagelwithagun.html",
+        tags:['adventure','platformer','puzzle','action','shooter','strategy','indie']
     },
     "TurtleTrigger": {
         "name": "Turtle Trigger",
         "url": "https://funismath.com/games/turtle.html",
+        tags:['shooter','strategy','indie']
     },
     "GunBlood": {
         "name": "Gun Blood",
         "url": "https://funismath.com/games/gunblood.html",
+        tags:['action','shooter','strategy','indie']
     },
     "AlienHominid": {
         "name": "Alien Hominid",
         "url": "https://funismath.com/games/alien.html",
+        tags:['action','shooter','strategy','indie']
     },
     "AppleShoot": {
         "name": "Apple Shoot",
         "url": "https://funismath.com/games/appleshoot.html",
+        tags:['shooter','indie']
     },
     "Blobby": {
         "name": "Blobby",
         "url": "https://funismath.com/blobby/index.html",
+        tags:['adventure','puzzle','action','shooter','strategy','indie']
     },
     "StopGMO": {
         "name": "Stop GMO",
         "url": "https://funismath.com/games/stopgmo.html",
+        tags:['action','shooter','strategy','indie']
     },
-    "Papa'sFreezeria": {
+    "Papa's Freezeria": {
         "name": "Papa's Freezeria",
         "url": "https://funismath.com/games/papasfreezeria.html",
+        tags:['adventure','puzzle','strategy','papa']
     },
-    "Papa'sDonuteria": {
+    "Papa's Donuteria": {
         "name": "Papa's Donuteria",
         "url": "https://funismath.com/games/papasdonuteria.html",
+        tags:['adventure','puzzle','strategy','papa']
     },
-    "Papa'sCupcakeria": {
+    "Papa's Cupcakeria": {
         "name": "Papa's Cupcakeria",
         "url": "https://funismath.com/games/papascupcakeria.html",
+        tags:['adventure','puzzle','strategy','papa']
     },
-    "Papa'sScooperia": {
+    "Papa's Scooperia": {
         "name": "Papa's Scooperia",
         "url": "https://funismath.com/games/papasscooperia.html",
+        tags:['adventure','puzzle','strategy','papa']
     },
-    "Papa'sPastaria": {
+    "Papa's Pastaria": {
         "name": "Papa's Pastaria",
         "url": "https://funismath.com/games/papaspasteria.html",
+        tags:['adventure','puzzle','strategy','papa']
     },
-    "Papa'sBakeria": {
+    "Papa's Bakeria": {
         "name": "Papa's Bakeria",
         "url": "https://funismath.com/games/papasbakeria.html",
+        tags:['adventure','puzzle','strategy','papa']
     },
-    "Papa'sSushiria": {
+    "Papa's Sushiria": {
         "name": "Papa's Sushiria",
         "url": "https://funismath.com/games/papassushiria.html",
+        tags:['adventure','puzzle','strategy','papa']
     },
-    "Papa'sCheeseria": {
+    "Papa's Cheeseria": {
         "name": "Papa's Cheeseria",
         "url": "https://funismath.com/games/papascheeseria.html",
+        tags:['adventure','puzzle','strategy','papa']
     },
-    "Papa'sTacomia": {
+    "Papa's Tacomia": {
         "name": "Papa's Tacomia",
         "url": "https://funismath.com/games/papastacomia.html",
+        tags:['adventure','puzzle','strategy','papa']
     },
-    "Papa'sWingeria": {
+    "Papa's Wingeria": {
         "name": "Papa's Wingeria",
         "url": "https://funismath.com/games/papaswingeria.html",
+        tags:['adventure','puzzle','strategy','papa']
     },
-    "Papa'sPizzeria": {
+    "Papa's Pizzeria": {
         "name": "Papa's Pizzeria",
         "url": "https://funismath.com/games/papapizza.html",
+        tags:['adventure','puzzle','strategy','papa']
     },
-    "Papa'sBurgeria": {
+    "Papa's Burgeria": {
         "name": "Papa's Burgeria",
         "url": "https://funismath.com/games/papasbugeria.html",
+        tags:['adventure','puzzle','strategy','papa']
     },
-    "PappasHotdogeria": {
+    "Pappas Hotdogeria": {
         "name": "Pappas Hotdogeria",
         "url": "https://funismath.com/games/papashotdogeria.html",
+        tags:['adventure','puzzle','strategy','papa']
     },
-    "Papa'sPancakeria": {
+    "Papa's Pancakeria": {
         "name": "Papa's Pancakeria",
         "url": "https://funismath.com/games/papaspancakeria.html",
+        tags:['adventure','puzzle','strategy','papa']
     },
     "JackSmith": {
         "name": "Jack Smith",
         "url": "https://funismath.com/games/jacksmith.html",
+        tags:['adventure','puzzle','strategy','papa']
     },
-    "LegoStar Wars TCS": {
+    "Lego Star Wars TCS": {
         "name": "Lego Star Wars TCS",
         "url": "https://funismath.com/games/emu/tcs.html",
+        tags:['adventure','puzzle','shooter','action','racing','platformer','difficult','strategy','console']
     },
-    "SuperMario World": {
+    "Super Mario World": {
         "name": "Super Mario World",
         "url": "https://funismath.com/games/emu/smw.html",
+        tags:['adventure','action','platformer','strategy','console']
     },
-    "SuperMario Kart": {
+    "Super Mario Kart": {
         "name": "Super Mario Kart",
         "url": "https://funismath.com/games/emu/smk.html",
+        tags:['simulation','action','sports','racing','strategy','console']
     },
-    "DonkeyKong Country": {
+    "Donkey Kong Country": {
         "name": "Donkey Kong Country",
         "url": "https://funismath.com/games/emu/dkcountry.html",
+        tags:['adventure','puzzle','action','platformer','console']
     },
     "NBAJam": {
         "name": "NBA Jam",
         "url": "https://funismath.com/games/emu/nbajam.html",
+        tags:['simulation','shooter','action','sports','console']
     },
-    "Tomand Jerry": {
+    "Tom and Jerry": {
         "name": "Tom and Jerry",
         "url": "https://funismath.com/games/emu/tomandjerry.html",
+        tags:['adventure','action','platformer','strategy','console']
     },
     "ToyStory": {
         "name": "Toy Story",
         "url": "https://funismath.com/games/emu/toystory.html",
+        tags:['adventure','puzzle','platformer','strategy','console']
     },
     "Aladdin": {
         "name": "Aladdin",
         "url": "https://funismath.com/games/emu/alladin.html",
+        tags:['adventure','puzzle','simulation','shooter','action','platformer','difficult','strategy','console']
     },
-    "TheLion King": {
+    "The Lion King": {
         "name": "The Lion King",
         "url": "https://funismath.com/games/emu/lionking.html",
+        tags:['adventure','puzzle','simulation','action','platformer','difficult','strategy','console']
     },
-    "MarvelSuper Heroes: War of the Gems": {
+    "Marvel Super Heroes: War of the Gems": {
         "name": "Marvel Super Heroes: War of the Gems",
         "url": "https://funismath.com/games/emu/mshwog.html",
+        tags:['adventure','shooter','action','platformer','strategy','console']
     },
-    "ZeldaOcarina of Time": {
+    "Zelda Ocarina of Time": {
         "name": "Zelda Ocarina of Time",
         "url": "https://funismath.com/N64Wasm-master/dist/index.html",
+        tags:['adventure','puzzle','action','platformer','difficult','strategy','console']
     },
     "MarioKart 64": {
         "name": "Mario Kart 64",
         "url": "https://funismath.com/N64Wasm-masterMK64/dist/index.html",
+        tags:['simulation','action','sports','racing','strategy','console']
     },
-    "SuperMario 64": {
+    "Super Mario 64": {
         "name": "Super Mario 64",
         "url": "https://funismath.com/games/sm64/index.html",
+        tags:['adventure','puzzle','action','platformer','difficult','strategy','console']
     },
-    "SuperMario Flash": {
+    "Super Mario Flash": {
         "name": "Super Mario Flash",
         "url": "https://funismath.com/games/supermarioflash.html",
+        tags:['adventure','puzzle','action','platformer','strategy','console','indie']
     },
     "Mario": {
         "name": "Mario",
         "url": "https://funismath.com/games/mario/index.html",
+        tags:['adventure','puzzle','simulation','action','platformer','strategy','console']
     },
     "MarioCombat": {
         "name": "Mario Combat",
         "url": "https://funismath.com/games/mariocombat.html",
+        tags:['simulation','shooter','action','sports','console']
     },
     "MegaMan X": {
         "name": "Mega Man X",
         "url": "https://funismath.com/games/emu/megamanx.html",
+        tags:['adventure','shooter','action','platformer','difficult','strategy','console']
     },
     "MegaMan 2": {
         "name": "Mega Man 2",
         "url": "https://funismath.com/games/emu/megamantwo.html",
+        tags:['adventure','shooter','action','platformer','strategy','console']
     },
-    "UltimateMortal Kombat 3": {
+    "Ultimate Mortal Kombat 3": {
         "name": "Ultimate Mortal Kombat 3",
         "url": "https://funismath.com/games/emu/umk3.html",
+        tags:['simulation','action','strategy','console']
     },
     "LegendOf Zelda NES": {
         "name": "Legend Of Zelda NES",
         "url": "https://funismath.com/games/emu/loz.html",
+        tags:['adventure','puzzle','action','strategy','console']
     },
     "Batman": {
         "name": "Batman",
         "url": "https://funismath.com/games/emu/batman.html",
+        tags:['adventure','puzzle','simulation','shooter','action','platformer','difficult','strategy','console']
     },
     "MikeTyson's Punch Out!": {
         "name": "Mike Tyson's Punch Out!",
         "url": "https://funismath.com/games/emu/miketysonpunchout.html",
+        tags:['simulation','action','sports','difficult','strategy','console']
     },
     "PunchOut!": {
         "name": "Punch Out!",
         "url": "https://funismath.com/games/emu/punchout.html",
+        tags:['simulation','action','sports','strategy','console']
     },
     "SuperPunch Out!!": {
         "name": "Super Punch Out!!",
         "url": "https://funismath.com/games/emu/spo.html",
+        tags:['simulation','action','sports','strategy','console']
     },
     "SuperMario Bros": {
         "name": "Super Mario Bros",
         "url": "https://funismath.com/games/emu/smb.html",
+        tags:['adventure','puzzle','action','platformer','strategy','console']
     },
     "SuperMario Bros. 2": {
         "name": "Super Mario Bros. 2",
         "url": "https://funismath.com/games/emu/smbtwo.html",
+        tags:['adventure','puzzle','action','platformer','strategy','console']
     },
     "SuperMario Bros. 3": {
         "name": "Super Mario Bros. 3",
         "url": "https://funismath.com/games/emu/smbthree.html",
+        tags:['adventure','puzzle','action','platformer','strategy','console']
     },
     "SuperSmash Bros": {
         "name": "Super Smash Bros",
         "url": "https://funismath.com/games/emu/supersmash.html",
+        tags:['simulation','shooter','action','platformer','console']
     },
     "DoubleDragon": {
         "name": "Double Dragon",
         "url": "https://funismath.com/games/emu/doubledragon.html",
+        tags:['adventure','simulation','action','strategy','console']
     },
     "Contra": {
         "name": "Contra",
         "url": "https://funismath.com/games/emu/contra.html",
+        tags:['adventure','simulation','shooter','action','strategy','console']
     },
     "DuckTales": {
         "name": "Duck Tales",
         "url": "https://funismath.com/games/emu/ducktales.html",
+        tags:['adventure','puzzle','shooter','action','platformer','difficult','strategy','console']
     },
     "Fridaythe 13th": {
         "name": "Friday the 13th",
         "url": "https://funismath.com/games/emu/f13.html",
+        tags:['adventure','simulation','action','strategy','console']
     },
     "RiverCity Ransom": {
         "name": "River City Ransom",
         "url": "https://funismath.com/games/emu/ransom.html",
+        tags:['adventure','simulation','action','console']
     },
     "Quake": {
         "name": "Quake",
         "url": "https://funismath.com/Quake1-master/Quake1.htm",
+        tags:['simulation','shooter','action','platformer','strategy','console']
     },
     "Quake3": {
         "name": "Quake 3",
         "url": "https://funismath.com/Quake3-master/Quake3.htm",
+        tags:['simulation','shooter','action','platformer','difficult','strategy','console']
     },
     "Asteroids": {
         "name": "Asteroids",
         "url": "https://funismath.com/asteroids.html",
+        tags:['simulation','shooter','action','strategy','console']
     },
     "Sonic": {
         "name": "Sonic",
         "url": "https://funismath.com/games/sonic.html",
+        tags:['adventure','puzzle','action','racing','platformer','difficult','strategy','console']
     },
     "Pacman": {
         "name": "Pacman",

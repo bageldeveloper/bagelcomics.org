@@ -67,7 +67,7 @@ const gamersgaming = {
     "Portal2D": {
         "name": "Portal 2D",
         "url": "https://funismath.com/games/portal2d.html",
-        tags:['simulation','platformer','puzzle','strategy','indie']
+        tags:['simulation','platformer','puzzle','favorite','strategy','indie']
     },
     "PortalFlash Version": {
         "name": "Portal Flash Version",
@@ -172,7 +172,7 @@ const gamersgaming = {
     "DigTo China": {
         "name": "Dig To China",
         "url": "https://funismath.com/games/digtochina.html",
-        tags:['adventure','simulation','strategy','indie']
+        tags:['adventure','simulation','strategy','favorite','indie']
     },
     "Swordsand Sandals 2": {
         "name": "Swords and Sandals 2",
@@ -337,7 +337,7 @@ const gamersgaming = {
     "MotoX3m": {
         "name": "MotoX3m",
         "url": "https://funismath.com/games/motox3m/index.html",
-        tags:['action','adventure','racing','sports']
+        tags:['action','adventure','racing','favorite','sports']
     },
     "MotoX3m2": {
         "name": "MotoX3m 2",
@@ -382,7 +382,7 @@ const gamersgaming = {
     "RaftWars": {
         "name": "Raft Wars",
         "url": "https://funismath.com/games/raftwars.html",
-        tags:['action','shooter','strategy','indie']
+        tags:['action','shooter','strategy','favorite','indie']
     },
     "GetawayShootout": {
         "name": "Getaway Shootout",
@@ -402,7 +402,7 @@ const gamersgaming = {
     "BagelWith a Gun": {
         "name": "Bagel With a Gun",
         "url": "https://funismath.com/bwag/index.html",
-        tags:['adventure','platformer','puzzle','action','shooter','strategy','indie']
+        tags:['adventure','platformer','puzzle','action','shooter','strategy','favorite','indie']
     },
     "BagelWith a Gun Demo": {
         "name": "Bagel With a Gun Demo",
@@ -437,7 +437,7 @@ const gamersgaming = {
     "StopGMO": {
         "name": "Stop GMO",
         "url": "https://funismath.com/games/stopgmo.html",
-        tags:['action','shooter','strategy','indie']
+        tags:['action','shooter','strategy','new','indie']
     },
     "Papa's Freezeria": {
         "name": "Papa's Freezeria",
@@ -567,12 +567,12 @@ const gamersgaming = {
     "Zelda Ocarina of Time": {
         "name": "Zelda Ocarina of Time",
         "url": "https://funismath.com/N64Wasm-master/dist/index.html",
-        tags:['adventure','puzzle','action','platformer','difficult','strategy','console']
+        tags:['adventure','puzzle','action','platformer','difficult','strategy','favorite','console']
     },
     "MarioKart 64": {
         "name": "Mario Kart 64",
         "url": "https://funismath.com/N64Wasm-masterMK64/dist/index.html",
-        tags:['simulation','action','sports','racing','strategy','console']
+        tags:['simulation','action','sports','racing','strategy','favorite','console']
     },
     "Super Mario 64": {
         "name": "Super Mario 64",
@@ -632,7 +632,7 @@ const gamersgaming = {
     "SuperPunch Out!!": {
         "name": "Super Punch Out!!",
         "url": "https://funismath.com/games/emu/spo.html",
-        tags:['simulation','action','sports','strategy','console']
+        tags:['simulation','action','sports','strategy','new','console']
     },
     "SuperMario Bros": {
         "name": "Super Mario Bros",
@@ -652,7 +652,7 @@ const gamersgaming = {
     "SuperSmash Bros": {
         "name": "Super Smash Bros",
         "url": "https://funismath.com/games/emu/supersmash.html",
-        tags:['simulation','shooter','action','platformer','console']
+        tags:['simulation','shooter','action','platformer','favorite','new','console']
     },
     "DoubleDragon": {
         "name": "Double Dragon",
@@ -687,7 +687,7 @@ const gamersgaming = {
     "Quake3": {
         "name": "Quake 3",
         "url": "https://funismath.com/Quake3-master/Quake3.htm",
-        tags:['simulation','shooter','action','platformer','difficult','strategy','console']
+        tags:['simulation','shooter','action','platformer','difficult','strategy','favorite','console']
     },
     "Asteroids": {
         "name": "Asteroids",
@@ -702,55 +702,52 @@ const gamersgaming = {
     "Pacman": {
         "name": "Pacman",
         "url": "https://funismath.com/games/Pacman.html",
+        tags:['adventure','racing','action','difficult','strategy','console']
     },
     "Pong": {
         "name": "Pong",
         "url": "https://funismath.com/games/pong.html",
+        tags:['simulation','shooter','sports','action','strategy','console']
     },
     "DuckHunt": {
         "name": "Duck Hunt",
         "url": "https://funismath.com/games/duckhunt.html",
+        tags:['simulation','shooter','action','strategy','console']
     },
     "Tetris": {
         "name": "Tetris",
         "url": "https://funismath.com/games/tetris.html",
+        tags:['puzzle','simulation','strategy','console']
     },
     "SpaceInvaders": {
         "name": "Space Invaders",
         "url": "https://funismath.com/space.html",
+        tags:['shooter','action','strategy','console']
     },
     "Minecraft": {
         "name": "Minecraft",
         "url": "https://funismath.com/eaglercraft-main/eaglercraft-main/stable-download/web/index.html",
+        tags:['adventure','simulation','shooter','action','platformer','strategy','favorite','console']
     },
     "MinecraftBeta": {
         "name": "Minecraft Beta",
         "url": "https://funismath.com/games/minecrap/index.html",
+        tags:['adventure','simulation','platformer','strategy','console']
     },
     "Doom1/2": {
         "name": "Doom 1/2",
         "url": "https://funismath.com/doom/public/index.html",
+        tags:['adventure','puzzle','shooter','action','difficult','strategy','new','favorite','console']
     },
     "Half-Life": {
         "name": "Half-Life",
         "url": "https://funismath.com/halflife/index.html",
+        tags:['adventure','shooter','action','strategy','new','console']
     }
 }
 
-               /*<a href="games/emu/supersmash.html" class="favnew">Super Smash Bros</a>
-               <a href="games/stopgmo.html" class="favnew">Stop GMO</a> 
-               <a href="games/emu/spo.html" class="favnew">Super Punch Out!!</a> 
-               <a href="halflife/index.html" class="favnew">Half-Life</a> 
-               <a href="doom/public/index.html" class="favnew">Doom 1/2</a>
-               <a href="N64Wasm-master/dist/index.html" class="favnew">Zelda Ocarina of Time</a>
-               <a href="N64Wasm-masterMK64/dist/index.html" class="favnew">Mario Kart 64</a>
-               <a href="games/raftwars.html" class="favnew">Raft Wars</a>
-               <a href="games/portal2d.html" class="favnew">Portal 2D</a> 
-               <a href="games/digtochina.html" class="favnew">Dig To China</a>
-               <a href="Quake3-master/Quake3.htm" class="favnew">Quake 3</a>
-               <a href="eaglercraft-main/eaglercraft-main/stable-download/web/index.html" class="favnew">Minecraft</a> 
-               <a href="games/motox3m/index.html" class="favnew">Motox3m</a> 
-               <a href="bwag/index.html" class="favnew">Bagel With a Gun</a>
+               /*
+               tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','console']
                <a href="games/pedro.html" class="favnew">My Friend Pedro</a> 
                <a href="games/bloons.html" class="favnew">Bloons Tower Defense</a>
                <a href="slope.html" class="favnew">Slope</a> 

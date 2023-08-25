@@ -1003,7 +1003,7 @@ border-top-right-radius: 15px;
                      <div class="content"></div>
                   </div>
                `)
-               Object.values(gamersgaming).filter(a=>a.tags?.includes(section)).forEach(game=>{
+               Object.values(gamersgaming).filter(a=>a.tags.includes(section)).forEach(game=>{
                   $(`#${section} > .content`).append(`
                      <a class="gamelink" href="${game.url}">${game.name}</a>
                   `)

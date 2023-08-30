@@ -22,7 +22,7 @@ const gamersgaming = {
     learnToFly: {
         "name": "Learn To Fly",
         "url": "https://funismath.com/games/learntofly.html",
-        tags:['simulation', 'strategy','indie','adventure']
+        tags:['simulation', 'strategy','indie','favorite','adventure']
     },
     "LearnTo Fly 2": {
         "name": "Learn To Fly 2",
@@ -97,7 +97,7 @@ const gamersgaming = {
     "BloonsTower Defense": {
         "name": "Bloons Tower Defense",
         "url": "https://funismath.com/games/bloons.html",
-        tags:['simulation','tower-defense','strategy','indie']
+        tags:['simulation','tower-defense','strategy','favorite','indie']
     },
     "BloonsTower Defense 2": {
         "name": "Bloons Tower Defense 2",
@@ -347,7 +347,7 @@ const gamersgaming = {
     "Slope": {
         "name": "Slope",
         "url": "https://funismath.com/Slope-Game-main/index.html",
-        tags:['racing','platformer','indie']
+        tags:['racing','platformer','favorite','indie']
     },
     "Hexgl": {
         "name": "Hexgl",
@@ -577,7 +577,7 @@ const gamersgaming = {
     "Super Mario 64": {
         "name": "Super Mario 64",
         "url": "https://funismath.com/games/sm64/index.html",
-        tags:['adventure','puzzle','action','platformer','difficult','strategy','console']
+        tags:['adventure','puzzle','action','platformer','difficult','strategy','favorite','console']
     },
     "Super Mario Flash": {
         "name": "Super Mario Flash",
@@ -743,13 +743,14 @@ const gamersgaming = {
         "name": "Half-Life",
         "url": "https://funismath.com/halflife/index.html",
         tags:['adventure','shooter','action','strategy','new','console']
-    }
+    },
+    "Pedro": {
+        "name": "Pedro",
+        "url": "games/pedro.html",
+        tags:['adventure','shooter','action','platformer','strategy','favorite','console']
+    },
 }
 
                /*
                tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','console']
-               <a href="games/pedro.html" class="favnew">My Friend Pedro</a> 
-               <a href="games/bloons.html" class="favnew">Bloons Tower Defense</a>
-               <a href="slope.html" class="favnew">Slope</a> 
-               <a href="games/sm64/index.html" class="favnew">Super Mario 64</a> 
-               <a href="games/learntofly.html" class="favnew">Learn To Fly</a>*/
+               */

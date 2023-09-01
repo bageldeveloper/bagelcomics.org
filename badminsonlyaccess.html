@@ -270,6 +270,9 @@ border-top-right-radius: 15px;
          outline: none;
          font-size: 15px;
          }
+         .collapsible:not(.active) + .content > *{
+            display: none;
+         }
          .games .active, .collapsible:hover {
          background-color: #24242d;
          }
@@ -290,7 +293,7 @@ border-top-right-radius: 15px;
          .content {
          width: 110%;
          font-family: 'Nunito', sans-serif;
-         max-height: 0;
+         /* max-height: 0; */
          overflow: hidden;
          transition: max-height 0.2s ease-out;
          background-color: #1A1C25;
@@ -905,21 +908,7 @@ border-top-right-radius: 15px;
                         // to 'Show Less'
                         buttonText.innerHTML = "Show Less";
                     }
-                }
-                var coll = document.getElementsByClassName("collapsible");
-         var i;
-         
-         for (i = 0; i < coll.length; i++) {
-          coll[i].addEventListener("click", function() {
-            this.classList.toggle("active");
-            var content = this.nextElementSibling;
-            if (content.style.maxHeight){
-              content.style.maxHeight = null;
-            } else {
-              content.style.maxHeight = content.scrollHeight + "px";
-            } 
-          });
-         }
+                };
                 function openCity(evt, cityName) {
                   if(cityName == "Math"){
                      document.body.style.backgroundImage = "url('mathbg.png')";
@@ -1003,15 +992,33 @@ border-top-right-radius: 15px;
                      <div class="content"></div>
                   </div>
                `)
-               Object.values(gamersgaming).filter(a=>a.tags.includes(section)).forEach(game=>{
+               Object.values(gamersgaming).filter(a=>a.tags.map(b=>b.toLowerCase()).includes(section)).forEach(game=>{
                   $(`#${section} > .content`).append(`
                      <a class="gamelink" href="${game.url}">${game.name}</a>
                   `)
                })
             })
-            $('#game-search').on('input', e=>{
+            $('.collapsible').on('click', e=>{
+               $(e.currentTarget).toggleClass("active");
+            })
+            // var coll = document.getElementsByClassName("collapsible");
+            //    var i;
+               
+            //    for (i = 0; i < coll.length; i++) {
+            //    coll[i].addEventListener("click", function() {
+            //       this.classList.toggle("active");
+            //       var content = this.nextElementSibling;
+            //       if (content.style.maxHeight){
+            //       content.style.maxHeight = null;
+            //       } else {
+            //       content.style.maxHeight = content.scrollHeight + "px";
+            //       } 
+            //    });
+            //    }
+            $('#searchbagel').on('input', e=>{
                $('#search-results').html('')
-               const search = $('#game-search').val().toLowerCase()
+               const search = $('#searchbagel').val().toLowerCase()
+               console.log(search)
                if(search.trim()){
                   let results = Object.values(gamersgaming).filter(a=>a.name.toLowerCase().includes(search))
                   results.forEach(game=>{
@@ -1019,13 +1026,13 @@ border-top-right-radius: 15px;
                         <a class="gamelink" href="${game.url}">${game.name}</a>
                      `)
                   })
-                  $('#search-results').append('<hr style="margin:0; border-color:black">')
-                  results = Object.values(gamersgaming).filter(a=>a.tags.some(tag=>tag.toLowerCase().startWith(search)))
-                  results.forEach(game=>{
-                     $('#search-results').append(`
-                        <a class="gamelink" href="${game.url}">${game.name}</a>
-                     `)
-                  })
+                  // $('#search-results').append('<hr style="margin:0; border-color:black">')
+                  // results = Object.values(gamersgaming).filter(a=>a.tags.some(tag=>tag.toLowerCase().startsWith(search)))
+                  // results.forEach(game=>{
+                  //    $('#search-results').append(`
+                  //       <a class="gamelink" href="${game.url}">${game.name}</a>
+                  //    `)
+                  // })
                }
             })
          })

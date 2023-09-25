@@ -749,6 +749,16 @@ const gamersgaming = {
         "url": "games/pedro.html",
         tags:['adventure','shooter','action','platformer','strategy','favorite','console']
     },
+    "Pedro": {
+        "name": "Pedro",
+        "url": "games/pedro.html",
+        tags:['adventure','shooter','action','platformer','strategy','favorite','console']
+    },
+    "StarWarsEpisodeOneRacer": {
+        "name": "Star Wars Episode One: Racer",
+        "url": "games/emu/episodeoneracer.html",
+        tags:['simulation','racing','action','difficult','strategy','favorite','console']
+    },
 }
 
                /*

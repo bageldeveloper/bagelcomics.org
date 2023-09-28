@@ -220,7 +220,7 @@ const gamersgaming = {
         tags:['adventure','strategy','indie']
     },
     "StickManRPG": {
-        "name": "StickMan RPG",
+        "name": "Stick RPG",
         "url": "games/stickrpg.html",
         tags:['adventure','simulation','strategy','indie']
     },

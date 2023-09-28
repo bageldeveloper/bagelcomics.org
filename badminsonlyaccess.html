@@ -10,6 +10,7 @@
      crossorigin="anonymous"></script>
       <title>Bagels!</title>
       <link rel="icon" type="image/x-icon" href="bagelcomicsicon.png">
+      <meta name="color-scheme" content="only light">
       <meta name=”Description” content=”Bagelcomics.com is a pretty cool website with stuff on it. Play some dope games, chat with other people from around the world, explore the site to find the hidden secrets, and check out the dumb projects Ive made.”>
       <style>
          * {box-sizing: border-box}
@@ -1080,7 +1081,7 @@
                   let results = Object.values(gamersgaming).filter(a=>a.name.toLowerCase().includes(search))
                   results.forEach(game=>{
                      $('#search-results').append(`
-                        <a class="gamelink" href="${game.url}">${game.name}</a>
+                        <a class="randrange" href="${game.url}">${game.name}</a>
                      `)
                   })
                   // $('#search-results').append('<hr style="margin:0; border-color:black">')

@@ -752,15 +752,40 @@ const gamersgaming = {
     "Pedro": {
         "name": "Pedro",
         "url": "games/pedro.html",
-        tags:['adventure','shooter','action','platformer','strategy','favorite','console']
+        tags:['adventure','shooter','action','platformer','strategy','favorite','indie','console']
     },
     "StarWarsEpisodeOneRacer": {
         "name": "Star Wars Episode One: Racer",
         "url": "games/emu/episodeoneracer.html",
         tags:['simulation','racing','action','difficult','strategy','favorite','console']
     },
+    "RedBall": {
+        "name": "Red Ball",
+        "url": "games/redball.html",
+        tags:['adventure','puzzle','platformer','strategy','indie']
+    },
+    "RedBall2": {
+        "name": "Red Ball 2",
+        "url": "games/redball2.html",
+        tags:['adventure','puzzle','platformer','strategy','indie']
+    },
+    "RedBall4": {
+        "name": "Red Ball 4",
+        "url": "games/redball4.html",
+        tags:['adventure','puzzle','platformer','strategy','indie']
+    },
+    "RedBall4v2": {
+        "name": "Red Ball 4v2",
+        "url": "games/redball4v2.html",
+        tags:['adventure','puzzle','platformer','action','strategy','indie']
+    },
+    "RedBall4v3": {
+        "name": "Red Ball 4v3",
+        "url": "games/redball4v3.html",
+        tags:['adventure','puzzle','platformer','action','strategy','indie']
+    },
 }
 
                /*
-               tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','console']
+               tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
                */

@@ -775,12 +775,12 @@ const gamersgaming = {
         tags:['adventure','puzzle','platformer','strategy','indie']
     },
     "RedBall4v2": {
-        "name": "Red Ball 4v2",
+        "name": "Red Ball 4 Volume. 2",
         "url": "games/redball4v2.html",
         tags:['adventure','puzzle','platformer','action','strategy','indie']
     },
     "RedBall4v3": {
-        "name": "Red Ball 4v3",
+        "name": "Red Ball 4 Volume. 3",
         "url": "games/redball4v3.html",
         tags:['adventure','puzzle','platformer','action','strategy','indie']
     },

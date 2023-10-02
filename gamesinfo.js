@@ -794,6 +794,11 @@ const gamersgaming = {
         "url": "games/html/bagelwithlegs.html",
         tags:['action','adventure','platformer','simulation','strategy','indie']
     },
+    "Tetris": {
+        "name": "Tetris Flash Version",
+        "url": "games/html/flashtetris.html",
+        tags:['puzzle','simulation','strategy','console']
+    },
 }
 
                /*

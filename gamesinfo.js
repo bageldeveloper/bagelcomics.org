@@ -241,12 +241,12 @@ const gamersgaming = {
         },
     "EscapingThe Prison": {
         "name": "Escaping The Prison",
-        "url": "games/html/henrystickminprison.html",
+        "url": "games/html/stickminprison.html",
         tags:['action','puzzle','adventure','simulation','strategy','henrystickmin']
     },
     "StealingThe Diamond": {
         "name": "Stealing The Diamond",
-        "url": "games/html/henrystickminstealing.html",
+        "url": "games/html/stickminstealing.html",
         tags:['action','puzzle','adventure','simulation','strategy','henrystickmin']
     },
     "Abobo'sBig Adventure": {
@@ -791,23 +791,43 @@ const gamersgaming = {
     },
     "CrossingThePit": {
         "name": "Crossing the Pit",
-        "url": "games/html/henrystickminpit.html",
+        "url": "games/html/henrypit.html",
         tags:['action','puzzle','adventure','simulation','henrystickmin','strategy']
     },
     "infiltratingTheAirship": {
         "name": "Infiltrating the Airship",
-        "url": "games/html/henrystickminairship.html",
+        "url": "games/html/henryairship.html",
         tags:['action','puzzle','adventure','simulation','henrystickmin','strategy']
     },
     "Breaking the Bank": {
         "name": "Breaking the Bank",
-        "url": "games/html/henrystickminbank.html",
+        "url": "games/html/henrybank.html",
         tags:['action','puzzle','adventure','simulation','henrystickmin','strategy']
     },
     "FleeingTheComplex": {
         "name": "Fleeing the Complex",
-        "url": "games/html/henrystickmincomplex.html",
+        "url": "games/html/henrycomplex.html",
         tags:['action','puzzle','adventure','simulation','henrystickmin','strategy']
+    },
+    "FireboyAndWatergirl1": {
+        "name": "Fireboy and Watergirl 1 - The Forest Temple",
+        "url": "games/html/fireandwater1.html",
+        tags:['adventure','puzzle','action','platformer','strategy','indie',]
+    },
+    "FireboyAndWatergirl2": {
+        "name": "Fireboy and Watergirl 2 - The Light Temple",
+        "url": "games/html/fireandwater2.html",
+        tags:['adventure','puzzle','action','platformer','strategy','indie',]
+    },
+    "FireboyAndWatergirl3": {
+        "name": "Fireboy and Watergirl 3 - The Ice Temple",
+        "url": "games/html/fireandwater3.html",
+        tags:['adventure','puzzle','action','platformer','strategy','indie',]
+    },
+    "FireboyAndWatergirl4": {
+        "name": "Fireboy and Watergirl 4 - The Crystal Temple",
+        "url": "games/html/fireandwater4.html",
+        tags:['adventure','puzzle','action','platformer','strategy','indie',]
     },
 }
 

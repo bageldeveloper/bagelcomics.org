@@ -241,13 +241,13 @@ const gamersgaming = {
         },
     "EscapingThe Prison": {
         "name": "Escaping The Prison",
-        "url": "games/html/bank.html",
-        tags:['action','puzzle','adventure','simulation','strategy']
+        "url": "games/html/henrystickminprison.html",
+        tags:['action','puzzle','adventure','simulation','strategy','henrystickmin']
     },
     "StealingThe Diamond": {
         "name": "Stealing The Diamond",
-        "url": "games/html/stealing.html",
-        tags:['action','puzzle','adventure','simulation','strategy']
+        "url": "games/html/henrystickminstealing.html",
+        tags:['action','puzzle','adventure','simulation','strategy','henrystickmin']
     },
     "Abobo'sBig Adventure": {
         "name": "Abobo's Big Adventure",
@@ -784,20 +784,30 @@ const gamersgaming = {
         "url": "games/html/redball4v3.html",
         tags:['adventure','puzzle','platformer','action','strategy','indie']
     },
-    "Run3": {
-        "name": "Run 3",
-        "url": "games/html/run3.html",
-        tags:['action','adventure','platformer','simulation','strategy','indie']
-    },
     "Bagelwithlegs": {
         "name": "Bagel With Legs",
         "url": "games/html/bagelwithlegs.html",
         tags:['action','adventure','platformer','simulation','strategy','indie']
     },
-    "FlashTetris": {
-        "name": "Tetris Flash Version",
-        "url": "games/html/flashtetris.html",
-        tags:['puzzle','simulation','strategy','console']
+    "CrossingThePit": {
+        "name": "Crossing the Pit",
+        "url": "games/html/henrystickminpit.html",
+        tags:['action','puzzle','adventure','simulation','henrystickmin','strategy']
+    },
+    "infiltratingTheAirship": {
+        "name": "Infiltrating the Airship",
+        "url": "games/html/henrystickminairship.html",
+        tags:['action','puzzle','adventure','simulation','henrystickmin','strategy']
+    },
+    "Breaking the Bank": {
+        "name": "Breaking the Bank",
+        "url": "games/html/henrystickminbank.html",
+        tags:['action','puzzle','adventure','simulation','henrystickmin','strategy']
+    },
+    "FleeingTheComplex": {
+        "name": "Fleeing the Complex",
+        "url": "games/html/henrystickmincomplex.html",
+        tags:['action','puzzle','adventure','simulation','henrystickmin','strategy']
     },
 }
 

@@ -1118,7 +1118,7 @@
  var da= [];var directions = [4, -4];function drop() { this.x = canvas.width * Math.random();this.y = canvas.height * Math.random();
    this.r = 2 + 2 * Math.random();  this.vx = 0.5;this.vy = 0.5;
    this.direction = Math.random() *20; this.draw = () => { ctx.beginPath();
-     ctx.fillStyle = '#727272';   ctx.shadowColor = '#ffffff30';  ctx.arc(this.x + this.vx, this.y + this.vy, this.r+3, 0, 6.3, true);
+     ctx.fillStyle = '#b03c12';   ctx.shadowColor = '#ffffff30';  ctx.arc(this.x + this.vx, this.y + this.vy, this.r+3, 0, 6.3, true);
      this.vx = this.vx + this.direction * 0.05;  this.vy = this.vy + 0.5;   if (this.y + this.vy > canvas.height) {   this.y = 0;   this.vy = 0; }
      if (this.x + this.vx > canvas.width) {    this.x = 0;    this.vx = 0;  }
      if (this.x + this.vx < 0) {    this.x = 0;   this.vx = canvas.width;  }

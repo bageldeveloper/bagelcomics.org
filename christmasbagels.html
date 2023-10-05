@@ -12,11 +12,11 @@
       <style>
          * {box-sizing: border-box}
          body {
-            background: url(bagelcomicsbgwinter.png) no-repeat center center fixed; 
+             background: url(bagelcomicsbgwinter.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover; 
          padding-top: 50px;
          background-color: #1A1C25;
            /* background-color: #eb34b7; */
@@ -25,6 +25,9 @@
          }
          /* Style the tab */
          .header {
+            background: linear-gradient(#07070A, #07070A) padding-box,
+         linear-gradient(to right, #fccb82, #cc7d06) border-box;
+  		   border-bottom: 4px solid transparent;
          background-color:#07070A;
          z-index: 1000;
          width: 100%;
@@ -35,6 +38,7 @@
          }
          .header .logo{
          margin: 10px;
+         margin: 6px;
          }
          .header .tab{
          width: 60%;
@@ -62,6 +66,15 @@
          }
          /* Create an active/current "tab button" class */
          .tab button.active {
+            margin-top: 0px;
+            height: 108%;
+            padding-bottom: 12px;
+            background: linear-gradient(#07070A, #07070A) padding-box,
+         linear-gradient(to right, #f1b04d, #f09204) border-box;
+         border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+  		   border: 4px solid transparent;
+           border-bottom: none;
          background-color: #1A1C25;
          }
          /* Style the tab content */
@@ -79,10 +92,13 @@
          color: #EDF2F4;
          }
          .announcement {
+  		   background: linear-gradient(#07070A, #07070A) padding-box,
+         linear-gradient(to right, #FFCF87, #F29A17) border-box;
+  	     border: 4px solid transparent;
          border-radius: 15px;
          width: 80%;
          padding: 20px;
-         background-color: #07070A;;
+         background-color: #07070A;
          margin-top: 20px;
          margin-bottom: 20px
          }
@@ -299,6 +315,13 @@
          <h1><a style="text-decoration: none; color: inherit;" href="MathCult.html">Home</a><h1>
          <h2>Welcome to bagelcomics.com! Play some dope games, chat with other people from around the world, explore the site to find the hidden secrets, and check out the dumb projects I've made. :&#41;</h2>
          <h1>Announcements:</h1>
+         <div class="announcement">
+            <h1 class="anountext">May 22nd, 2023</h1>
+            <h1 class="anountext">Added a Sexy new gradient border. Tell me if you like it ;P
+               <br><br>
+               -Dirty Dan
+               </h1>
+               </div>
          <div class="announcement">
             <h1 class="anountext">May 18th, 2023</h1>
             <h1 class="anountext">Added Super Smash Bros. for Sophie Clark, added Super Punch Out!! for Cache, and added a game called Stop GMO? The guy who wanted it said its about a murder rampaging pink bunny, soooooooooo play it if you really want i guess :/  Also got rid of all SNES, N64, NES, NDS, and SEGA GENESIS games out of the new games section excluding the games I added today. It truly is too much and its overflowing that section. If youd like to play any of those games, they will all be in th Nintendo Games Section.
@@ -709,17 +732,10 @@
          <div class="games">
             <button class="collapsible">New Games</button>
             <div class="content">
-               <a href="halflife/games/emu/supersmash.html" class="gamelink">Super Smash Bros</a> 
                <a href="games/emu/supersmash.html" class="gamelink">Super Smash Bros</a> 
-
-               <a href="halflife/games/stopgmo.html" class="gamelink">Stop GMO</a> 
                <a href="games/stopgmo.html" class="gamelink">Stop GMO</a> 
-
-               <a href="halflife/games/emu/spo.html" class="gamelink">Super Punch Out!!</a> 
                <a href="games/emu/spo.html" class="gamelink">Super Punch Out!!</a> 
-
                <a href="halflife/index.html" class="gamelink">Half-Life</a> 
-
                <a href="doom/public/index.html" class="gamelink">Doom 1/2</a> 
             </div>
             <button class="collapsible">Favorite Games</button>
@@ -1064,8 +1080,7 @@
           alert("Click on 'Home' on the home page to fulfill your destiny/n");
          }
          
-      </script>
-      
+      </script>    
   <script> window.console = window.console || function(t) {};</script><script>
    if (document.location.search.match(/type=embed/gi)) {  window.parent.postMessage("resize", "*"); }</script></head><body translate="no">
    <canvas id="canvas" width="100%" height="100%" class="snow"></canvas><script id="rendered-js">

@@ -832,12 +832,12 @@ const gamersgaming = {
     "MegaMan X2": {
         "name": "Mega Man X2",
         "url": "games/emu/megamanx2.html",
-        tags:['adventure','shooter','action','platformer','difficult','strategy','console']
+        tags:['adventure','shooter','action','platformer','strategy','console']
     },
     "MegaMan X3": {
         "name": "Mega Man X3",
         "url": "games/emu/megamanx3.html",
-        tags:['adventure','shooter','action','platformer','difficult','strategy','console']
+        tags:['adventure','shooter','action','platformer','strategy','console']
     },
 }
 

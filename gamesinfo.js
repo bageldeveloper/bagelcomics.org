@@ -249,8 +249,8 @@ const gamersgaming = {
         "url": "games/html/stickminstealing.html",
         tags:['action','puzzle','adventure','simulation','strategy','henrystickmin']
     },
-    "Abobo'sBig Adventure": {
-        "name": "Abobo's Big Adventure",
+    "Abobbo'sBig Adventure": {
+        "name": "Abobbo's Big Adventure",
         "url": "games/html/bigadventure.html",
         tags:['action','adventure',]
     },
@@ -355,7 +355,7 @@ const gamersgaming = {
         tags:['racing','indie']
     },
     "Cube": {
-        "name": "Cube",
+        "name": "Cube Field",
         "url": "games/html/cube.html",
         tags:['adventure','platformer','indie']
     },
@@ -691,7 +691,7 @@ const gamersgaming = {
     },
     "Asteroids": {
         "name": "Asteroids",
-        "url": "asteroids.html",
+        "url": "/games/html/assroid.html",
         tags:['simulation','shooter','action','strategy','console']
     },
     "Sonic": {

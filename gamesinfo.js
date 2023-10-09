@@ -839,11 +839,48 @@ const gamersgaming = {
         "url": "games/emu/megamanx3.html",
         tags:['adventure','shooter','action','platformer','strategy','console']
     },
-    /*"StickRPG": {
+    "Escapetheroom": {
+        "name": "Escape the Room",
+        "url": "games/html/escapetheroom.html",
+        tags:['adventure','simulation','puzzle','strategy','indie']
+    },
+    "Escapethecloset": {
+        "name": "Escape the Closet",
+        "url": "games/html/escapethecloset.html",
+        tags:['adventure','simulation','puzzle','strategy','indie']
+    },
+    "Escapetheclassroom": {
+        "name": "Escape the Classroom",
+        "url": "games/html/escapetheclassroom.html",
+        tags:['adventure','simulation','puzzle','strategy','indie']
+    },
+    "Escapethebathroom": {
+        "name": "Escape the Bathroom",
+        "url": "games/html/escapethebathroom.html",
+        tags:['adventure','simulation','puzzle','strategy','indie']
+    },
+    "Escapetheladiesroom": {
+        "name": "Escape the Ladies Room",
+        "url": "games/html/escapetheladies.html",
+        tags:['adventure','simulation','puzzle','strategy','indie']
+    },
+    "Thewaitress": {
+        "name": "The Waitress",
+        "url": "games/html/thewaitress.html",
+        tags:['simulation','action','strategy','indie']
+    },
+    /*
+    "AngryBirds": {
+        "name": "Angry Birds",
+        "url": "games/html/angrybirds.html",
+        tags:['adventure','puzzle','shooter','action','difficult','strategy','console']
+    },
+    "StickRPG": {
         "name": "Stick RPG",
         "url": "games/html/stickrpg.html",
         tags:['adventure','puzzle','simulation','action','strategy','indie']
-    },*/
+    },
+    */
 }
 
                /*

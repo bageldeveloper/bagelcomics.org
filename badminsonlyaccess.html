@@ -16,7 +16,7 @@
       <style>
          * {box-sizing: border-box}
          .bodycss {
-            background: url(spookybackground.png) no-repeat center center fixed; 
+            background: url(bagelcomicsbgwitches.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -963,6 +963,13 @@
    </div>
 </div>
       <script>
+
+function random() {
+         const list = document.getElementsByClassName('gamelink');
+         var item = list[Math.floor(Math.random()*list.length)];
+         item.click();
+}
+
 /* a Pen by Diaco m.lotfollahi  : https://diacodesign.com */
 var falling = true;
 

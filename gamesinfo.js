@@ -839,11 +839,11 @@ const gamersgaming = {
         "url": "games/emu/megamanx3.html",
         tags:['adventure','shooter','action','platformer','strategy','console']
     },
-    "StickRPG": {
+    /*"StickRPG": {
         "name": "Stick RPG",
         "url": "games/html/stickrpg.html",
         tags:['adventure','puzzle','simulation','action','strategy','indie']
-    },
+    },*/
 }
 
                /*

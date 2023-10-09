@@ -219,9 +219,9 @@ const gamersgaming = {
         "url": "games/html/fancypants.html",
         tags:['adventure','strategy','indie']
     },
-    "StickManRPG": {
-        "name": "Stick RPG",
-        "url": "games/html/stickrpg.html",
+    "StickRPGbeta": {
+        "name": "Stick RPG Beta",
+        "url": "games/html/stickrpgbeta.html",
         tags:['adventure','simulation','strategy','indie']
     },
     "Hobo": {
@@ -241,12 +241,12 @@ const gamersgaming = {
         },
     "EscapingThe Prison": {
         "name": "Escaping The Prison",
-        "url": "games/html/stickminprison.html",
+        "url": "games/html/henryprison.html",
         tags:['action','puzzle','adventure','simulation','strategy','henrystickmin']
     },
     "StealingThe Diamond": {
         "name": "Stealing The Diamond",
-        "url": "games/html/stickminstealing.html",
+        "url": "games/html/henrystealing.html",
         tags:['action','puzzle','adventure','simulation','strategy','henrystickmin']
     },
     "Abobbo'sBig Adventure": {
@@ -838,6 +838,11 @@ const gamersgaming = {
         "name": "Mega Man X3",
         "url": "games/emu/megamanx3.html",
         tags:['adventure','shooter','action','platformer','strategy','console']
+    },
+    "StickRPG": {
+        "name": "Stick RPG",
+        "url": "games/html/stickrpg.html",
+        tags:['adventure','puzzle','simulation','action','strategy','indie']
     },
 }
 

@@ -2,7 +2,6 @@
    <head>
       <script type='text/javascript' src='https://cdn.scaledrone.com/scaledrone.min.js'></script>
       <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="stylesheet" type="text/css" href="nothing">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <script src="./gamesinfo.js"></script>
       <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
@@ -11,12 +10,11 @@
      crossorigin="anonymous"></script>
       <title>Bagels!</title>
       <link rel="icon" type="image/x-icon" href="bagelcomicsicon.png">
-      <meta name="color-scheme" content="only light">
       <meta name=”Description” content=”Bagelcomics.com is a pretty cool website with stuff on it. Play some dope games, chat with other people from around the world, explore the site to find the hidden secrets, and check out the dumb projects Ive made.”>
       <style>
          * {box-sizing: border-box}
-         .bodycss {
-            background: url(bagelcomicsbghalloweenfull.png) no-repeat center center fixed; 
+         body {
+            background: none no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -30,7 +28,7 @@
          /* Style the tab */
          .header {
             background: linear-gradient(#07070A, #07070A) padding-box,
-         linear-gradient(to right, #f7c16f, #cc7d06) border-box;
+         linear-gradient(to right, #fccb82, #cc7d06) border-box;
   		   border-bottom: 4px solid transparent;
          background-color:#07070A;
          z-index: 1000;
@@ -39,9 +37,6 @@
          position: fixed;
          top: 0;
          left: 0;
-         }
-         :root {
-            color-scheme: only light;
          }
          .header .logo{
          margin: 6px;
@@ -66,17 +61,6 @@
          width: 20%;
          height: 100%;
          }
-         #searchbagel{
-            color: ivory;
-            background: linear-gradient(#07070A, #07070A) padding-box,linear-gradient(to right, #f7c16f, #cc7d06) border-box;
-            border: 4px solid transparent;
-            border-radius: 45px;
-            height: 10%;
-            width: 100%;
-            padding: 32px 32px;
-            font-size: 200%;
-            margin-bottom: 50px;
-         }
          /* Change background color of buttons on hover */
          .tab button:hover {
          background-color:#8D99AE;
@@ -89,9 +73,9 @@
             background: linear-gradient(#161618,#1A1C25) padding-box,
          linear-gradient(to right, #f1b04d, #f09204) border-box;
          border-top-left-radius: 15px;
-         border-top-right-radius: 15px;
+border-top-right-radius: 15px;
   		   border: 4px solid transparent;
-         border-bottom: none;
+           border-bottom: none;
          background-color: #1A1C25;
          }
          /* Style the tab content */
@@ -110,7 +94,7 @@
          }
          .announcement {
   		   background: linear-gradient(#07070A, #07070A) padding-box,
-         linear-gradient(to right, #f7c16f, #cc7d06) border-box;
+         linear-gradient(to right, #fccb82, #cc7d06) border-box;
   		   border: 4px solid transparent;
          border-radius: 15px;
          width: 80%;
@@ -250,7 +234,9 @@
          background-color:#3b3b42;
          }
          .gamelink{
-         background: linear-gradient(#1A1C25, #1A1C25) padding-box;
+         background: linear-gradient(#1A1C25, #1A1C25) padding-box,
+         linear-gradient(to right, rgb(123, 9, 172), rgb(255, 88, 249)) border-box;
+  		   border: 4px solid transparent;
          width: 90.9%;
          color: #EDF2F4;
          padding: 32px 32px;
@@ -259,26 +245,10 @@
          cursor: pointer;
          overflow-x: none;
          }
-         .randrange{
-         border-radius: 15px;
-         background: linear-gradient(#07070A, #07070A) padding-box,
-         linear-gradient(to right, #f7c16f, #cc7d06) border-box;
-         color:  #EDF2F4;
-         border: 4px solid transparent;
-         width: 100%;
-         padding: 32px 32px;
-         text-align: center;
-         text-decoration: none;
-         display: block;
-         margin-bottom: 30px;
-         cursor: pointer;
-         }
          .gotd{
-         border-radius: 15px;
-         background: linear-gradient(#07070A, #07070A) padding-box,
-         linear-gradient(to right, #f7c16f, #cc7d06) border-box;
+         background-color:#07070A;
          color:  #EDF2F4;
-         border: 4px solid transparent;
+         border: none;
          width: 100%;
          padding: 32px 32px;
          text-align: center;
@@ -289,7 +259,7 @@
          }
          .collapsible {
          background: linear-gradient(#07070A, #07070A) padding-box,
-         linear-gradient(to right, #f7c16f, #cc7d06) border-box;
+         linear-gradient(to right, maroon, gold) border-box;
   		   border: 4px solid transparent;
          font-family: 'Nunito', sans-serif;
          color:  #EDF2F4;
@@ -315,7 +285,7 @@
          }
          .pedro {
   		   font-size: 70px;
-  		   background: linear-gradient(to top, #f7c16f, #cc7d06);
+  		   background: linear-gradient(to top, #fccb82, #cc7d06);
   		   -webkit-text-fill-color: transparent;
   		   -webkit-background-clip: text;
          background-clip: text;
@@ -346,14 +316,52 @@
             z-index: -1;
          }
          .everything{
-            /*weather snow*/
+            
             z-index: 1;
          }
-
+         .dot{
+  width:35px;
+  height:35px;
+  position:absolute;
+  background: url(http://www.clipartqueen.com/image-files/red-lobed-fall-clipart-leaf.png);
+  background-size: 100% 100%;
+}
+html, body, #everything {width:100%; height:100%; }
+#logo{ left:50%; top:50%; position:absolute; border-radius:10px; }
       </style>
    </head>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-G4303T88PB"></script>
 <script>
+   /* a Pen by Diaco m.lotfollahi  : https://diacodesign.com */
+var falling = true;
+
+TweenLite.set("#container",{perspective:600})
+TweenLite.set("img",{xPercent:"-50%",yPercent:"-50%"})
+
+var total = 30;
+var container = document.getElementById("container"),	w = window.innerWidth , h = window.innerHeight;
+ 
+ for (i=0; i<total; i++){ 
+   var Div = document.createElement('div');
+   TweenLite.set(Div,{attr:{class:'dot'},x:R(0,w),y:R(-200,-150),z:R(-200,200)});
+   container.appendChild(Div);
+   animm(Div);
+ }
+ 
+ function animm(elm){   
+   TweenMax.to(elm,R(6,15),{y:h+100,ease:Linear.easeNone,repeat:-1,delay:-15});
+   TweenMax.to(elm,R(4,8),{x:'+=100',rotationZ:R(0,180),repeat:-1,yoyo:true,ease:Sine.easeInOut});
+   TweenMax.to(elm,R(2,8),{rotationX:R(0,360),rotationY:R(0,360),repeat:-1,yoyo:true,ease:Sine.easeInOut,delay:-5});
+ };
+
+function R(min,max) {return min+Math.random()*(max-min)};
+
+
+
+
+
+
+/* a Pen by Diaco m.lotfollahi  : https://diacodesign.com */
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
@@ -361,7 +369,7 @@
   gtag('config', 'G-G4303T88PB');
 </script>
 
-   <body class="bodycss">
+   <body>
       <div class = "everthing">
       <div class="header">
          <a href="#" class="logo" onclick="openCity(event, 'Home')" >
@@ -371,76 +379,16 @@
             <button class="tablinks" onclick="openCity(event, 'Home')" id="defaultOpen">Home</button>
             <button class="tablinks" onclick="openCity(event, 'Chat')" id="chat">Chat</button>
             <button class="tablinks" onclick="openCity(event, 'Games')">Games</button>
-            <button class="tablinks" onclick="openCity(event, 'Projects')">Projects</button>
+            <button class="tablinks" onclick="openCity(event, 'Math')">Math</button>
 
             <button class="tablinks" onclick="openCity(event, 'About')">About</button>
          </div>
       </div> 
    
       <div id="Home" class="tabcontent">
-         <h1 class="pedro">Home<h1>
+         <h1 class="pedro"><a style="text-decoration: none; color: inherit;" href="MathCult.html">Home</a><h1>
          <h2>Welcome to bagelcomics.com! Play some dope games, chat with other people from around the world, explore the site to find the hidden secrets, and check out the dumb projects I've made. :&#41;</h2>
          <h1>Announcements:</h1>
-         <div class="announcement">
-            <h1 class="anountext">October 8th, 2023</h1>
-            <h1 class="anountext">Yo. Tom started this tradition back in March, and we kinda quit after like 4 weeks. It's all good, but we are starting it up again. Welcome back our old friend, New Game Wednesdays! We call it NGW. If you don't know what it is, you are an imbicile and I hate you but it's fine because you're about to learn it. NGW is where we add new games every wednesday, usually around 5 games, but could be a little more or less. This time it's on a monday, but that's only for this week. New games added are the waitress and Escape Series, which include escape the room, escape the classroom, escape the bathroom, escape the closet, and escape the ladies room. Next week is gonna be even better!<br><br>
-               -Dirty Dan
-               </h1>
-               </div>
-         <div class="announcement">
-            <h1 class="anountext">October 4th, 2023</h1>
-            <h1 class="anountext">You like the spooky theme? Muhaha. Also added Mega Man X2 and X3. Happy Halloween!<br><br>
-               -Dirty Dan
-               </h1>
-               </div>
-         <div class="announcement">
-            <h1 class="anountext">October 3rd, 2023</h1>
-            <h1 class="anountext">Yo ok eveything should be fixed however if not I am deeply sorry please just email me at funismathhelp@gmail.com so we can fix it. We added every Fireboy and Watergirl game (except for the last 2 because I couldn't find those files) and HenrySitckmin game that is on flash! The only Henry game that was not was completing the mission which is exclusive to the henry stickmin collection which is only on steam. Gotta get the steam emulator bois.<br><br>
-               -Dirty Dan
-               </h1>
-               </div>
-         <div class="announcement">
-            <h1 class="anountext">October 2nd, 2023</h1>
-            <h1 class="anountext">Sorry for the inconvenience guys. I know the games are broken rn, but they'll all be fixed by tommorow. Still a competition going on by the way. However I changed a few things. go check it out<br><br>
-               -Dirty Dan
-               </h1>
-               </div>
-         <div class="announcement">
-            <h1 class="anountext">September 27th, 2023</h1>
-            <h1 class="anountext">Yo. Theres still a competition below so make sure to check that out. Just wanted to say I added every Red Ball game I could find. Red Ball 3 was missing so sorry bout that. Also a few of them are not working. hopefully if we update ruffle everthing will be fine but until then those games don't work. sorry.<br><br>
-               -Dirty Dan
-               </h1>
-               </div>
-         <div class="announcement">
-            <h1 class="anountext">September 25th, 2023</h1>
-            <h1 class="anountext">I'm sure Tom will come back eventually :P Anyways added Star Wars Episode 1 Racer. it's been in the files for like a year now but I hid it from everyone so i'm glad to add it in the files. We also are excited to announce a torunament for the ages. Winner Gets a surprise mytery gift which will also come with another announcment, but trust me, it'll be cool. Here are the games listed:<br><br>Miami Shark - 1.8 mil - No time Limit
-               <br>Stick RPG - Get 100,000 dollars - 15 minutes
-               <br>Papas Donuteria - Rank 5 - 30 minutes
-               <br>MotoX3M - complete all levels in order any stars - 20 minutes
-               <br>Run 2 - Just complete the Game - No time limit
-               <br>Mario Kart 64 - All cups - 30 minutes
-               <br>Vex 3 - Trophies 98% - 45 minutes
-               <br>Episode One Racer - All Tracks 1st place - 1 hour
-               <br><br>First Person to do any one of these and send it to funismathhelp@gmail.com gets the prize. Make sure I can clearly see it was you and that its in video form.
-               <br><br>
-               -Dirty Dan
-               </h1>
-               </div>
-               <span id="points"></span>
-               <span id="moreText">
-	<div class="announcement">
-            <h1 class="anountext">September 25th, 2023</h1>
-            <h1 class="anountext">Unfortunately, Tom doesn't want to work on this anymore so it's just me and Daniel<br><br>
-               -Carter
-               </h1>
-               </div>
-		     <div class="announcement">
-            <h1 class="anountext">September 21st, 2023</h1>
-            <h1 class="anountext">WE ARE SO BACK BABY WOOOOOOOOOOOO
-               <br><br>
-               -Tom
-               </h1>
-               </div>
          <div class="announcement">
             <h1 class="anountext">June 19th, 2023</h1>
             <h1 class="anountext">Games section was a little unorganized. I made it so it fit the vibe better. more organizing yay
@@ -469,6 +417,8 @@
                -Dirty Dan
                </h1>
                </div>
+               <span id="points"></span>
+               <span id="moreText">
          <div class="announcement">
             <h1 class="anountext">May 18th, 2023</h1>
             <h1 class="anountext"><img src="cutiepie.jpeg">
@@ -585,7 +535,7 @@
          
          <div class="announcement">
             <h1 class="anountext">March 21st, 2023</h1>
-            <h1 class="anountext">New game wednesday! New games are: Papas Pancakeria, Papas Hotdogeria, Papas, Bugeria (all just for you Daniel :) , Plants vs Zombies, Plants vs Zombies 2, and Line Rider.
+            <h1 class="anountext">New game wednesday! New games are: Papas Pancakeria, Papas Hotdogeria, Papas, Bugeria (all just for you Daniel :) ), Plants vs Zombies, Plants vs Zombies 2, and Line Rider.
          </div>
             <div class="announcement">
             <h1 class="anountext">March 20th, 2023</h1>
@@ -858,11 +808,12 @@
     </div>
       <div id="Games" class="tabcontent">
          <h1 class="pedro">Games</h1>
-         <h5>Want a game on here? I'm sure we can find it! we use mainly Flash, n64, snes/nes, and the Sega Genesis. If you don't know, just tell me the name. Just contact funismathhelp@gmail.com with possible files, website links, or just straight up the name. I'm sure I can find it.</a></h2>
+         <h2>Do you have a game you want to see on here? Email funismathhelp@gmail.com the name, description, and possible files/link for your game, and I'll add it! You can also just fill out this form i made <a href="https://forms.gle/kLmvqFA6qrF9bXkp6">here or send me the name and we'll try to put it on bagelcomics</a></h2>
+         <h1>Some games may not work because the emulator im using, ruffle, doesnt have full support for flash games yet. because of this, some games dont work. sorry.</h1>
          <p>DISCLAIMER: bagelcomics.com is not responsible for any trouble you may get in while playing these games during class.</p>
-         <p>DISCLAIMER: Some games might not work. if you want me to fix them, just contact me. I might not be able to fix it, but i can still try.</p>
+         <p>concept.html</p>
          
-         <button onclick="random()" class="randrange" >Random Game</button> 
+         <button onclick="random()" class="gotd" >Random Game</button> 
 
          <h2 class="gotdtext">Game of the Year</h2>
          <a href="bwag/index.html" class="gotd">Bagel With a Gun</a>
@@ -871,7 +822,7 @@
          <h2 class="gotdtext">Game of the Week</h2>
          <a href="games/emu/tcs.html" class="gotd">Lego Star Wars TCS</a>
          <div>
-            <input type="text" placeholder="search..." id="searchbagel">
+            <input type="text" id="searchbagel">
             <div id="search-results"></div>
          </div>
          <div class="games">
@@ -913,9 +864,10 @@
          <h2>Searching algorithm to find out <a href="search.html">who asked</a></h2>
         <!--allhailthemathcult -->
          <h2>Cool Channels:</h2>
-         <a href="https://www.youtube.com/@bageldev">Bagel Dev</a>
+         <a href="https://www.youtube.com/channel/UCVsIuX-_vHvdMG7ffTlDQLA">Weird Wontons</a>
          <a href="https://www.youtube.com/channel/UCSd4Iwf2p6o1OpdkepfC94w">JackOfAllTrades</a>
          <a href="https://www.youtube.com/channel/UCd5dx06pn0tdGwqn3ZVuNZQ">Magnus</a>
+         <a href="https://www.youtube.com/channel/UCRE0hq5gT69syu2ybmpuYWA">Apollo and Friends</a>
          <p class="bageltext">Check in often for new stuff!</p>
       </div>
       <div id="Math" class="tabcontent">
@@ -924,14 +876,14 @@
       <div id="About" class="tabcontent">
          <h1 class="pedro">About</h1>
          <h2>Yo ok this website has been a project of mine for a couple <a style="text-decoration: none; color: inherit;" href="oldindex.html">years </a>now. It's not the best website out there, but I have learned a ton from making it. Thanks for checking it out :)</h2>
-         <h2>This was made by a person named Tom, but he didn't want to work on it anymore so this website is made entirely by Dirty Dan with the help of Carter</h2>
+         <h2>This was made by a person named Tom with the help of carter and dirty dan</h2>
          <h1>Dead Games</h1>
          <h2>R.I.P. Bagel Royal. "the chance of you getting a bikini bagel was very high. Too high Daniel. I think you have a problem." -Carter/Creator</h1>
          <h2>Icon made by Maria</h2>
          <h2>Check out my <a href="https://github.com/bagel-man">Github</a>, (this website is a mess of files I wouldn't even bother)</h2>
          <h2>Join the <a href="https://discord.gg/xEwt8W5utF">Discord server</a></h2>
          <h2>How did I make bagelcomics? heres a slide show thingy: <a href="pdf.html">click me now slave</a></h2>
-         <h2>Email me at funismathhelp@gmail.com or bagelcomics.com@gmail.com</h2>
+         <h2>Email me at weirdwontons@gmail.com and bagelcomics.com@gmail.com</h2>
         
          <h1>Other cool websites:</h1>
                   <h2><a href="https://codeprojects.org/projects/weblab/-2VkvC1Hc9_VU8yGes2VL9XBp2DL-4sNvZcAmnI0Lbk/">Bagel With a Gun thing (i thought it was cool)</a></h2>
@@ -996,6 +948,12 @@
                     }
                 };
                 function openCity(evt, cityName) {
+                  if(cityName == "Math"){
+                     document.body.style.backgroundImage = "url('mathbg.png')";
+                     document.body.style.backgroundImage = "url('mathbg.png')";
+                  } else{
+                     document.body.style.backgroundImage = "none";
+                  }
           var i, tabcontent, tablinks;
           tabcontent = document.getElementsByClassName("tabcontent");
           for (i = 0; i < tabcontent.length; i++) {
@@ -1017,7 +975,25 @@
          }
          
       </script>
-      
+<!--       
+  <script> window.console = window.console || function(t) {};</script><script>
+   if (document.location.search.match(/type=embed/gi)) {  window.parent.postMessage("resize", "*"); }</script></head><body translate="no">
+   <canvas id="canvas" width="100%" height="100%" class="snow"></canvas><script id="rendered-js">
+ const canvas = document.getElementById('canvas');ctx = canvas.getContext('2d');function sns() {  canvas.width = innerWidth;  canvas.height = innerHeight;}
+ sns();addEventListener('resize', () => { sns(); drops();});
+ var da= [];var directions = [4, -4];function drop() { this.x = canvas.width * Math.random();this.y = canvas.height * Math.random();
+   this.r = 2 + 2 * Math.random();  this.vx = 0.5;this.vy = 0.5;
+   this.direction = Math.random() *20; this.draw = () => { ctx.beginPath();
+     ctx.fillStyle = '#727272';   ctx.shadowColor = '#ffffff30';  ctx.arc(this.x + this.vx, this.y + this.vy, this.r+3, 0, 6.3, true);
+     this.vx = this.vx + this.direction * 0.05;  this.vy = this.vy + 0.5;   if (this.y + this.vy > canvas.height) {   this.y = 0;   this.vy = 0; }
+     if (this.x + this.vx > canvas.width) {    this.x = 0;    this.vx = 0;  }
+     if (this.x + this.vx < 0) {    this.x = 0;   this.vx = canvas.width;  }
+     ctx.fill(); };}
+ function drops() {  for (var i = 0; i <600; i++) {  da[i] = new drop();}}drops();
+ function animate() {ctx.clearRect(0, 0, canvas.width, canvas.height); da.forEach(drop => drop.draw()); requestAnimationFrame(animate);}animate();
+ 
+ </script> -->
+ 
    
  
  
@@ -1036,7 +1012,6 @@
             'adventure',
             'console',
             'difficult',
-            'henrystickmin',
             'indie',
             'papa',
             'platformer',
@@ -1086,7 +1061,7 @@
                   let results = Object.values(gamersgaming).filter(a=>a.name.toLowerCase().includes(search))
                   results.forEach(game=>{
                      $('#search-results').append(`
-                        <a class="randrange" href="${game.url}">${game.name}</a>
+                        <a class="gamelink" href="${game.url}">${game.name}</a>
                      `)
                   })
                   // $('#search-results').append('<hr style="margin:0; border-color:black">')
@@ -1109,45 +1084,5 @@
             return first + str.slice(1)
          }
       </script>
-
-      <!-- Christmas -->
-      <!--   <script> window.console = window.console || function(t) {};</script><script>
-   if (document.location.search.match(/type=embed/gi)) {  window.parent.postMessage("resize", "*"); }</script></head><body translate="no">
-   <canvas id="canvas" width="100%" height="100%" class="snow"></canvas><script id="rendered-js">
- const canvas = document.getElementById('canvas');ctx = canvas.getContext('2d');function sns() {  canvas.width = innerWidth;  canvas.height = innerHeight;}
- sns();addEventListener('resize', () => { sns(); drops();});
- var da= [];var directions = [4, -4];function drop() { this.x = canvas.width * Math.random();this.y = canvas.height * Math.random();
-   this.r = 2 + 2 * Math.random();  this.vx = 0.5;this.vy = 0.5;
-   this.direction = Math.random() *20; this.draw = () => { ctx.beginPath();
-     ctx.fillStyle = '#727272';   ctx.shadowColor = '#ffffff30';  ctx.arc(this.x + this.vx, this.y + this.vy, this.r+3, 0, 6.3, true);
-     this.vx = this.vx + this.direction * 0.05;  this.vy = this.vy + 0.5;   if (this.y + this.vy > canvas.height) {   this.y = 0;   this.vy = 0; }
-     if (this.x + this.vx > canvas.width) {    this.x = 0;    this.vx = 0;  }
-     if (this.x + this.vx < 0) {    this.x = 0;   this.vx = canvas.width;  }
-     ctx.fill(); };}
- function drops() {  for (var i = 0; i <600; i++) {  da[i] = new drop();}}drops();
- function animate() {ctx.clearRect(0, 0, canvas.width, canvas.height); da.forEach(drop => drop.draw()); requestAnimationFrame(animate);}animate();
- 
- </script> -->
-
-       <!--Halloween
-       <script> window.console = window.console || function(t) {};</script><script>
-         if (document.location.search.match(/type=embed/gi)) {  window.parent.postMessage("resize", "*"); }</script></head><body translate="no">
-         <canvas id="canvas" width="100%" height="100%" class="snow"></canvas><script id="rendered-js">
-       const canvas = document.getElementById('canvas');ctx = canvas.getContext('2d');function sns() {  canvas.width = innerWidth;  canvas.height = innerHeight;}
-       sns();addEventListener('resize', () => { sns(); drops();});
-       var da= [];var directions = [4, -4];function drop() { this.x = canvas.width * Math.random();this.y = canvas.height * Math.random();
-         this.r = 2 + 2 * Math.random();  this.vx = 0.5;this.vy = 0.5;
-         this.direction = Math.random() *20; this.draw = () => { ctx.beginPath();
-           ctx.fillStyle = '#b03c12';   ctx.shadowColor = '#ffffff30';  ctx.arc(this.x + this.vx, this.y + this.vy, this.r+3, 0, 6.3, true);
-           this.vx = this.vx + this.direction * 0.05;  this.vy = this.vy + 0.5;   if (this.y + this.vy > canvas.height) {   this.y = 0;   this.vy = 0; }
-           if (this.x + this.vx > canvas.width) {    this.x = 0;    this.vx = 0;  }
-           if (this.x + this.vx < 0) {    this.x = 0;   this.vx = canvas.width;  }
-           ctx.fill(); };}
-       function drops() {  for (var i = 0; i <600; i++) {  da[i] = new drop();}}drops();
-       function animate() {ctx.clearRect(0, 0, canvas.width, canvas.height); da.forEach(drop => drop.draw()); requestAnimationFrame(animate);}animate();
-       
-       </script>-->
-
-       
    </body>
 </html>

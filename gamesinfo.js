@@ -230,7 +230,7 @@ const gamersgaming = {
         tags:['action','simulation','strategy','indie']
     },
     "Hobo2": {
-        "name": "Hobo 2",
+        "name": "Hobo 2 - Prison Brawl",
         "url": "games/html/hobo2.html",
         tags:['action','simulation','strategy','indie']
     },
@@ -254,15 +254,15 @@ const gamersgaming = {
         "url": "games/html/bigadventure.html",
         tags:['action','adventure',]
     },
-    "Run2": {
-        "name": "Run 2",
-        "url": "games/html/run2.html",
-        tags:['action','adventure','simulation','platformer','strategy','indie']
-    },
     "Run": {
         "name": "Run",
         "url": "games/html/run.html",
         tags:['action','adventure','platformer','simulation','strategy','indie']
+    },
+    "Run2": {
+        "name": "Run 2",
+        "url": "games/html/run2.html",
+        tags:['action','adventure','simulation','platformer','strategy','indie']
     },
     "ChibiKnight": {
         "name": "Chibi Knight",
@@ -869,16 +869,71 @@ const gamersgaming = {
         "url": "games/html/thewaitress.html",
         tags:['simulation','action','strategy','indie']
     },
+    "StickRPG": {
+        "name": "Stick RPG",
+        "url": "games/StickRPG-master/index.html",
+        tags:['adventure','puzzle','simulation','action','strategy','indie']
+    },
+    "Run3": {
+        "name": "Run 3",
+        "url": "games/html/run3.html",
+        tags:['action','adventure','platformer','simulation','strategy','indie']
+    },
     /*
+    "FactoryBalls": {
+        "name": "Factory Balls",
+        "url": "games/html/factoryballs.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "FactoryBalls2": {
+        "name": "Factory Balls 2",
+        "url": "games/html/factoryballs2.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "FactoryBalls3": {
+        "name": "Factory Balls 3",
+        "url": "games/html/factoryballs3.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "FactoryBallsChristmas": {
+        "name": "Factory Balls Christmas",
+        "url": "games/html/factoryballschristmas.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "Hobo3": {
+        "name": "Hobo 3 - Wanted",
+        "url": "games/html/hobo3.html",
+        tags:['action','simulation','strategy','indie']
+    },
+    "Hobo4": {
+        "name": "Hobo 4 - Total War",
+        "url": "games/html/hobo4.html",
+        tags:['action','simulation','strategy','indie']
+    },
+    "Hobo5": {
+        "name": "Hobo 5 - Space Brawls,
+        "url": "games/html/hobo5.html",
+        tags:['action','simulation','strategy','indie']
+    },
+    "Hobo6": {
+        "name": "Hobo 6 - Hell",
+        "url": "games/html/hobo6.html",
+        tags:['action','simulation','strategy','indie']
+    },
+    "Hobo7: {
+        "name": "Hobo 7 - Heaven",
+        "url": "games/html/hobo7.html",
+        tags:['action','simulation','strategy','indie']
+    },
+    "WheresMyWater": {
+        "name": "Where's my Water!",
+        "url": "games/Wheres-My-Water-master/index.html",
+        tags:['puzzle','simulation',racing','action','difficult','strategy','console']
+    },
     "AngryBirds": {
         "name": "Angry Birds",
         "url": "games/html/angrybirds.html",
         tags:['adventure','puzzle','shooter','action','difficult','strategy','console']
-    },
-    "StickRPG": {
-        "name": "Stick RPG",
-        "url": "games/html/stickrpg.html",
-        tags:['adventure','puzzle','simulation','action','strategy','indie']
     },
     */
 }

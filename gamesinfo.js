@@ -927,7 +927,7 @@ const gamersgaming = {
     },
     "WheresMyWater": {
         "name": "Where's my Water!",
-        "url": "games/Wheres-My-Water-master/index.html",
+        "url": "games/Wheres-My-Water/index.html",
         tags:['puzzle','simulation',racing','action','difficult','strategy','console']
     },
     "AngryBirds": {

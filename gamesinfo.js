@@ -869,15 +869,35 @@ const gamersgaming = {
         "url": "games/html/thewaitress.html",
         tags:['simulation','action','strategy','indie']
     },
-    "StickRPG": {
-        "name": "Stick RPG",
-        "url": "games/StickRPG-master/index.html",
-        tags:['adventure','puzzle','simulation','action','strategy','indie']
-    },
     "Run3": {
         "name": "Run 3",
         "url": "games/html/run3.html",
         tags:['action','adventure','platformer','simulation','strategy','indie']
+    },
+    "Hobo3": {
+        "name": "Hobo 3 - Wanted",
+        "url": "games/html/hobo3.html",
+        tags:['action','simulation','strategy','indie']
+    },
+    "Hobo4": {
+        "name": "Hobo 4 - Total War",
+        "url": "games/html/hobo4.html",
+        tags:['action','simulation','strategy','indie']
+    },
+    "Hobo5": {
+        "name": "Hobo 5 - Space Brawls",
+        "url": "games/html/hobo5.html",
+        tags:['action','simulation','strategy','indie']
+    },
+    "Hobo6": {
+        "name": "Hobo 6 - Hell",
+        "url": "games/html/hobo6.html",
+        tags:['action','simulation','strategy','indie']
+    },
+    "Hobo7": {
+        "name": "Hobo 7 - Heaven",
+        "url": "games/html/hobo7.html",
+        tags:['action','simulation','strategy','indie']
     },
     /*
     "FactoryBalls": {
@@ -899,31 +919,6 @@ const gamersgaming = {
         "name": "Factory Balls Christmas",
         "url": "games/html/factoryballschristmas.html",
         tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
-    },
-    "Hobo3": {
-        "name": "Hobo 3 - Wanted",
-        "url": "games/html/hobo3.html",
-        tags:['action','simulation','strategy','indie']
-    },
-    "Hobo4": {
-        "name": "Hobo 4 - Total War",
-        "url": "games/html/hobo4.html",
-        tags:['action','simulation','strategy','indie']
-    },
-    "Hobo5": {
-        "name": "Hobo 5 - Space Brawls,
-        "url": "games/html/hobo5.html",
-        tags:['action','simulation','strategy','indie']
-    },
-    "Hobo6": {
-        "name": "Hobo 6 - Hell",
-        "url": "games/html/hobo6.html",
-        tags:['action','simulation','strategy','indie']
-    },
-    "Hobo7: {
-        "name": "Hobo 7 - Heaven",
-        "url": "games/html/hobo7.html",
-        tags:['action','simulation','strategy','indie']
     },
     "WheresMyWater": {
         "name": "Where's my Water!",

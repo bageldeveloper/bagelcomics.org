@@ -745,12 +745,7 @@ const gamersgaming = {
         tags:['adventure','shooter','action','strategy','new','console']
     },
     "Pedro": {
-        "name": "Pedro",
-        "url": "games/html/pedro.html",
-        tags:['adventure','shooter','action','platformer','strategy','favorite','console']
-    },
-    "Pedro": {
-        "name": "Pedro",
+        "name": "My Friend Pedro",
         "url": "games/html/pedro.html",
         tags:['adventure','shooter','action','platformer','strategy','favorite','indie','console']
     },
@@ -900,6 +895,41 @@ const gamersgaming = {
         tags:['action','simulation','strategy','indie']
     },
     /*
+    "ArtofWar": {
+        "name": "Art of War 2",
+        "url": "games/html/artofwar2.html",
+        tags:['adventure','action','simulation','strategy','indie']
+    },
+    "AgeOfWar2": {
+        "name": "Age Of War",
+        "url": "games/html/ageofwar2.html",
+        tags:['adventure','action','simulation','strategy','indie']
+    },
+    "AgeOfDefense": {
+        "name": "Age Of Defense",
+        "url": "games/html/ageofdefense.html",
+        tags:['adventure','action','simulation','strategy','indie']
+    },
+    "AgeOfDefense3": {
+        "name": "Age Of War",
+        "url": "games/html/ageofdefense3.html",
+        tags:['adventure','action','simulation','strategy','indie']
+    },
+    "AgeOfDefense4": {
+        "name": "Age Of War",
+        "url": "games/html/ageofdefense4.html",
+        tags:['adventure','action','simulation','strategy','indie']
+    },
+    "Animatorvsanimation": {
+        "name": "Animator vs Animation",
+        "url": "games/html/animatorvsanimation.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "Animatorvsanimation2": {
+        "name": "Animator vs Animation 2",
+        "url": "games/html/animatorvsanimation2.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
     "FactoryBalls": {
         "name": "Factory Balls",
         "url": "games/html/factoryballs.html",

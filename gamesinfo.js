@@ -895,13 +895,13 @@ const gamersgaming = {
         tags:['action','simulation','strategy','indie']
     },
     /*
-    "ArtofWar": {
+    "ArtofWar2": {
         "name": "Art of War 2",
         "url": "games/html/artofwar2.html",
         tags:['adventure','action','simulation','strategy','indie']
     },
     "AgeOfWar2": {
-        "name": "Age Of War",
+        "name": "Age Of War 2",
         "url": "games/html/ageofwar2.html",
         tags:['adventure','action','simulation','strategy','indie']
     },
@@ -911,43 +911,58 @@ const gamersgaming = {
         tags:['adventure','action','simulation','strategy','indie']
     },
     "AgeOfDefense3": {
-        "name": "Age Of War",
+        "name": "Age Of Defense 3",
         "url": "games/html/ageofdefense3.html",
         tags:['adventure','action','simulation','strategy','indie']
     },
     "AgeOfDefense4": {
-        "name": "Age Of War",
+        "name": "Age Of Defense 4",
         "url": "games/html/ageofdefense4.html",
         tags:['adventure','action','simulation','strategy','indie']
     },
     "Animatorvsanimation": {
         "name": "Animator vs Animation",
         "url": "games/html/animatorvsanimation.html",
-        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+        tags:['adventure','simulation','indie']
     },
     "Animatorvsanimation2": {
         "name": "Animator vs Animation 2",
         "url": "games/html/animatorvsanimation2.html",
-        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+        tags:['adventure','simulation','indie']
     },
     "FactoryBalls": {
         "name": "Factory Balls",
         "url": "games/html/factoryballs.html",
-        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+        tags:['puzzle','simulation','strategy','indie']
     },
     "FactoryBalls2": {
         "name": "Factory Balls 2",
         "url": "games/html/factoryballs2.html",
-        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+        tags:['puzzle','simulation','strategy','indie']
     },
     "FactoryBalls3": {
         "name": "Factory Balls 3",
         "url": "games/html/factoryballs3.html",
-        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+        tags:['puzzle','simulation','strategy','indie']
     },
     "FactoryBallsChristmas": {
         "name": "Factory Balls Christmas",
         "url": "games/html/factoryballschristmas.html",
+        tags:['puzzle','simulation','strategy','indie']
+    },
+    "StrikeForceHeroes": {
+        "name": "Strike Force Heroes",
+        "url": "games/html/strikeforceheroes.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "StrikeForceHeroes2": {
+        "name": "Strike Force Heroes 2",
+        "url": "games/html/strikeforceheroes2.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "StrikeForceHeroes 3": {
+        "name": "Strike Force Heroes 3",
+        "url": "games/html/strikeforceheroes3.html",
         tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
     },
     "WheresMyWater": {

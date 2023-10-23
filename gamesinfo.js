@@ -950,6 +950,16 @@ const gamersgaming = {
         "url": "games/html/factoryballschristmas.html",
         tags:['puzzle','simulation','strategy','indie']
     },
+    "WheresMyWater": {
+        "name": "Where's my Water!",
+        "url": "games/Wheres-My-Water/index.html",
+        tags:['puzzle','simulation',racing','action','difficult','strategy','console']
+    },
+    "AngryBirds": {
+        "name": "Angry Birds",
+        "url": "games/html/angrybirds.html",
+        tags:['adventure','puzzle','shooter','action','difficult','strategy','console']
+    },
     "StrikeForceHeroes": {
         "name": "Strike Force Heroes",
         "url": "games/html/strikeforceheroes.html",
@@ -965,15 +975,60 @@ const gamersgaming = {
         "url": "games/html/strikeforceheroes3.html",
         tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
     },
-    "WheresMyWater": {
-        "name": "Where's my Water!",
-        "url": "games/Wheres-My-Water/index.html",
-        tags:['puzzle','simulation',racing','action','difficult','strategy','console']
+    "BurritoBison": {
+        "name": "Burrito Bison",
+        "url": "games/html/burritobison.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
     },
-    "AngryBirds": {
-        "name": "Angry Birds",
-        "url": "games/html/angrybirds.html",
-        tags:['adventure','puzzle','shooter','action','difficult','strategy','console']
+    "Crushthecastle2": {
+        "name": "Crush the Castle 2",
+        "url": "games/html/crushthecastle2.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "Droidassault": {
+        "name": "Droid Assault",
+        "url": "games/html/droidassault.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "Exitpath": {
+        "name": "Exit Path",
+        "url": "games/html/exitpath.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "Graviteewars": {
+        "name": "Gravitee Wars",
+        "url": "games/html/graviteewars.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "HackervsHacker": {
+        "name": "Hacker vs Hacker",
+        "url": "games/html/hackervshacker.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "KamikazePigs": {
+        "name": "Kamikaze Pigs",
+        "url": "games/html/kamikazepigs.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "StickBrawl": {
+        "name": "Stick Brawl",
+        "url": "games/html/stickbrawl.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "Superfighters": {
+        "name": "Superfighters",
+        "url": "games/html/superfighters.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "TerritoryWar": {
+        "name": "Territory War",
+        "url": "games/html/territorywar.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "Vex2": {
+        "name": "Vex 2",
+        "url": "games/html/vex2.html",
+        tags:['action','puzzle','platformer','adventure','indie']
     },
     */
 }

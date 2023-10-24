@@ -963,22 +963,22 @@ const gamersgaming = {
     "StrikeForceHeroes": {
         "name": "Strike Force Heroes",
         "url": "games/html/strikeforceheroes.html",
-        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+        tags:['shooter','action','strategy','indie']
     },
     "StrikeForceHeroes2": {
         "name": "Strike Force Heroes 2",
         "url": "games/html/strikeforceheroes2.html",
-        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+        tags:['shooter','action','strategy','indie']
     },
     "StrikeForceHeroes 3": {
         "name": "Strike Force Heroes 3",
         "url": "games/html/strikeforceheroes3.html",
-        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+        tags:['shooter','action','strategy','indie']
     },
     "BurritoBison": {
         "name": "Burrito Bison",
         "url": "games/html/burritobison.html",
-        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+        tags:['puzzle','action','platformer','indie']
     },
     "Crushthecastle2": {
         "name": "Crush the Castle 2",

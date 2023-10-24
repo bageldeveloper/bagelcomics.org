@@ -1070,6 +1070,41 @@ const gamersgaming = {
         "url": "games/html/supersmashflash2.html",
         tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
     },
+    "AchievementUnlocked": {
+        "name": "Achievement Unlocked",
+        "url": "games/html/achievementunlocked.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "AirportTycoon": {
+        "name": "Airport Tycoon",
+        "url": "games/html/airporttycoon.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "MarioKartFlash": {
+        "name": "Mario Kart Flash",
+        "url": "games/html/mariokartflash.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "Motherload": {
+        "name": "Motherload",
+        "url": "games/html/motherload.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "Pandemic": {
+        "name": "Pandemic",
+        "url": "games/html/pandemic.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "Pandemic2": {
+        "name": "Pandemic 2",
+        "url": "games/html/pandemic2.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "PCBreakdown": {
+        "name": "PC Breakdown",
+        "url": "games/html/pcbreakdown.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
     Todo: Add Tycoon, Add more swf games, get those console games + PS1/2 on here
     */
 }

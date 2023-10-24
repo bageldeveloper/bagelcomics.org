@@ -980,32 +980,37 @@ const gamersgaming = {
         "url": "games/html/burritobison.html",
         tags:['puzzle','action','platformer','indie']
     },
+    "Crushthecastle": {
+        "name": "Crush the Castle",
+        "url": "games/html/crushthecastle.html",
+        tags:['puzzle','simulation','shooter','action','strategy','indie']
+    },
     "Crushthecastle2": {
         "name": "Crush the Castle 2",
         "url": "games/html/crushthecastle2.html",
-        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+        tags:['puzzle','simulation','shooter','action','strategy','indie']
     },
     "Droidassault": {
         "name": "Droid Assault",
         "url": "games/html/droidassault.html",
-        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+        tags:['adventure','shooter','action','indie']
     },
     "Exitpath": {
         "name": "Exit Path",
         "url": "games/html/exitpath.html",
-        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+        tags:['puzzle','racing','action','platformer','indie']
     },
     "Graviteewars": {
         "name": "Gravitee Wars",
         "url": "games/html/graviteewars.html",
-        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+        tags:['simulation','strategy','indie']
     },
-    "HackervsHacker": {
+    "HackervsHacker": { SKULL
         "name": "Hacker vs Hacker",
         "url": "games/html/hackervshacker.html",
         tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
     },
-    "KamikazePigs": {
+    "KamikazePigs": { SKULL
         "name": "Kamikaze Pigs",
         "url": "games/html/kamikazepigs.html",
         tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
@@ -1013,23 +1018,24 @@ const gamersgaming = {
     "StickBrawl": {
         "name": "Stick Brawl",
         "url": "games/html/stickbrawl.html",
-        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+        tags:['shooter','action','platformer','indie']
     },
     "Superfighters": {
         "name": "Superfighters",
         "url": "games/html/superfighters.html",
-        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+        tags:['shooter','action','platformer','indie']
     },
     "TerritoryWar": {
         "name": "Territory War",
         "url": "games/html/territorywar.html",
-        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+        tags:['simulation','action','indie']
     },
     "Vex2": {
         "name": "Vex 2",
         "url": "games/html/vex2.html",
         tags:['action','puzzle','platformer','adventure','indie']
     },
+    Todo: Add Tycoon, Add more swf games, get those console games + PS1/2 on here
     */
 }
 

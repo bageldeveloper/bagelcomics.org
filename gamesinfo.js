@@ -1035,6 +1035,41 @@ const gamersgaming = {
         "url": "games/html/vex2.html",
         tags:['action','puzzle','platformer','adventure','indie']
     },
+    "SpiderMan": {
+        "name": "Spider Man",
+        "url": "games/html/spiderman.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "Rubiks Cube": {
+        "name": "Rubiks Cube",
+        "url": "games/html/rubikscube.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "Tron": {
+        "name": "Tron",
+        "url": "games/html/tron.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "UnfairMario": {
+        "name": "Unfair Mario",
+        "url": "games/html/unfairmario.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "SwordsandSandalsGladiator": {
+        "name": "Swords and Sandals Gladiator",
+        "url": "games/html/sasgladiator.html",
+        tags:['adventure','puzzle','strategy','indie','action']
+    },
+    "SuperSmashFlash": {
+        "name": "Super Smash Flash",
+        "url": "games/html/supersmashflash.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "SuperSmashFlash2": {
+        "name": "Super Smash Flash 2",
+        "url": "games/html/supersmashflash2.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
     Todo: Add Tycoon, Add more swf games, get those console games + PS1/2 on here
     */
 }

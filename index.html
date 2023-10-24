@@ -399,13 +399,13 @@
          </a>
          <div class="tab">
             <button class="tablinks" onclick="openCity(event, 'Home')" id="defaultOpen">Home</button>
-
             <button class="tablinks" onclick="openCity(event, 'Games')">Games</button>
             <button class="tablinks" onclick="openCity(event, 'Projects')">Projects</button>
-
             <button class="tablinks" onclick="openCity(event, 'About')">About</button>
          </div>
       </div> 
+   <div id="container">
+
       <div id="Home" class="tabcontent">
          <h1 class="pedro">Home</h1>
          <h2>Welcome to bagelcomics.com! Play some dope games, chat with other people from around the world, explore the site to find the hidden secrets, and check out the dumb projects I've made. :&#41;</h2>
@@ -422,6 +422,8 @@
                -Tom
                </h1>
                </div>
+               <span id="points"></span>
+               <span id="moreText">
          <div class="announcement">
             <h1 class="anountext">October 8th, 2023</h1>
             <h1 class="anountext">Yo. Tom started this tradition back in March, and we kinda quit after like 4 weeks. It's all good, but we are starting it up again. Welcome back our old friend, New Game Wednesdays! We call it NGW. If you don't know what it is, you are an imbicile and I hate you but it's fine because you're about to learn it. NGW is where we add new games every wednesday, usually around 5 games, but could be a little more or less. This time it's on a monday, but that's only for this week. New games added are the waitress and Escape Series, which include escape the room, escape the classroom, escape the bathroom, escape the closet, and escape the ladies room. Next week is gonna be even better!<br><br>
@@ -434,8 +436,6 @@
                -Dirty Dan
                </h1>
                </div>
-               <span id="points"></span>
-               <span id="moreText">
          <div class="announcement">
             <h1 class="anountext">October 3rd, 2023</h1>
             <h1 class="anountext">Yo ok eveything should be fixed however if not I am deeply sorry please just email me at funismathhelp@gmail.com so we can fix it. We added every Fireboy and Watergirl game (except for the last 2 because I couldn't find those files) and HenrySitckmin game that is on flash! The only Henry game that was not was completing the mission which is exclusive to the henry stickmin collection which is only on steam. Gotta get the steam emulator bois.<br><br>
@@ -747,14 +747,48 @@
          <button class="showbutton" onclick="toggleText()" id="textButton">
          Show All
          </button>
+         <p>Number of visits</p>
+         <a href="https://www.hitwebcounter.com" target="_blank">
+         <img src="https://hitwebcounter.com/counter/counter.php?page=7288119&style=0011&nbdigits=5&type=page&initCount=0" title="User Stats" Alt="PHP Hits Count"   border="0" >
+         </a> 
+         <p>Number of unique visitors</p>
+         <!-- hitwebcounter Code START -->
+         <a href="https://www.hitwebcounter.com" target="_blank">
+         <img src="https://hitwebcounter.com/counter/counter.php?page=8041014&style=0011&nbdigits=4&type=ip&initCount=0" title="Free Counter" Alt="web counter"   border="0" /></a>                                    
+         <!-- ad bois -->
+         <ins class="adsbygoogle"
+            style="display:block"
+            data-ad-client="ca-pub-4474724430572739"
+            data-ad-slot="4055551074"
+            data-ad-format="auto"
+            data-full-width-responsive="true"></ins>
+         <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+         </script>
+         <script src="https://utteranc.es/client.js"
+            repo="bagel-man/bagel-man.github.io"
+            issue-term="pathname"
+            label="documentation"
+            theme="github-dark-orange"
+            crossorigin="anonymous"
+            async></script>          
+      </div>
+      <div id="Chat" class="tabcontent">
+         <h1 class="pedro">Chat</h1>
+         <div class="members-count">-</div>
+         <div class="members-list">-</div>
+         <div class="messages"></div>
+         <form class="message-form" onsubmit="return false;">
+            <input class="message-form__input" placeholder="Type something.." type="text"/>
+            <!-- <input class="message-form__button" value="Send" type="submit"/> -->
+         </form>
       </div>
 
 
       <div id="Games" class="tabcontent">
          <h1 class="pedro">Games</h1>
-         <h5>Want a game on here? I'm sure we can find it! we use mainly Flash, n64, snes/nes, and the Sega Genesis. If you don't know, just tell me the name. Just contact funismathhelp@gmail.com with possible files, website links, or just straight up the name. I'm sure I can find it.</a></h2>
+         <h5>Want a game on here? I'm sure we can find it! we use mainly Flash, n64, snes/nes, and the Sega Genesis. If you don't know, just tell me the name. Just contact funismathhelp@gmail.com with possible files, website links, or just straight up the name. I'm sure I can find it. Also some games might not work. if you want me to fix them, just contact me and i'll try to fix them</a></h2>
          <p>DISCLAIMER: bagelcomics.com is not responsible for any trouble you may get in while playing these games during class.</p>
-         <p>DISCLAIMER: Some games might not work. if you want me to fix them, just contact me. I might not be able to fix it, but i can still try.</p>
          
          <button onclick="random()" class="randrange" >Random Game</button> 
 
@@ -763,36 +797,12 @@
          <h2 class="gotdtext">Game of the Month</h2>
          <a href="N64Wasm-masterMK64/dist/index.html" class="gotd">Mario Kart 64</a> 
          <h2 class="gotdtext">Game of the Week</h2>
-         <a href="games/sm64/index.html" class="gotd">Super Mario 64</a>
+         <a href="games/html/henryairship.html" class="gotd">Infiltrating the Airship</a>
          <div>
             <input type="text" placeholder="search..." id="searchbagel">
             <div id="search-results"></div>
          </div>
          <div class="games">
-
-            <!-- <button class="collapsible">New Games</button>
-            <div class="content"></div>
-
-            <button class="collapsible">Favorite Games</button>
-            <div class="content"></div>
-
-            <button class="collapsible">Strategy Games</button>
-            <div class="content"></div>
-
-            <button class="collapsible">Action Games</button>
-            <div class="content">
-            </div>
-            <button class="collapsible">Race Games</button>
-            <div class="content"></div>
-
-            <button class="collapsible">Shooter Games</button>
-            <div class="content"></div>
-
-            <button class="collapsible">Papa's Games</button>
-            <div class="content"></div>
-
-            <button class="collapsible">Console Games</button>
-            <div class="content"></div> -->
          </div>
       </div>
       <div id="Projects" class="tabcontent">
@@ -800,16 +810,12 @@
          <h1 class="pedro">Projects</h1>
          <button onclick="abert()">Dont Click me</button>
          <h2>I made a discord bot, add it to your server, the link is <a href="https://discord.com/api/oauth2/authorize?client_id=1004129851759927326&permissions=534723950664&scope=bot%20applications.commands">here</a></h2>
-        
          <h2>tired of chatting with people? check out this <a href="choose.html">chatbot</a> I made</h2>
          <h2>need a date? check out this <a href="lines.html">pickup line Generator</a> I made</h2>
          <h2>Check out this <a href="finalproject/index.html">countdown timer</a> I made for CS50</h2>
-         <h2>Searching algorithm to find out <a href="search.html">who asked</a></h2>
-        <!--allhailthemathcult -->
+         <h2>Searching algorithm to find out <a href="search.html">who asked?</a></h2>
          <h2>Cool Channels:</h2>
          <a href="https://www.youtube.com/@bageldev">Bagel Dev</a>
-         <a href="https://www.youtube.com/channel/UCSd4Iwf2p6o1OpdkepfC94w">JackOfAllTrades</a>
-         <a href="https://www.youtube.com/channel/UCd5dx06pn0tdGwqn3ZVuNZQ">Magnus</a>
          <p class="bageltext">Check in often for new stuff!</p>
       </div>
       <div id="Math" class="tabcontent">
@@ -818,24 +824,15 @@
       <div id="About" class="tabcontent">
          <h1 class="pedro">About</h1>
          <h2>Yo ok this website has been a project of mine for a couple <a style="text-decoration: none; color: inherit;" href="oldindex.html">years </a>now. It's not the best website out there, but I have learned a ton from making it. Thanks for checking it out :)</h2>
-         <h2>This was made by a person named Tom, but he didn't want to work on it anymore so this website is made entirely by Dirty Dan with the help of Carter</h2>
-         <h1>Dead Games</h1>
-         <h2>R.I.P. Bagel Royal. "the chance of you getting a bikini bagel was very high. Too high Daniel. I think you have a problem." -Carter/Creator</h1>
+         <h2>This was made by a person named Tom along with his friends Dirty Dan and Carter</h2>
          <h2>Icon made by Maria</h2>
          <h2>Check out my <a href="https://github.com/bagel-man">Github</a>, (this website is a mess of files I wouldn't even bother)</h2>
          <h2>Join the <a href="https://discord.gg/xEwt8W5utF">Discord server</a></h2>
-         <h2>How did I make bagelcomics? heres a slide show thingy: <a href="pdf.html">click me now slave</a></h2>
-         <h2>Email me at funismathhelp@gmail.com or bagelcomics.com@gmail.com</h2>
-        
-         <h1>Other cool websites:</h1>
-                  <h2><a href="https://codeprojects.org/projects/weblab/-2VkvC1Hc9_VU8yGes2VL9XBp2DL-4sNvZcAmnI0Lbk/">Bagel With a Gun thing (i thought it was cool)</a></h2>
-
-         <h2><a href="https://sites.google.com/alpinesd.org/spygs-game-lab/games-i-made?authuser=2">SpyGs Game Lab</a></h2>
-         <h2><a href="https://sites.google.com/view/sciencehelps/home?authuser=0">Science Help</a></h2>
-         <h2><a href="https://theo-hats.github.io">Theo Hats</a></h2>
-         <h2>Wanna have your website featured? email me the link and I'll add it!</h2>
+         <h2>Email me at funismathhelp@gmail.com</h2>
+         <h2><a href="https://codeprojects.org/projects/weblab/-2VkvC1Hc9_VU8yGes2VL9XBp2DL-4sNvZcAmnI0Lbk/">Bagel With a Gun thing (I thought it was cool)</a></h2>
       </div>
    </div>
+</div>
 
       <script>
 
@@ -940,7 +937,7 @@ function R(min,max) {return min+Math.random()*(max-min)};
          document.getElementById("defaultOpen").click();
          
          function abert() {
-          alert("Click on 'Home' on the home page to fulfill your destiny/n");
+          alert("Oh hey you actually clicked me :)\nWell now that your reading I need to tell you about a secret\nThis website has a secret feature\nGo to the 'about' page, and click on the word 'years'\nLove you guys :)");
          }
          
       </script>
@@ -951,7 +948,7 @@ function R(min,max) {return min+Math.random()*(max-min)};
  
  
   
-
+      <script src="./spookychatscript.js"></script>
 
       <script>
          $(()=>{

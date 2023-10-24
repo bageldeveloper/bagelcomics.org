@@ -1105,6 +1105,56 @@ const gamersgaming = {
         "url": "games/html/pcbreakdown.html",
         tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
     },
+    "BattleGear": {
+        "name": "Battle Gear",
+        "url": "games/html/battlegear.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "BattleGear2": {
+        "name": "Battle Gear 2",
+        "url": "games/html/battlegear2.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "BattleGear3": {
+        "name": "Battle Gear 3",
+        "url": "games/html/battlegear3.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "BattleMechs": {
+        "name": "Battle Mechs",
+        "url": "games/html/battlemechs.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "Battleship": {
+        "name": "Battleship",
+        "url": "games/html/battleship.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "BMXextreme": {
+        "name": "BMX Extreme",
+        "url": "games/html/bmxextreme.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "BMXmaster": {
+        "name": "BMX Master",
+        "url": "games/html/bmxmaster.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "BMXpark": {
+        "name": "BMX Park",
+        "url": "games/html/bmxpark.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "Bowman": {
+        "name": "Bowman",
+        "url": "games/html/bowman.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "Bowman2": {
+        "name": "Bowman 2",
+        "url": "games/html/bowman2.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
     Todo: Add Tycoon, Add more swf games, get those console games + PS1/2 on here
     */
 }

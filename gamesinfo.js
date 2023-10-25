@@ -1155,6 +1155,21 @@ const gamersgaming = {
         "url": "games/html/bowman2.html",
         tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
     },
+    "AliceIsDead": {
+        "name": "Alice Is Dead",
+        "url": "games/html/aliceisdead.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "AliceIsDead2": {
+        "name": "Alice Is Dead 2",
+        "url": "games/html/aliceisdead2.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "AliceIsDead3": {
+        "name": "Alice Is Dead 3",
+        "url": "games/html/aliceisdead3.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
     Todo: Add Tycoon, Add more swf games, get those console games + PS1/2 on here
     */
 }

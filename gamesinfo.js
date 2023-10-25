@@ -894,7 +894,6 @@ const gamersgaming = {
         "url": "games/html/hobo7.html",
         tags:['action','simulation','strategy','indie']
     },
-    /*
     "ArtofWar2": {
         "name": "Art of War 2",
         "url": "games/html/artofwar2.html",
@@ -920,6 +919,7 @@ const gamersgaming = {
         "url": "games/html/ageofdefense4.html",
         tags:['adventure','action','simulation','strategy','indie']
     },
+    /*
     "Animatorvsanimation": {
         "name": "Animator vs Animation",
         "url": "games/html/animatorvsanimation.html",

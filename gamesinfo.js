@@ -1170,7 +1170,37 @@ const gamersgaming = {
         "url": "games/html/aliceisdead3.html",
         tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
     },
-    Todo: Add Tycoon, Add more swf games, get those console games + PS1/2 on here
+    "Alchemy": {
+        "name": "Alchemy",
+        "url": "games/html/alchemy.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "BigTruckAdventures2": {
+        "name": "Big Truck Adventures 2",
+        "url": "games/html/bigtruckadventures2.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "BigTruckAdventures3": {
+        "name": "Big Truck Adventures 3",
+        "url": "games/html/bigtruckadventures3.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "Bowmaster": {
+        "name": "Bowmaster",
+        "url": "games/html/bowmaster.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "BowmasterPrelude": {
+        "name": "Bowmaster Prelude",
+        "url": "games/html/bowmasterprelude.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "DesktopTD": {
+        "name": "Desktop Tower Defense",
+        "url": "games/html/desktoptowerdefense.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    Todo: Add Tycoon, Add more swf games, get those console games + PS1/2 on here + Gameboy/Gamecube
     */
 }
 

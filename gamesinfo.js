@@ -437,7 +437,7 @@ const gamersgaming = {
     "StopGMO": {
         "name": "Stop GMO",
         "url": "games/html/stopgmo.html",
-        tags:['action','shooter','strategy','new','indie']
+        tags:['action','shooter','strategy','indie']
     },
     "Papa's Freezeria": {
         "name": "Papa's Freezeria",
@@ -632,7 +632,7 @@ const gamersgaming = {
     "SuperPunch Out!!": {
         "name": "Super Punch Out!!",
         "url": "games/emu/spo.html",
-        tags:['simulation','action','sports','strategy','new','console']
+        tags:['simulation','action','sports','strategy','console']
     },
     "SuperMario Bros": {
         "name": "Super Mario Bros",
@@ -652,7 +652,7 @@ const gamersgaming = {
     "SuperSmash Bros": {
         "name": "Super Smash Bros",
         "url": "games/emu/supersmash.html",
-        tags:['simulation','shooter','action','platformer','favorite','new','console']
+        tags:['simulation','shooter','action','platformer','favorite','console']
     },
     "DoubleDragon": {
         "name": "Double Dragon",
@@ -737,12 +737,12 @@ const gamersgaming = {
     "Doom1/2": {
         "name": "Doom 1/2",
         "url": "doom/public/index.html",
-        tags:['adventure','puzzle','shooter','action','difficult','strategy','new','favorite','console']
+        tags:['adventure','puzzle','shooter','action','difficult','strategy','favorite','console']
     },
     "Half-Life": {
         "name": "Half-Life",
         "url": "halflife/index.html",
-        tags:['adventure','shooter','action','strategy','new','console']
+        tags:['adventure','shooter','action','strategy','console']
     },
     "Pedro": {
         "name": "My Friend Pedro",
@@ -837,32 +837,32 @@ const gamersgaming = {
     "Escapetheroom": {
         "name": "Escape the Room",
         "url": "games/html/escapetheroom.html",
-        tags:['adventure','simulation','puzzle','strategy','indie']
+        tags:['simulation','puzzle','strategy','indie']
     },
     "Escapethecloset": {
         "name": "Escape the Closet",
         "url": "games/html/escapethecloset.html",
-        tags:['adventure','simulation','puzzle','strategy','indie']
+        tags:['simulation','puzzle','strategy','indie']
     },
     "Escapetheclassroom": {
         "name": "Escape the Classroom",
         "url": "games/html/escapetheclassroom.html",
-        tags:['adventure','simulation','puzzle','strategy','indie']
+        tags:['simulation','puzzle','strategy','indie']
     },
     "Escapethebathroom": {
         "name": "Escape the Bathroom",
         "url": "games/html/escapethebathroom.html",
-        tags:['adventure','simulation','puzzle','strategy','indie']
+        tags:['simulation','puzzle','strategy','indie']
     },
     "Escapetheladiesroom": {
         "name": "Escape the Ladies Room",
         "url": "games/html/escapetheladies.html",
-        tags:['adventure','simulation','puzzle','strategy','indie']
+        tags:['simulation','puzzle','strategy','indie']
     },
     "Thewaitress": {
         "name": "The Waitress",
         "url": "games/html/thewaitress.html",
-        tags:['simulation','action','strategy','indie']
+        tags:['simulation','strategy','indie']
     },
     "Run3": {
         "name": "Run 3",
@@ -897,27 +897,27 @@ const gamersgaming = {
     "ArtofWar2": {
         "name": "Art of War 2",
         "url": "games/html/artofwar2.html",
-        tags:['adventure','action','simulation','strategy','indie']
+        tags:['adventure','action','simulation','strategy','new','indie']
     },
     "AgeOfWar2": {
         "name": "Age Of War 2",
         "url": "games/html/ageofwar2.html",
-        tags:['adventure','action','simulation','strategy','indie']
+        tags:['adventure','action','simulation','strategy','new','indie']
     },
     "AgeOfDefense": {
         "name": "Age Of Defense",
         "url": "games/html/ageofdefense.html",
-        tags:['adventure','action','simulation','strategy','indie']
+        tags:['adventure','action','simulation','strategy','new','indie']
     },
     "AgeOfDefense3": {
         "name": "Age Of Defense 3",
         "url": "games/html/ageofdefense3.html",
-        tags:['adventure','action','simulation','strategy','indie']
+        tags:['adventure','action','simulation','strategy','new','indie']
     },
     "AgeOfDefense4": {
         "name": "Age Of Defense 4",
         "url": "games/html/ageofdefense4.html",
-        tags:['adventure','action','simulation','strategy','indie']
+        tags:['adventure','action','simulation','strategy','new','indie']
     },
     /*
     "Animatorvsanimation": {
@@ -1093,12 +1093,12 @@ const gamersgaming = {
     "Pandemic": {
         "name": "Pandemic",
         "url": "games/html/pandemic.html",
-        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+        tags:[simulation','strategy','indie']
     },
     "Pandemic2": {
         "name": "Pandemic 2",
         "url": "games/html/pandemic2.html",
-        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+        tags:[simulation','strategy','indie']
     },
     "PCBreakdown": {
         "name": "PC Breakdown",
@@ -1198,6 +1198,116 @@ const gamersgaming = {
     "DesktopTD": {
         "name": "Desktop Tower Defense",
         "url": "games/html/desktoptowerdefense.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "FreeRider": {
+        "name": "Free Rider",
+        "url": "games/html/freerider.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "FreeRider2": {
+        "name": "Free Rider 2",
+        "url": "games/html/freerider2.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "FreeRun": {
+        "name": "Free Run",
+        "url": "games/html/freerun.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "GoGoPlant": {
+        "name": "Go Go Plant",
+        "url": "games/html/gogoplant.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "GoGoPlant2": {
+        "name": "Go Go Plant 2",
+        "url": "games/html/gogoplant2.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "GreyhoundTycoon": {
+        "name": "Greyhound Tycoon",
+        "url": "games/html/greyhoundtycoon.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "Grow Cube": {
+        "name": "Grow Cube",
+        "url": "games/html/growcube.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "Grow Island": {
+        "name": "Grow Island",
+        "url": "games/html/growisland.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "Grow Valley": {
+        "name": "Grow Valley",
+        "url": "games/html/growvalley.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "MiniPutt2": {
+        "name": "Mini Putt 2",
+        "url": "games/html/miniputt2.html",
+        tags:['simulation','sports', 'strategy']
+    },
+    "MiniPutt3": {
+        "name": "Mini Putt 3",
+        "url": "games/html/miniputt3.html",
+        tags:['simulation','sports', 'strategy']
+    },
+    "PandemicExtinction": {
+        "name": "Pandemic Extinction of Man",
+        "url": "games/html/pandemicextinction.html",
+        tags:[simulation','strategy','indie']
+    },
+    "PapaLouie": {
+        "name": "Papa Louie",
+        "url": "games/html/papalouie.html",
+        tags:['adventure','puzzle','papa','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "PortalEnergetic": {
+        "name": "Portal the Energetic Chain",
+        "url": "games/html/portaltheenergeticchain.html",
+        tags:['simulation','platformer','puzzle','strategy','indie']
+    },
+    "Ray": {
+        "name": "Ray",
+        "url": "games/html/ray.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "Ray2": {
+        "name": "Ray 2",
+        "url": "games/html/ray2.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "Ray3": {
+        "name": "Ray 3",
+        "url": "games/html/ray3.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "RedCar": {
+        "name": "Red Car",
+        "url": "games/html/redcar.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "RedCar2": {
+        "name": "Red Car 2",
+        "url": "games/html/redcar2.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "ReturnMan2": {
+        "name": "Return Man 2",
+        "url": "games/html/returnman2.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "ReturnMan2Mud": {
+        "name": "Return Man 2 - Mud Bowl",
+        "url": "games/html/returnman2mudbowl.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "ReturnMan2": {
+        "name": "Return Man 2 - Zombies",
+        "url": "games/html/returnman2zombies.html",
         tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
     },
     Todo: Add Tycoon, Add more swf games, get those console games + PS1/2 on here + Gameboy/Gamecube

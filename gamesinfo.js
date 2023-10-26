@@ -1310,6 +1310,91 @@ const gamersgaming = {
         "url": "games/html/returnman2zombies.html",
         tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
     },
+    "MassMayhem": {
+        "name": "Mass Mayhem",
+        "url": "games/html/massmayhem.html",
+        tags:['simulation','shooter','action','indie',]
+    },
+    "MassMayhem2": {
+        "name": "Mass Mayhem 2",
+        "url": "games/html/massmayhem2.html",
+        tags:['simulation','shooter','action','indie',]
+    },
+    "MassMayhem3": {
+        "name": "Mass Mayhem 3",
+        "url": "games/html/massmayhem3.html",
+        tags:['simulation','shooter','action','indie',]
+    },
+    "MassMayhem4": {
+        "name": "Mass Mayhem 4",
+        "url": "games/html/massmayhem4.html",
+        tags:['simulation','shooter','action','indie',]
+    },
+    "MassMayhemZombie": {
+        "name": "Mass Mayhem Zombie Apocalypse",
+        "url": "games/html/massmayhemzombie.html",
+        tags:['simulation','shooter','action','indie',]
+    },
+    "MassMayhemZombieExp": {
+        "name": "Mass Mayhem Zombie Apocalypse Expansion",
+        "url": "games/html/massmayhemzombieexp.html",
+        tags:['simulation','shooter','action','indie',]
+    },
+    "LineRiderUndo": {
+        "name": "Line Rider with Undo",
+        "url": "games/html/linerider.html",
+        tags:['strategy','platformer','puzzle','simulation','sports','indie']
+    },
+    "LineRider2": {
+        "name": "Line Rider 2",
+        "url": "games/html/linerider2.html",
+        tags:['strategy','platformer','puzzle','simulation','sports','indie']
+    },
+    "LineRider3": {
+        "name": "Line Rider 3",
+        "url": "games/html/linerider3.html",
+        tags:['strategy','platformer','puzzle','simulation','sports','indie']
+    },
+    "Hapland": {
+        "name": "Hapland",
+        "url": "games/html/hapland.html",
+        tags:['puzzle','difficult','strategy','indie']
+    },
+    "Hapland2": {
+        "name": "Hapland 2",
+        "url": "games/html/hapland2.html",
+        tags:['puzzle','strategy','indie']
+    },
+    "Hapland3": {
+        "name": "Hapland 3",
+        "url": "games/html/hapland.html",
+        tags:['puzzle','strategy','indie']
+    },
+    "GumDropHop": {
+        "name": "Gum Drop Hop",
+        "url": "games/html/gumdrophop.html",
+        tags:['adventure','platformer','indie']
+    },
+    "GumDropHop2": {
+        "name": "Gum Drop Hop 2",
+        "url": "games/html/gumdrophop2.html",
+        tags:['adventure','platformer','indie']
+    },
+    "GumDropHop3": {
+        "name": "Gum Drop Hop 3",
+        "url": "games/html/gumdrophop3.html",
+        tags:['adventure','platformer','indie']
+    },
+    "GumDropHop4": {
+        "name": "Gum Drop Hop 4",
+        "url": "games/html/gumdrophop4.html",
+        tags:['adventure','platformer','indie']
+    },
+    "Gta5Flash": {
+        "name": "Gta V Flash",
+        "url": "games/html/gta5.html",
+        tags:['adventure',''shooter',,'action','console']
+    },
     Todo: Add Tycoon, Add more swf games, get those console games + PS1/2 on here + Gameboy/Gamecube
     */
 }

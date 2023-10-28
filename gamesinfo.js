@@ -49,12 +49,12 @@ const gamersgaming = {
         "url": "games/retrobowl/index.html",
         tags:['simulation','sports','strategy','indie']
     },
-    "WorldsHardest Game": {
+    "WorldsHardestGame": {
         "name": "Worlds Hardest Game",
         "url": "games/html/hardestgame.html",
         tags:['simulation', 'strategy','indie']
     },
-    "WorldsHardest Game 2": {
+    "WorldsHardestGame2": {
         "name": "Worlds Hardest Game 2",
         "url": "games/html/hardestgame2.html",
         tags:['simulation', 'strategy','indie']
@@ -299,12 +299,12 @@ const gamersgaming = {
         "url": "games/html/meatboy.html",
         tags:['action','adventure','platformer','indie']
     },
-    "newton": {
-        "name": "newton",
+    "Newton": {
+        "name": "Newton",
         "url": "newton.html",
         tags:['action','indie']
     },
-    "Thisis the Only Level": {
+    "ThisistheOnlyLevel": {
         "name": "This is the Only Level",
         "url": "games/html/only.html",
         tags:['adventure','puzzle','platformer','indie']

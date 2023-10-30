@@ -554,32 +554,32 @@ const gamersgaming = {
         "url": "games/emu/alladin.html",
         tags:['adventure','puzzle','simulation','shooter','action','platformer','difficult','strategy','console']
     },
-    "The Lion King": {
+    "TheLionKing": {
         "name": "The Lion King",
         "url": "games/emu/lionking.html",
         tags:['adventure','puzzle','simulation','action','platformer','difficult','strategy','console']
     },
-    "Marvel Super Heroes: War of the Gems": {
+    "MarvelSuperHeroes:WaroftheGems": {
         "name": "Marvel Super Heroes: War of the Gems",
         "url": "games/emu/mshwog.html",
         tags:['adventure','shooter','action','platformer','strategy','console']
     },
-    "Zelda Ocarina of Time": {
-        "name": "Zelda Ocarina of Time",
+    "ZeldaOcarinaofTime": {
+        "name": "The Legend of Zelda: Ocarina of Time",
         "url": "N64Wasm-master/dist/index.html",
         tags:['adventure','puzzle','action','platformer','difficult','strategy','favorite','console']
     },
-    "MarioKart 64": {
+    "MarioKart64": {
         "name": "Mario Kart 64",
         "url": "N64Wasm-masterMK64/dist/index.html",
         tags:['simulation','action','sports','racing','strategy','favorite','console']
     },
-    "Super Mario 64": {
+    "SuperMario64": {
         "name": "Super Mario 64",
         "url": "games/sm64/index.html",
         tags:['adventure','puzzle','action','platformer','difficult','strategy','favorite','console']
     },
-    "Super Mario Flash": {
+    "SuperMarioFlash": {
         "name": "Super Mario Flash",
         "url": "games/html/supermarioflash.html",
         tags:['adventure','puzzle','action','platformer','strategy','console','indie']
@@ -594,23 +594,23 @@ const gamersgaming = {
         "url": "games/html/mariocombat.html",
         tags:['simulation','shooter','action','sports','console']
     },
-    "MegaMan X": {
+    "MegaManX": {
         "name": "Mega Man X",
         "url": "games/emu/megamanx.html",
         tags:['adventure','shooter','action','platformer','difficult','strategy','console']
     },
-    "MegaMan 2": {
+    "MegaMan2": {
         "name": "Mega Man 2",
         "url": "games/emu/megamantwo.html",
         tags:['adventure','shooter','action','platformer','strategy','console']
     },
-    "Ultimate Mortal Kombat 3": {
+    "UltimateMortalKombat3": {
         "name": "Ultimate Mortal Kombat 3",
         "url": "games/emu/umk3.html",
         tags:['simulation','action','strategy','console']
     },
-    "LegendOf Zelda NES": {
-        "name": "Legend Of Zelda NES",
+    "LegendOfZelda": {
+        "name": "The Legend of Zelda",
         "url": "games/emu/loz.html",
         tags:['adventure','puzzle','action','strategy','console']
     },
@@ -619,7 +619,7 @@ const gamersgaming = {
         "url": "games/emu/batman.html",
         tags:['adventure','puzzle','simulation','shooter','action','platformer','difficult','strategy','console']
     },
-    "MikeTyson's Punch Out!": {
+    "MikeTyson'sPunch Out!": {
         "name": "Mike Tyson's Punch Out!",
         "url": "games/emu/miketysonpunchout.html",
         tags:['simulation','action','sports','difficult','strategy','console']
@@ -1395,7 +1395,172 @@ const gamersgaming = {
         "url": "games/html/gta5.html",
         tags:['adventure',''shooter',,'action','console']
     },
-    Todo: Add Tycoon, Add more swf games, get those console games + PS1/2 on here + Gameboy/Gamecube
+    "ChaosFaction": {
+        "name": "Chaos Faction",
+        "url": "games/html/chaosfaction.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "ChaosFaction2": {
+        "name": "Chaos Faction 2",
+        "url": "games/html/chaosfaction2.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "ChooseYourWeapon": {
+        "name": "Choose Your Weapon",
+        "url": "games/html/chooseyourweapon.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "ChooseYourWeapon2": {
+        "name": "Choose Your Weapon 2",
+        "url": "games/html/chooseyourweapon2.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "ChooseYourWeapon3": {
+        "name": "Choose Your Weapon 3",
+        "url": "games/html/chooseyourweapon3.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "ClearVision": {
+        "name": "Clear Vision",
+        "url": "games/html/clearvision.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "ClearVision2": {
+        "name": "Clear Vision 2",
+        "url": "games/html/clearvision2.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "ClearVision3": {
+        "name": "Clear Vision 3",
+        "url": "games/html/clearvision3.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "ClearVision4": {
+        "name": "Clear Vision 4",
+        "url": "games/html/clearvision4.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "EndlessWar": {
+        "name": "Endless War",
+        "url": "games/html/endlesswar.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "EndlessWar2": {
+        "name": "Endless War 2",
+        "url": "games/html/endlesswar2.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "EndlessWar3": {
+        "name": "Endless War 3",
+        "url": "games/html/endlesswar3.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "EndlessWar4": {
+        "name": "Endless War 4",
+        "url": "games/html/endlesswar4.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "EarthTaken": {
+        "name": "Earth Taken",
+        "url": "games/html/earthtaken.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "EarthTaken2": {
+        "name": "Earth Taken 2",
+        "url": "games/html/earthtaken2.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "EarthTaken3": {
+        "name": "Earth Taken 3",
+        "url": "games/html/earthtaken3.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "DrawSomething": {
+        "name": "Draw Something",
+        "url": "games/html/drawsomething.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "DragRacer": {
+        "name": "Drag Racer",
+        "url": "games/html/dragracer.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "DragRacer2": {
+        "name": "Drag Racer 2",
+        "url": "games/html/dragracer2.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "DragRacer3": {
+        "name": "Drag Racer 3",
+        "url": "games/html/dragracer3.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "DouchebagWorkout": {
+        "name": "Douchebag Workout",
+        "url": "games/html/douchebagworkout.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "DouchebagWorkout2": {
+        "name": "Douchebag Workout 2",
+        "url": "games/html/douchebagworkout2.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "DouchebagLife": {
+        "name": "Douchebag Life",
+        "url": "games/html/douchebaglife.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "DouchebagChick": {
+        "name": "Douchebag Chick",
+        "url": "games/html/douchebagchick.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "DontWhackYourTeacher": {
+        "name": "Dont Whack Your Teacher",
+        "url": "games/html/dontwhackyourteacher.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "DarkCut": {
+        "name": "Dark Cut",
+        "url": "games/html/darkcut.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "DarkCut2": {
+        "name": "Dark Cut 2",
+        "url": "games/html/darkcut2.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "DarkCut3": {
+        "name": "Dark Cut 3",
+        "url": "games/html/darkcut3.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "Crossword": {
+        "name": "Crossword",
+        "url": "games/html/crossword.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "CrosswordPuzzle": {
+        "name": "Crossword Puzzle",
+        "url": "games/html/crosswordpuzzle.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "LinkTothePast": {
+        "name": "The Legend of Zelda: Link to the Past",
+        "url": "games/emu/linktothepast.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "Earthbound": {
+        "name": "Earthbound",
+        "url": "games/emu/earthbound.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    "BanjoKazooie": {
+        "name": "Banjo Kazooie",
+        "url": "games/emu/Banjo.html",
+        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
+    },
+    Todo: Add Tycoon, Add more swf games, get those console games + PS1/2 on here + Gamecube
     */
 }
 

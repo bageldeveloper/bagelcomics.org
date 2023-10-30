@@ -376,7 +376,7 @@ const value = DOM.input.value;
 
 
  }
-if(value.match(/(黑鬼|ass|cum|retard|bitch|shit|cunt|cock|dick|fuck|shit|nigger|nigga|pussy|nazi|whore|faggot|handjob|penis|cock|pussy|sex|porn|hitler)/gi)){
+if(value.match(/(黑鬼|ass|cum|retard|bitch|shit|cunt|cock|dick|fuck|shit|nigger|nigga|pussy|nazi|whore|faggot|handjob|penis|cock|pussy|sex|hitler|niger|titties|gay|tit|boob|@ss|c0ck|b!tch|pu\$\$y|por|nigas|pp|incest|p0r|rape|r@pe|slut|threesum|foursum|twosum|shiz)/gi)){
       alert('cmon man why you saying that kinda stuff?');
   return;
   }
@@ -559,7 +559,6 @@ clearInterval(scrollID);
 
 
 function addMessageToListDOM(text, member) {
-
 
 
 

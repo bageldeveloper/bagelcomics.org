@@ -1,0 +1,11 @@
+{
+  "requires": true,
+  "lockfileVersion": 1,
+  "dependencies": {
+    "types-registry": {
+      "version": "0.1.669",
+      "resolved": "https://registry.npmjs.org/types-registry/-/types-registry-0.1.669.tgz",
+      "integrity": "sha512-4WUKdllExuW7O31xehiLqG/orxdKMHyZSLQAqj4EZevvxNZBhIJ7D9ggkr4daT+rLXdDdAsh3dDrq7AypcifkQ=="
+    }
+  }
+}

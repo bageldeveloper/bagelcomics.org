@@ -920,6 +920,11 @@ const gamersgaming = {
         tags:['adventure','action','simulation','strategy','new','indie']
     },
     /*
+    "HueJumper": {
+        "name": "Hue Jumper",
+        "url": "carindex.html",
+        tags:['simulation','racing','indie']
+    },
     "Animatorvsanimation": {
         "name": "Animator vs Animation",
         "url": "games/html/animatorvsanimation.html",

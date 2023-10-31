@@ -361,7 +361,7 @@ const gamersgaming = {
     },
     "BubbleShooter": {
         "name": "Bubble Shooter",
-        "url": "games/html/bubble.html",
+        "url": "games/html/bubbleshooter.html",
         tags:['shooter','indie']
     },
     "Commando": {

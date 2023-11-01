@@ -919,6 +919,36 @@ const gamersgaming = {
         "url": "games/html/ageofdefense4.html",
         tags:['adventure','action','simulation','strategy','new','indie']
     },
+    "LineRiderUndo": {
+        "name": "Line Rider with Undo",
+        "url": "games/html/lineriderundo.html",
+        tags:['strategy','platformer','puzzle','simulation','sports','indie']
+    },
+    "LineRider2": {
+        "name": "Line Rider 2",
+        "url": "games/html/linerider2.html",
+        tags:['strategy','platformer','puzzle','simulation','sports','indie']
+    },
+    "LineRider3": {
+        "name": "Line Rider 3",
+        "url": "games/html/linerider3.html",
+        tags:['strategy','platformer','puzzle','simulation','sports','indie']
+    },
+    "LinkTothePast": {
+        "name": "The Legend of Zelda: Link to the Past",
+        "url": "games/emu/linktothepast.html",
+        tags:['adventure','puzzle','action','console']
+    },
+    "Earthbound": {
+        "name": "Earthbound",
+        "url": "games/emu/earthbound.html",
+        tags:['adventure','action','console']
+    },
+    "BanjoKazooie": {
+        "name": "Banjo Kazooie",
+        "url": "games/emu/Banjo.html",
+        tags:['adventure','puzzle','action','console']
+    },
     /*
     "HueJumper": {
         "name": "Hue Jumper",
@@ -1345,21 +1375,6 @@ const gamersgaming = {
         "url": "games/html/massmayhemzombieexp.html",
         tags:['simulation','shooter','action','indie',]
     },
-    "LineRiderUndo": {
-        "name": "Line Rider with Undo",
-        "url": "games/html/linerider.html",
-        tags:['strategy','platformer','puzzle','simulation','sports','indie']
-    },
-    "LineRider2": {
-        "name": "Line Rider 2",
-        "url": "games/html/linerider2.html",
-        tags:['strategy','platformer','puzzle','simulation','sports','indie']
-    },
-    "LineRider3": {
-        "name": "Line Rider 3",
-        "url": "games/html/linerider3.html",
-        tags:['strategy','platformer','puzzle','simulation','sports','indie']
-    },
     "Hapland": {
         "name": "Hapland",
         "url": "games/html/hapland.html",
@@ -1548,21 +1563,6 @@ const gamersgaming = {
     "CrosswordPuzzle": {
         "name": "Crossword Puzzle",
         "url": "games/html/crosswordpuzzle.html",
-        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
-    },
-    "LinkTothePast": {
-        "name": "The Legend of Zelda: Link to the Past",
-        "url": "games/emu/linktothepast.html",
-        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
-    },
-    "Earthbound": {
-        "name": "Earthbound",
-        "url": "games/emu/earthbound.html",
-        tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
-    },
-    "BanjoKazooie": {
-        "name": "Banjo Kazooie",
-        "url": "games/emu/Banjo.html",
         tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','indie','console']
     },
     Todo: Add Tycoon, Add more swf games, get those console games + PS1/2 on here + Gamecube

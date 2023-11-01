@@ -897,57 +897,57 @@ const gamersgaming = {
     "ArtofWar2": {
         "name": "Art of War 2",
         "url": "games/html/artofwar2.html",
-        tags:['adventure','action','simulation','strategy','new','indie']
+        tags:['adventure','action','simulation','strategy','indie']
     },
     "AgeOfWar2": {
         "name": "Age Of War 2",
         "url": "games/html/ageofwar2.html",
-        tags:['adventure','action','simulation','strategy','new','indie']
+        tags:['adventure','action','simulation','strategy','indie']
     },
     "AgeOfDefense": {
         "name": "Age Of Defense",
         "url": "games/html/ageofdefense.html",
-        tags:['adventure','action','simulation','strategy','new','indie']
+        tags:['adventure','action','simulation','strategy','indie']
     },
     "AgeOfDefense3": {
         "name": "Age Of Defense 3",
         "url": "games/html/ageofdefense3.html",
-        tags:['adventure','action','simulation','strategy','new','indie']
+        tags:['adventure','action','simulation','strategy','indie']
     },
     "AgeOfDefense4": {
         "name": "Age Of Defense 4",
         "url": "games/html/ageofdefense4.html",
-        tags:['adventure','action','simulation','strategy','new','indie']
+        tags:['adventure','action','simulation','strategy','indie']
     },
     "LineRiderUndo": {
         "name": "Line Rider with Undo",
         "url": "games/html/lineriderundo.html",
-        tags:['strategy','platformer','puzzle','simulation','sports','indie']
+        tags:['strategy','platformer','puzzle','simulation','sports','new','indie']
     },
     "LineRider2": {
         "name": "Line Rider 2",
         "url": "games/html/linerider2.html",
-        tags:['strategy','platformer','puzzle','simulation','sports','indie']
+        tags:['strategy','platformer','puzzle','simulation','sports','new','indie']
     },
     "LineRider3": {
         "name": "Line Rider 3",
         "url": "games/html/linerider3.html",
-        tags:['strategy','platformer','puzzle','simulation','sports','indie']
+        tags:['strategy','platformer','puzzle','simulation','sports','new','indie']
     },
     "LinkTothePast": {
         "name": "The Legend of Zelda: Link to the Past",
         "url": "games/emu/linktothepast.html",
-        tags:['adventure','puzzle','action','console']
+        tags:['adventure','puzzle','action','new','console']
     },
     "Earthbound": {
         "name": "Earthbound",
         "url": "games/emu/earthbound.html",
-        tags:['adventure','action','console']
+        tags:['adventure','action','new','console']
     },
     "BanjoKazooie": {
         "name": "Banjo Kazooie",
         "url": "games/emu/Banjo.html",
-        tags:['adventure','puzzle','action','console']
+        tags:['adventure','puzzle','action','new','console']
     },
     /*
     "HueJumper": {

@@ -14,7 +14,7 @@ const gamersgaming = {
         "url": "games/html/8ballpool.html",
         tags:['Board', 'strategy','sports']
     },
-    "Abobbo'sBig Adventure": {
+    "AbobbosBigAdventure": {
         "name": "Abobbo's Big Adventure",
         "url": "games/html/bigadventure.html",
         tags:['action','adventure',]
@@ -109,22 +109,22 @@ const gamersgaming = {
         "url": "blobby/index.html",
         tags:['adventure','puzzle','action','shooter','strategy','indie']
     },
-    "BloonsTower Defense": {
+    "BloonsTowerDefense": {
         "name": "Bloons Tower Defense",
         "url": "games/html/bloons.html",
         tags:['simulation','tower-defense','strategy','favorite','indie']
     },
-    "BloonsTower Defense 2": {
+    "BloonsTowerDefense2": {
         "name": "Bloons Tower Defense 2",
         "url": "games/html/bloonstd2.html",
         tags:['simulation','tower-defense','strategy','indie']
     },
-    "BloonsTower Defense 3": {
+    "BloonsTowerDefense3": {
         "name": "Bloons Tower Defense 3",
         "url": "games/html/bloonstd3.html",
         tags:['simulation','tower-defense','strategy','indie']
     },
-    "BloonsTower Defense 4": {
+    "BloonsTowerDefense4": {
         "name": "Bloons Tower Defense 4",
         "url": "games/html/bloonstd4.html",
         tags:['simulation','tower-defense','strategy','indie']
@@ -139,7 +139,7 @@ const gamersgaming = {
         "url": "games/html/shooter.html",
         tags:['action','shooter','strategy','indie']
     },
-    "Breaking the Bank": {
+    "BreakingtheBank": {
         "name": "Breaking the Bank",
         "url": "games/html/henrybank.html",
         tags:['action','puzzle','adventure','simulation','henrystickmin','strategy']
@@ -329,7 +329,7 @@ const gamersgaming = {
         "url": "games/html/henrycomplex.html",
         tags:['action','puzzle','adventure','simulation','henrystickmin','strategy']
     },
-    "Fridaythe 13th": {
+    "Fridaythe13th": {
         "name": "Friday the 13th",
         "url": "games/emu/f13.html",
         tags:['adventure','simulation','action','strategy','console']
@@ -344,7 +344,7 @@ const gamersgaming = {
         "url": "games/html/gunblood.html",
         tags:['action','shooter','strategy','indie']
     },
-    "Half-Life": {
+    "HalfLife": {
         "name": "Half-Life",
         "url": "halflife/index.html",
         tags:['adventure','shooter','action','strategy','console']
@@ -499,7 +499,7 @@ const gamersgaming = {
         "url": "games/html/miamishark.html",
         tags:['adventure','simulation','strategy','indie']
     },
-    "MikeTyson'sPunch Out!": {
+    "MikeTysonsPunchOut!": {
         "name": "Mike Tyson's Punch Out!",
         "url": "games/emu/miketysonpunchout.html",
         tags:['simulation','action','sports','difficult','strategy','console']
@@ -629,12 +629,12 @@ const gamersgaming = {
         "url": "games/html/papaswingeria.html",
         tags:['adventure','puzzle','strategy','papa']
     },
-    "Plantsvs Zombies": {
+    "PlantsvsZombies": {
         "name": "Plants vs Zombies",
         "url": "games/html/pvz.html",
         tags:['simulation','tower-defense','strategy','indie']
     },
-    "Plantsvs Zombies 2": {
+    "PlantsvsZombies2": {
         "name": "Plants vs Zombies 2",
         "url": "games/html/pvz2.html",
         tags:['simulation','tower-defense','strategy','indie']

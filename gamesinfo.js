@@ -730,7 +730,7 @@ const gamersgaming = {
         tags:['adventure','puzzle','strategy','indie']
     },
     "RiddleTransfer": {
-        "name": "RiddleTransfer",
+        "name": "Riddle Transfer",
         "url": "games/html/riddleschooltransfer.html",
         tags:['adventure','puzzle','strategy','indie']
     },

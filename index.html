@@ -18,11 +18,12 @@
       <style>
          * {box-sizing: border-box}
          .bodycss {
-            background: url(thanksgiving.jpg) no-repeat center center fixed; 
+            /*background: url(thanksgiving.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover; */
+  background: none;
          padding-top: 50px;
          background-color: #1A1C25;
            /* background-color: #eb34b7; */
@@ -91,13 +92,13 @@
             margin-top: 0px;
             height: 108%;
             padding-bottom: 12px;
-            background: linear-gradient(#261E22,#261E22) padding-box,
+            background: linear-gradient(#1A1C25,#1A1C25) padding-box,
          linear-gradient(to right, #f1b04d, #f09204) border-box;
          border-top-left-radius: 15px;
          border-top-right-radius: 15px;
   		   border: 4px solid transparent;
          border-bottom: none;
-         background-color: #261E22;
+         background-color: #1A1C25;
          }
          /* Style the tab content */
          .tabcontent {
@@ -108,6 +109,8 @@
          }
          .gotdtext{
          text-align: center;
+         width: 33%;
+         display: inline-block;
          }
          .anountext{
          font-size: 100%;
@@ -261,10 +264,10 @@
          background-color:#3b3b42;
          }
          .gamelink{
-         background: linear-gradient(#261E22, #261E22) padding-box;
+         background: linear-gradient(#1A1C25, #1A1C25) padding-box;
          width: 90.9%;
          color: #EDF2F4;
-         padding: 32px 32px;
+         padding: 32px;
          text-decoration: none;
          display: inline-block;
          cursor: pointer;
@@ -290,11 +293,11 @@
          linear-gradient(to right, #f7c16f, #cc7d06) border-box;
          color:  #EDF2F4;
          border: 4px solid transparent;
-         width: 100%;
-         padding: 32px 32px;
+         width: 33%;
+         padding: 40px;
          text-align: center;
          text-decoration: none;
-         display: block;
+         display: inline-block;
          margin-bottom: 50px;
          cursor: pointer;
          }
@@ -940,10 +943,10 @@
          <button onclick="random()" class="randrange" >Random Game</button> 
 
          <h2 class="gotdtext">Game of the Year</h2>
-         <a href="bwag/index.html" class="gotd">Bagel With a Gun</a>
          <h2 class="gotdtext">Game of the Month</h2>
-         <a href="Quake3-master/Quake3.htm" class="gotd">Quake 3</a> 
          <h2 class="gotdtext">Game of the Week</h2>
+         <a href="bwag/index.html" class="gotd">Bagel With a Gun</a>
+         <a href="Quake3-master/Quake3.htm" class="gotd">Quake 3</a> 
          <a href="games/html/hardestgame.html" class="gotd">Worlds Hardest Game</a>
          <div>
             <input type="text" placeholder="search..." id="searchbagel">

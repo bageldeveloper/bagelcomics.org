@@ -739,7 +739,7 @@ const gamersgaming = {
         "url": "games/html/riddleschooltransfer2.html",
         tags:['adventure','puzzle','strategy','indie']
     },
-    "RiverCity Ransom": {
+    "RiverCityRansom": {
         "name": "River City Ransom",
         "url": "games/emu/ransom.html",
         tags:['adventure','simulation','action','console']

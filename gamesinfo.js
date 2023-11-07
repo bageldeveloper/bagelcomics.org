@@ -47,7 +47,7 @@ const gamersgaming = {
     "Aladdin": {
         "name": "Aladdin",
         "url": "games/emu/alladin.html",
-        tags:['adventure','puzzle','simulation','shooter','action','platformer','difficult','strategy','console']
+        tags:['adventure','puzzle','action','platformer','difficult','strategy','console']
     },
     "AlienHominid": {
         "name": "Alien Hominid",
@@ -72,7 +72,7 @@ const gamersgaming = {
     "Asteroids": {
         "name": "Asteroids",
         "url": "/games/html/assroid.html",
-        tags:['simulation','shooter','action','strategy','console']
+        tags:['shooter','action','strategy','console']
     },
     "AwesomeTanks2": {
         "name": "Awesome Tanks 2",
@@ -92,7 +92,7 @@ const gamersgaming = {
     "Bagelwithlegs": {
         "name": "Bagel With Legs",
         "url": "games/html/bagelwithlegs.html",
-        tags:['action','adventure','platformer','simulation','strategy']
+        tags:['action','adventure','platformer','strategy']
     },
     "BanjoKazooie": {
         "name": "Banjo Kazooie",
@@ -112,22 +112,22 @@ const gamersgaming = {
     "BloonsTowerDefense": {
         "name": "Bloons Tower Defense",
         "url": "games/html/bloons.html",
-        tags:['simulation','tower-defense','strategy','favorite']
+        tags:['tower-defense','strategy','favorite']
     },
     "BloonsTowerDefense2": {
         "name": "Bloons Tower Defense 2",
         "url": "games/html/bloonstd2.html",
-        tags:['simulation','tower-defense','strategy']
+        tags:['tower-defense','strategy']
     },
     "BloonsTowerDefense3": {
         "name": "Bloons Tower Defense 3",
         "url": "games/html/bloonstd3.html",
-        tags:['simulation','tower-defense','strategy']
+        tags:['tower-defense','strategy']
     },
     "BloonsTowerDefense4": {
         "name": "Bloons Tower Defense 4",
         "url": "games/html/bloonstd4.html",
-        tags:['simulation','tower-defense','strategy']
+        tags:['tower-defense','strategy']
     },
     "Bloxorz": {
         "name": "Bloxorz",
@@ -152,12 +152,12 @@ const gamersgaming = {
     "CanyonDefense": {
         "name": "Canyon Defense",
         "url": "games/html/canyondefense.html",
-        tags:['simulation','tower-defense','strategy']
+        tags:['tower-defense','strategy']
     },
     "Castle": {
         "name": "Castle",
         "url": "games/html/castle.html",
-        tags:['simulation', 'strategy','adventure']
+        tags:['strategy','adventure']
     },
     "Checkers": {
         "name": "Checkers",
@@ -182,22 +182,22 @@ const gamersgaming = {
     "Contra": {
         "name": "Contra",
         "url": "games/emu/contra.html",
-        tags:['adventure','simulation','shooter','action','strategy','console']
+        tags:['adventure','shooter','action','strategy','console']
     },
     "CookieClicker": {
         "name": "Cookie Clicker",
         "url": "games/cookie/index.html",
-        tags:['simulation', 'strategy','action']
+        tags:['strategy','action']
     },
     "CrossingThePit": {
         "name": "Crossing the Pit",
         "url": "games/html/henrypit.html",
-        tags:['action','puzzle','adventure','simulation','henrystickmin','strategy']
+        tags:['simulation','henrystickmin']
     },
     "Cube": {
         "name": "Cube Field",
         "url": "games/html/cube.html",
-        tags:['adventure','platformer']
+        tags:['adventure']
     },
     "DadnMe": {
         "name": "Dad n' Me",
@@ -207,7 +207,7 @@ const gamersgaming = {
     "DigToChina": {
         "name": "Dig To China",
         "url": "games/html/digtochina.html",
-        tags:['adventure','simulation','strategy','favorite']
+        tags:['adventure','strategy','favorite']
     },
     "DonkeyKongCountry": {
         "name": "Donkey Kong Country",
@@ -222,7 +222,7 @@ const gamersgaming = {
     "DoubleDragon": {
         "name": "Double Dragon",
         "url": "games/emu/doubledragon.html",
-        tags:['adventure','simulation','action','strategy','console']
+        tags:['adventure','action','strategy','console']
     },
     "DriftHunters": {
         "name": "Drift Hunters",
@@ -257,7 +257,7 @@ const gamersgaming = {
     "DuckTales": {
         "name": "Duck Tales",
         "url": "games/emu/ducktales.html",
-        tags:['adventure','puzzle','shooter','action','platformer','difficult','strategy','console']
+        tags:['adventure','puzzle','action','platformer','difficult','strategy','console']
     },
     "Earthbound": {
         "name": "Earthbound",
@@ -357,37 +357,37 @@ const gamersgaming = {
     "Hobo": {
         "name": "Hobo",
         "url": "games/html/hobo.html",
-        tags:['action','simulation','strategy']
+        tags:['action','strategy']
     },
     "Hobo2": {
         "name": "Hobo 2 - Prison Brawl",
         "url": "games/html/hobo2.html",
-        tags:['action','simulation','strategy']
+        tags:['action','strategy']
     },
     "Hobo3": {
         "name": "Hobo 3 - Wanted",
         "url": "games/html/hobo3.html",
-        tags:['action','simulation','strategy']
+        tags:['action','strategy']
     },
     "Hobo4": {
         "name": "Hobo 4 - Total War",
         "url": "games/html/hobo4.html",
-        tags:['action','simulation','strategy']
+        tags:['action','strategy']
     },
     "Hobo5": {
         "name": "Hobo 5 - Space Brawls",
         "url": "games/html/hobo5.html",
-        tags:['action','simulation','strategy']
+        tags:['action','strategy']
     },
     "Hobo6": {
         "name": "Hobo 6 - Hell",
         "url": "games/html/hobo6.html",
-        tags:['action','simulation','strategy']
+        tags:['action','strategy']
     },
     "Hobo7": {
         "name": "Hobo 7 - Heaven",
         "url": "games/html/hobo7.html",
-        tags:['action','simulation','strategy']
+        tags:['action','strategy']
     },
     "infiltratingTheAirship": {
         "name": "Infiltrating the Airship",
@@ -412,17 +412,17 @@ const gamersgaming = {
     "learnToFly": {
         "name": "Learn To Fly",
         "url": "games/html/learntofly.html",
-        tags:['simulation', 'strategy','favorite','adventure']
+        tags:['strategy','favorite','adventure']
     },
     "LearnTo Fly 2": {
         "name": "Learn To Fly 2",
         "url": "games/html/learntofly2.html",
-        tags:['simulation', 'strategy','adventure']
+        tags:['strategy','adventure']
     },
     "LearnTo Fly 3": {
         "name": "Learn To Fly 3",
         "url": "games/html/learntofly3.html",
-        tags:['simulation', 'strategy','adventure']
+        tags:['strategy','adventure']
     },
     "LegoStarWarsTCS": {
         "name": "Lego Star Wars TCS",
@@ -457,17 +457,17 @@ const gamersgaming = {
     "Mario": {
         "name": "Mario",
         "url": "games/mario/index.html",
-        tags:['adventure','puzzle','simulation','action','platformer','strategy','console']
+        tags:['adventure','puzzle','action','platformer','strategy','console']
     },
     "MarioCombat": {
         "name": "Mario Combat",
         "url": "games/html/mariocombat.html",
-        tags:['simulation','shooter','action','sports','console']
+        tags:['shooter','action','sports','console']
     },
     "MarioKart64": {
         "name": "Mario Kart 64",
         "url": "N64Wasm-masterMK64/dist/index.html",
-        tags:['simulation','action','sports','racing','strategy','favorite','console']
+        tags:['action','sports','racing','strategy','favorite','console']
     },
     "MeatBoy": {
         "name": "Meat Boy",
@@ -497,12 +497,12 @@ const gamersgaming = {
     "MiamiShark": {
         "name": "Miami Shark",
         "url": "games/html/miamishark.html",
-        tags:['adventure','simulation','strategy']
+        tags:['adventure','strategy']
     },
     "MikeTysonsPunchOut!": {
         "name": "Mike Tyson's Punch Out!",
         "url": "games/emu/miketysonpunchout.html",
-        tags:['simulation','action','sports','difficult','strategy','console']
+        tags:['action','sports','difficult','strategy','console']
     },
     "Minecraft": {
         "name": "Minecraft",
@@ -512,7 +512,7 @@ const gamersgaming = {
     "MinecraftBeta": {
         "name": "Minecraft Beta",
         "url": "games/minecrap/index.html",
-        tags:['adventure','simulation','platformer','strategy','console']
+        tags:['adventure','platformer','strategy','console']
     },
     "MiniPutt": {
         "name": "Mini Putt",
@@ -632,12 +632,12 @@ const gamersgaming = {
     "PlantsvsZombies": {
         "name": "Plants vs Zombies",
         "url": "games/html/pvz.html",
-        tags:['simulation','tower-defense','strategy']
+        tags:['tower-defense','strategy']
     },
     "PlantsvsZombies2": {
         "name": "Plants vs Zombies 2",
         "url": "games/html/pvz2.html",
-        tags:['simulation','tower-defense','strategy']
+        tags:['tower-defense','strategy']
     },
     "Pong": {
         "name": "Pong",
@@ -647,12 +647,12 @@ const gamersgaming = {
     "Portal2D": {
         "name": "Portal 2D",
         "url": "games/html/portal2d.html",
-        tags:['simulation','platformer','puzzle','favorite','strategy']
+        tags:['platformer','puzzle','favorite','strategy']
     },
     "PortalFlashVersion": {
         "name": "Portal Flash Version",
         "url": "games/html/portal.html",
-        tags:['simulation','platformer','puzzle','strategy']
+        tags:['platformer','puzzle','strategy']
     },
     "PunchOut!": {
         "name": "Punch Out!",
@@ -662,12 +662,12 @@ const gamersgaming = {
     "Quake": {
         "name": "Quake",
         "url": "Quake1-master/Quake1.htm",
-        tags:['simulation','shooter','action','platformer','strategy','console']
+        tags:['shooter','action','platformer','strategy','console']
     },
     "Quake3": {
         "name": "Quake 3",
         "url": "Quake3-master/Quake3.htm",
-        tags:['simulation','shooter','action','platformer','difficult','strategy','favorite','console']
+        tags:['shooter','action','platformer','difficult','strategy','favorite','console']
     },
     "RaftWars": {
         "name": "Raft Wars",
@@ -742,22 +742,22 @@ const gamersgaming = {
     "RiverCityRansom": {
         "name": "River City Ransom",
         "url": "games/emu/ransom.html",
-        tags:['adventure','simulation','action','console']
+        tags:['adventure','action','console']
     },
     "Run": {
         "name": "Run",
         "url": "games/html/run.html",
-        tags:['action','adventure','platformer','simulation','strategy']
+        tags:['action','adventure','platformer','strategy']
     },
     "Run2": {
         "name": "Run 2",
         "url": "games/html/run2.html",
-        tags:['action','adventure','simulation','platformer','strategy']
+        tags:['action','adventure','platformer','strategy']
     },
     "Run3": {
         "name": "Run 3",
         "url": "games/html/run3.html",
-        tags:['action','adventure','platformer','simulation','strategy']
+        tags:['action','adventure','platformer','strategy']
     },
     "Siftheads": {
         "name": "Siftheads",
@@ -782,7 +782,7 @@ const gamersgaming = {
     "StarWarsEpisodeOneRacer": {
         "name": "Star Wars Episode One: Racer",
         "url": "games/emu/episodeoneracer.html",
-        tags:['simulation','racing','action','difficult','strategy','favorite','console']
+        tags:['racing','action','difficult','strategy','favorite','console']
     },
     "StealingTheDiamond": {
         "name": "Stealing The Diamond",
@@ -827,7 +827,7 @@ const gamersgaming = {
     "SuperMarioKart": {
         "name": "Super Mario Kart",
         "url": "games/emu/smk.html",
-        tags:['simulation','action','sports','racing','strategy','console']
+        tags:['action','sports','racing','strategy','console']
     },
     "SuperMarioWorld": {
         "name": "Super Mario World",
@@ -842,7 +842,7 @@ const gamersgaming = {
     "SuperSmashBros": {
         "name": "Super Smash Bros",
         "url": "games/emu/supersmash.html",
-        tags:['simulation','shooter','action','platformer','favorite','console']
+        tags:['shooter','action','platformer','favorite','console']
     },
     "SwordsandSandals": {
         "name": "Swords and Sandals",
@@ -857,7 +857,7 @@ const gamersgaming = {
     "Tetris": {
         "name": "Tetris",
         "url": "games/html/tetris.html",
-        tags:['puzzle','simulation','strategy','console']
+        tags:['puzzle','strategy','console']
     },
     "TheImpossibleQuiz": {
         "name": "The Impossible Quiz",
@@ -882,7 +882,7 @@ const gamersgaming = {
     "TheLionKing": {
         "name": "The Lion King",
         "url": "games/emu/lionking.html",
-        tags:['adventure','puzzle','simulation','action','platformer','difficult','strategy','console']
+        tags:['adventure','puzzle','action','platformer','difficult','strategy','console']
     },
     "Thewaitress": {
         "name": "The Waitress",
@@ -917,7 +917,7 @@ const gamersgaming = {
     "UltimateMortalKombat3": {
         "name": "Ultimate Mortal Kombat 3",
         "url": "games/emu/umk3.html",
-        tags:['simulation','action','strategy','console']
+        tags:['action','strategy','console']
     },
     "Vex3": {
         "name": "Vex 3",
@@ -937,12 +937,12 @@ const gamersgaming = {
     "WorldsHardestGame": {
         "name": "Worlds Hardest Game",
         "url": "games/html/hardestgame.html",
-        tags:['simulation', 'strategy']
+        tags:['strategy']
     },
     "WorldsHardestGame2": {
         "name": "Worlds Hardest Game 2",
         "url": "games/html/hardestgame2.html",
-        tags:['simulation', 'strategy']
+        tags:['strategy']
     },
     "Zombies": {
         "name": "Zombies",
@@ -950,6 +950,32 @@ const gamersgaming = {
         tags:['action','shooter','strategy']
     },
     /*
+    Next 5 games to add are below
+    "Crushthecastle": {
+        "name": "Crush the Castle",
+        "url": "games/html/crushthecastle.html",
+        tags:['puzzle','simulation','shooter','action','strategy']
+    },
+    "Crushthecastle2": {
+        "name": "Crush the Castle 2",
+        "url": "games/html/crushthecastle2.html",
+        tags:['puzzle','simulation','shooter','action','strategy']
+    },
+    "StrikeForceHeroes": {
+        "name": "Strike Force Heroes",
+        "url": "games/html/strikeforceheroes.html",
+        tags:['shooter','action','strategy']
+    },
+    "StrikeForceHeroes2": {
+        "name": "Strike Force Heroes 2",
+        "url": "games/html/strikeforceheroes2.html",
+        tags:['shooter','action','strategy']
+    },
+    "StrikeForceHeroes 3": {
+        "name": "Strike Force Heroes 3",
+        "url": "games/html/strikeforceheroes3.html",
+        tags:['shooter','action','strategy']
+    },
     "HueJumper": {
         "name": "Hue Jumper",
         "url": "carindex.html",
@@ -995,35 +1021,10 @@ const gamersgaming = {
         "url": "games/html/angrybirds.html",
         tags:['adventure','puzzle','shooter','action','difficult','strategy','console']
     },
-    "StrikeForceHeroes": {
-        "name": "Strike Force Heroes",
-        "url": "games/html/strikeforceheroes.html",
-        tags:['shooter','action','strategy']
-    },
-    "StrikeForceHeroes2": {
-        "name": "Strike Force Heroes 2",
-        "url": "games/html/strikeforceheroes2.html",
-        tags:['shooter','action','strategy']
-    },
-    "StrikeForceHeroes 3": {
-        "name": "Strike Force Heroes 3",
-        "url": "games/html/strikeforceheroes3.html",
-        tags:['shooter','action','strategy']
-    },
     "BurritoBison": {
         "name": "Burrito Bison",
         "url": "games/html/burritobison.html",
         tags:['puzzle','action','platformer']
-    },
-    "Crushthecastle": {
-        "name": "Crush the Castle",
-        "url": "games/html/crushthecastle.html",
-        tags:['puzzle','simulation','shooter','action','strategy']
-    },
-    "Crushthecastle2": {
-        "name": "Crush the Castle 2",
-        "url": "games/html/crushthecastle2.html",
-        tags:['puzzle','simulation','shooter','action','strategy']
     },
     "Droidassault": {
         "name": "Droid Assault",
@@ -1570,5 +1571,5 @@ const gamersgaming = {
 }
 
                /*
-               tags:['adventure','puzzle','simulation','shooter','racing','sports','action','platformer','difficult','strategy','console']
+               tags:['adventure','puzzle','simulation','shooter','tower-defense','racing','sports','action','platformer','difficult','strategy','console']
                */

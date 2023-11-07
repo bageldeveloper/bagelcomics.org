@@ -320,19 +320,6 @@ return ID;
 
 
 }
-  function startCoolDown () {
-    lastClick = Date.now() // maybe useless function
-  }
-  function checkCoolDown () {
-    const notOver = Date.now() - lastClick < coolDown
-    if (notOver){
-      var audio = new Audio('stopspamming.mp3');
-      audio.play();
-    alert('ayo dude stop spamming');
-    }
-    // using an alert it will block javascript loops
-    return !notOver;
-  }
 
 
 function sendMessage() {

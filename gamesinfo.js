@@ -97,7 +97,7 @@ const gamersgaming = {
     "BanjoKazooie": {
         "name": "Banjo Kazooie",
         "url": "games/emu/Banjo.html",
-        tags:['adventure','puzzle','action','new','console']
+        tags:['adventure','puzzle','action','console']
     },
     "Batman": {
         "name": "Batman",
@@ -194,6 +194,16 @@ const gamersgaming = {
         "url": "games/html/henrypit.html",
         tags:['simulation','henrystickmin']
     },
+    "Crushthecastle": {
+        "name": "Crush the Castle",
+        "url": "games/html/crushthecastle.html",
+        tags:['puzzle','simulation','shooter','action','strategy','new']
+    },
+    "Crushthecastle2": {
+        "name": "Crush the Castle 2",
+        "url": "games/html/crushthecastle2.html",
+        tags:['puzzle','simulation','shooter','action','strategy','new']
+    },
     "Cube": {
         "name": "Cube Field",
         "url": "games/html/cube.html",
@@ -262,7 +272,7 @@ const gamersgaming = {
     "Earthbound": {
         "name": "Earthbound",
         "url": "games/emu/earthbound.html",
-        tags:['adventure','action','new','console']
+        tags:['adventure','action','console']
     },
     "ElectricMan2": {
         "name": "ElectricMan 2",
@@ -442,12 +452,12 @@ const gamersgaming = {
     "LineRider3": {
         "name": "Line Rider 3",
         "url": "games/html/linerider3.html",
-        tags:['strategy','platformer','puzzle','simulation','sports','new']
+        tags:['strategy','platformer','puzzle','simulation','sports']
     },
     "LineRiderUndo": {
         "name": "Line Rider with Undo",
         "url": "games/html/lineriderundo.html",
-        tags:['strategy','platformer','puzzle','simulation','sports','new']
+        tags:['strategy','platformer','puzzle','simulation','sports']
     },
     "MarvelSuperHeroes:WaroftheGems": {
         "name": "Marvel Super Heroes: War of the Gems",
@@ -799,6 +809,21 @@ const gamersgaming = {
         "url": "games/html/stopgmo.html",
         tags:['action','shooter','strategy']
     },
+    "StrikeForceHeroes": {
+        "name": "Strike Force Heroes",
+        "url": "games/html/strikeforceheroes.html",
+        tags:['shooter','action','strategy','new']
+    },
+    "StrikeForceHeroes2": {
+        "name": "Strike Force Heroes 2",
+        "url": "games/html/strikeforceheroes2.html",
+        tags:['shooter','action','strategy','new']
+    },
+    "StrikeForceHeroes 3": {
+        "name": "Strike Force Heroes 3",
+        "url": "games/html/strikeforceheroes3.html",
+        tags:['shooter','action','strategy','new']
+    },
     "SuperMario64": {
         "name": "Super Mario 64",
         "url": "games/sm64/index.html",
@@ -872,7 +897,7 @@ const gamersgaming = {
     "TheLegendOfZeldaLinkTothePast": {
         "name": "The Legend of Zelda: Link to the Past",
         "url": "games/emu/linktothepast.html",
-        tags:['adventure','puzzle','action','new','console']
+        tags:['adventure','puzzle','action','console']
     },
     "TheLegendofZeldaOcarinaofTime": {
         "name": "The Legend of Zelda: Ocarina of Time",
@@ -951,31 +976,6 @@ const gamersgaming = {
     },
     /*
     Next 5 games to add are below
-    "Crushthecastle": {
-        "name": "Crush the Castle",
-        "url": "games/html/crushthecastle.html",
-        tags:['puzzle','simulation','shooter','action','strategy']
-    },
-    "Crushthecastle2": {
-        "name": "Crush the Castle 2",
-        "url": "games/html/crushthecastle2.html",
-        tags:['puzzle','simulation','shooter','action','strategy']
-    },
-    "StrikeForceHeroes": {
-        "name": "Strike Force Heroes",
-        "url": "games/html/strikeforceheroes.html",
-        tags:['shooter','action','strategy']
-    },
-    "StrikeForceHeroes2": {
-        "name": "Strike Force Heroes 2",
-        "url": "games/html/strikeforceheroes2.html",
-        tags:['shooter','action','strategy']
-    },
-    "StrikeForceHeroes 3": {
-        "name": "Strike Force Heroes 3",
-        "url": "games/html/strikeforceheroes3.html",
-        tags:['shooter','action','strategy']
-    },
     "HueJumper": {
         "name": "Hue Jumper",
         "url": "carindex.html",

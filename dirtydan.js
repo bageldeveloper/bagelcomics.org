@@ -237,7 +237,7 @@ function getRandomName() {
 function getRandomColor() {
 
 
- return '#19b6f';
+ return '#3fb1f2';
 
 
 }
